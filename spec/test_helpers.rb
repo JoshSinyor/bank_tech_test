@@ -20,4 +20,4 @@ TEST_DATE_7 = "29-02-2001" # Impossible day
 TEST_DATE_8 = "01-01-2099" # Impossible day
 TEST_DATE_9 = "04-13-2001" # Impossible month
 
-RANDOM_DATE = Date.at(rand * Time.now.to_i).strftime("%d-%m-%Y")
+RANDOM_DATE = Time.at(rand * Time.now.to_i).strftime("%d-%m-%Y")
