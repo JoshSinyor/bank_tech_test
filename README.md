@@ -124,7 +124,7 @@ Authored by [Joshua Sinyor](https://gist.github.com/JoshSinyor).
 
 ## License(s)
 
-This project is licensed under the [MIT License](docs/LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
