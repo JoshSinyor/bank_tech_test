@@ -110,13 +110,21 @@ Print an account statement to console by executing `account.print_statement`.
 
 ## Built With
 
+- [Ruby](https://www.ruby-lang.org/), courtesy of Yukihiro Matsumoto.
+- [RSpec](https://rspec.info/), courtesy of Jon Rowe, Benoit Tigeot, Phil Pirozhkov, Xavier Shay and Yuji Nakayama.
+- [Rubocop](https://rubocop.org/), courtesy of Bozhidar Batsov.
+
 ---
 
 ## Author(s)
 
+Authored by [Joshua Sinyor](https://gist.github.com/JoshSinyor).
+
 ---
 
 ## License(s)
+
+This project is licensed under the [MIT License](docs/LICENSE.md).
 
 ---
 
