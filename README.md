@@ -98,6 +98,46 @@ My approach to this problem relied on TDD, BDD, encapsulation and the SRP in ord
 
 To keep the code readable, I prioritised thoughtful naming of objects to reduce the need to explain in comments the purpose of each object and method.
 
+#### User Stories
+
+The requirements can be parsed in several simple user stories.
+
+Actions are *italic*. Nouns are **bold**. Attributes of nouns are **_bold italics_**.
+
+##### User Story 01
+
+&nbsp;&nbsp;&nbsp;As a user,<br>
+&nbsp;&nbsp;&nbsp;So that I can add money to my account,<br>
+&nbsp;&nbsp;&nbsp;I’d like to be able to *deposit* a **sum** in my **account**.
+
+##### User Story 02
+
+&nbsp;&nbsp;&nbsp;As a user,<br>
+&nbsp;&nbsp;&nbsp;So that I can remove money from my account,<br>
+&nbsp;&nbsp;&nbsp;I’d like to be able to *withdraw* a **sum** from my **account**.
+
+##### User Story 03
+
+&nbsp;&nbsp;&nbsp;As a user,<br>
+&nbsp;&nbsp;&nbsp;So that I know when I added or removed money from my account,<br>
+&nbsp;&nbsp;&nbsp;I’d like to be able to *add a date* to each **transaction**.
+
+##### User Story 04
+
+&nbsp;&nbsp;&nbsp;As a user,<br>
+&nbsp;&nbsp;&nbsp;So that I know how much money is in my account,<br>
+&nbsp;&nbsp;&nbsp;I’d like to be able to *print* my **account**'s **_balance_**.
+
+##### User Story 05
+
+&nbsp;&nbsp;&nbsp;As a user,<br>
+&nbsp;&nbsp;&nbsp;So that I can see my account's transactions,<br>
+&nbsp;&nbsp;&nbsp;I’d like to be able to *print in reverse chronological order* my **account**'s **_transactions_**.
+
+#### Domain Modelling
+
+As per [Class Responsibility Collaborator](http://agilemodeling.com/artifacts/crcModel.htm) modelling, there are three obvious areas of responsibility, and therefore three classes - **Account**, **Transaction** and **Printer**.
+
 ### Test-Driven Design
 
 TDD was used to structure Unit Tests. These were employed to test individual classes and their methods to ensure that they interacted as expected. RSpec was instructed (using the `--format documentation` and `--color` arguments to provide verbose feedback on passing and failing tests.
