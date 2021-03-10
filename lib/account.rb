@@ -10,9 +10,14 @@ class Account
     @transactions_array = []
   end
 
-  def deposit; end
+  def deposit(sum, date)
+    @transactions_array.push(Transaction.new(sum, date))
+  end
 
-  def withdraw; end
+  def withdraw(sum, date)
+    sum = -sum
+    @transactions_array.push(Transaction.new(sum, date))
+  end
 
   def print; end
 end
