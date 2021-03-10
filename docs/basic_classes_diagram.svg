@@ -9,13 +9,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="mainsvg"
    width="606.4453125"
-   height="422.0625"
-   viewBox="-10 -10 606.4453125 422.0625"
+   height="425.375"
+   viewBox="-10 -10 606.4453125 425.375"
    version="1.1"
-   sodipodi:docname="Untitled.svg"
+   sodipodi:docname="basic_classes_diagram.svg"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
   <metadata
-     id="metadata1271">
+     id="metadata3266">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -36,17 +36,17 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
-     id="namedview1269"
+     id="namedview3264"
      showgrid="false"
-     inkscape:zoom="1.5803347"
+     inkscape:zoom="1.5680282"
      inkscape:cx="303.22266"
-     inkscape:cy="211.03125"
+     inkscape:cy="212.6875"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="mainsvg" />
   <defs
-     id="defs882">
+     id="defs2899">
     <marker
        id="arrow"
        viewBox="0 0 10 10"
@@ -59,7 +59,7 @@
       <path
          stroke="#FD6A02"
          d="M 0 0 L 10 5 L 0 10 z"
-         id="path833" />
+         id="path2850" />
     </marker>
     <marker
        id="Many"
@@ -72,8 +72,8 @@
       <path
          stroke="#FD6A02"
          d="M0 8H15M15 15L2 8L15 1"
-         fill="#FD6A02"
-         id="path836" />
+         fill="none"
+         id="path2853" />
     </marker>
     <marker
        id="ZeroOrOne"
@@ -87,19 +87,19 @@
          d="M9 5H16"
          stroke="#FD6A02"
          fill="none"
-         id="path839" />
+         id="path2856" />
       <circle
          cx="5"
          cy="5"
          r="4.5"
          stroke="#FD6A02"
          fill="none"
-         id="circle841" />
+         id="circle2858" />
       <path
          d="M12 0L12 10"
          stroke="#FD6A02"
          fill="none"
-         id="path843" />
+         id="path2860" />
     </marker>
     <marker
        id="OneOnlyOne"
@@ -113,7 +113,7 @@
          d="M0 7H4M4 7H7M4 7V0M4 7V14M7 7H10M7 7V0M7 7V14"
          stroke="#FD6A02"
          fill="none"
-         id="path846" />
+         id="path2863" />
     </marker>
     <marker
        id="OneOrMany"
@@ -127,7 +127,7 @@
          stroke="#FD6A02"
          d="M2 1V15M2 8L15 15M2 8L15 1M2 8H0M2 8H15"
          fill="none"
-         id="path849" />
+         id="path2866" />
     </marker>
     <marker
        id="ZeroOrMany"
@@ -141,12 +141,12 @@
          d="M13 8H27M27 15L14 8L27 1"
          stroke="#FD6A02"
          fill="none"
-         id="path852" />
+         id="path2869" />
       <path
          d="M13.5 7.5C13.5 10.7795 10.6254 13.5 7 13.5C3.37461 13.5 0.5 10.7795 0.5 7.5C0.5 4.22054 3.37461 1.5 7 1.5C10.6254 1.5 13.5 4.22054 13.5 7.5Z"
          stroke="#FD6A02"
          fill="none"
-         id="path854" />
+         id="path2871" />
     </marker>
     <marker
        id="aggregation"
@@ -161,7 +161,7 @@
          fill="none"
          stroke-width="0.7"
          d="M1.01614 2.82609L5 0.574341L8.98386 2.82609L5 5.07783L1.01614 2.82609Z"
-         id="path857" />
+         id="path2874" />
     </marker>
     <marker
        id="composition"
@@ -175,7 +175,7 @@
          stroke="#FD6A02"
          fill="#FD6A02"
          d="M1.01614 2.82609L5 0.574341L8.98386 2.82609L5 5.07783L1.01614 2.82609Z"
-         id="path860" />
+         id="path2877" />
     </marker>
     <marker
        id="implementation"
@@ -190,7 +190,7 @@
          fill="#FD6A02"
          stroke-width="0.7"
          d="M0.750001 1.10289L7.5 5L0.750001 8.89712L0.750001 1.10289Z"
-         id="path863" />
+         id="path2880" />
     </marker>
     <marker
        id="dependency"
@@ -204,7 +204,7 @@
          stroke="#FD6A02"
          fill="none"
          d="M1 5.93162H10.886M10.886 5.93162L1 0.5M10.886 5.93162L1 11"
-         id="path866" />
+         id="path2883" />
     </marker>
     <marker
        id="inheritance"
@@ -219,7 +219,7 @@
          fill="none"
          stroke-width="0.7"
          d="M0.750001 1.10289L7.5 5L0.750001 8.89712L0.750001 1.10289Z"
-         id="path869" />
+         id="path2886" />
     </marker>
     <marker
        id="association"
@@ -232,7 +232,7 @@
       <path
          stroke="#FD6A02"
          d="M1 5.93162H10.886M10.886 5.93162L1 0.5M10.886 5.93162L1 11"
-         id="path872" />
+         id="path2889" />
     </marker>
     <filter
        id="shadowOLD"
@@ -253,7 +253,7 @@
        x="-10"
        y="-10"
        width="606.4453125px"
-       height="412.0625px">
+       height="415.375px">
       <feDropShadow
          flood-color="black"
          flood-opacity="0.1"
@@ -267,7 +267,7 @@
        x="-10"
        y="-10"
        width="706.4453125px"
-       height="512.0625px">
+       height="515.375px">
       <feDropShadow
          flood-color="black"
          flood-opacity="0.1"
@@ -276,11 +276,11 @@
          stdDeviation="1" />
     </filter>
     <style
-       id="style878">
-   :not(:defined){display:none}html{width:100%;height:100%;margin:0}body{width:100%;height:100%;margin:0;color:var(--text-color);background:#ececec;font-family:BlinkMacSystemFont,Roboto,&quot;Helvetica Neue&quot;,&quot;Lucida Grande&quot;,Arial,sans-serif;font-size:15px;line-height:1.6;overflow-y:overlay;--accent-color-h:211;--accent-color-s:97%;--accent-color-l:53%;--text-color:rgba(0, 0, 0, 0.8);--selection-background:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 35%))}p:last-child{margin-bottom:0}em{font-weight:500}code,pre,var{font-size:14px;font-family:Menlo,&quot;Andale Mono&quot;,monospace;font-style:normal;padding:0 4px;background:#fbfbfb;outline:1px solid #d0d0d0}hr{width:100%;height:1px;min-height:1px;box-sizing:border-box;margin:2px 0 2px 0;background:rgba(0,0,0,.12);border:none}a{color:inherit;text-decoration:none}dl a,li a,p a,x-label a{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 10%));text-decoration:underline}li a:hover dl a:hover,p a:hover,x-label a:hover{text-decoration:none}h2{margin:35px 0 15px 0;box-sizing:border-box;font-size:50px;font-weight:200;line-height:1.1}h3{margin:27px 0 18px 0;box-sizing:border-box;font-size:36px;font-weight:200;line-height:1.2}h4{margin:34px 0 18px 0;box-sizing:border-box;font-size:24px;font-weight:300;line-height:1.1}h5{margin:10px 0 8px 0;box-sizing:border-box;font-size:14px;font-weight:600;line-height:1.1}::selection{background:var(--selection-background)}:host([error]) ::selection{color:none;background:#d50000}::-webkit-scrollbar{max-width:6px;max-height:6px;background:0 0}::-webkit-scrollbar-corner{display:none}::-webkit-scrollbar-track{border-radius:25px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.2);border-radius:25px}::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.6)}dialog{position:fixed;width:70%;height:auto;min-height:100px;top:0;margin:0 auto;padding:0;box-sizing:border-box;transition:transform .3s cubic-bezier(0,0,.2,1);color:inherit;border:1px solid #a9a9a9;border-top:none;background:#efefef;box-shadow:rgba(0,0,0,.3) 0 4px 22px}dialog::backdrop{background:rgba(0,0,0,0)}dialog h3{font-size:15px;font-weight:700;color:rgba(0,0,0,.95);margin-top:0;margin-bottom:10px}dialog main{padding:20px 24px 0;font-size:13px;line-height:1.6}dialog&gt;footer{padding:12px;display:flex;flex-flow:row;justify-content:flex-end;margin-top:auto}dialog&gt;footer x-button{margin-left:8px}x-card{background:#e8e8e8;border:1px solid #cdcdcd;border-radius:4px}x-card&gt;main{padding:16px 20px}x-card h3:first-child{margin-top:0}x-accordion{margin:8px 0;--arrow-color:rgba(0, 0, 0, 0.48);--focused-arrow-background:rgba(0, 0, 0, 0.08);--arrow-align:flex-start;--arrow-d:path(&quot;M 91.623 50.002 L 8.377 98.065 L 8.377 1.936 L 91.623 50.002 Z&quot;);--arrow-width:10px;--arrow-height:10px}x-accordion[expanded]{--arrow-transform:rotate(90deg)}x-accordion&gt;header{display:flex;align-items:center;box-sizing:border-box;width:100%;padding:7px 0 7px 16px}x-accordion&gt;header&gt;x-label{font-weight:500;color:rgba(0,0,0,.87)}x-accordion&gt;header&gt;x-label:first-child{flex:1}x-accordion&gt;header&gt;:not(:last-child){margin-right:20px}x-accordion&gt;main{padding:4px 0 8px 0}x-accordion:not([expanded]):not([animating])&gt;main{display:none}x-icon{width:17px;height:17px}x-label{font-size:13px}x-stepper{flex-flow:column-reverse;border-radius:7px;overflow:hidden;box-sizing:border-box;width:12px;height:22px;box-shadow:0 0 0 1px #bfbfbf;background:none;color:rgba(0,0,0,.8);--pressed-button-background:hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l))}x-swatch{border:1px solid rgba(0,0,0,.3);border-radius:2px}x-button{min-height:24px;padding:2px 14px;color:var(--text-color);background:none;border:1px solid var(--x-normal-border-color);border-radius:4px;--x-normal-border-color:#ACACAC;--x-toggled-border-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 8%));--x-pressed-border-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 12%))}x-button:focus:not(:active){box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:1}x-button[disabled]{opacity:.4}x-button[mixed]{opacity:.7}x-button[expanded]{background:rgba(0,0,0,.05)}x-button[toggled]{color:none;border-color:var(--x-toggled-border-color);background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}x-button[pressed]{color:none;border-color:var(--x-pressed-border-color);background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 5%)),hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%)))}x-button&gt;x-box&gt;x-label,x-button&gt;x-label{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center}x-button&gt;x-box{overflow:hidden;align-items:center}x-button&gt;x-box[vertical]&gt;*{margin:0 0 2px 0}x-button&gt;x-box:not([vertical])&gt;*{margin:0 6px 0 0}x-button&gt;x-box[vertical]&gt;:last-child{margin:0}x-button&gt;x-box:not([vertical])&gt;:last-child{margin:0}x-buttons&gt;x-button:not(:first-of-type){border-top-left-radius:0;border-bottom-left-radius:0}x-buttons&gt;x-button:not(:last-of-type){border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}x-buttons&gt;x-button[toggled]+x-button{border-left-color:var(--x-toggled-border-color)}x-buttons&gt;x-button[pressed]+x-button{border-left-color:var(--x-pressed-border-color)}x-buttons&gt;x-box[vertical]{width:100%}x-buttons&gt;x-box[vertical]&gt;x-button{width:100%;justify-content:flex-start}x-buttons&gt;x-box[vertical]&gt;x-button:not(:first-of-type){border-top-left-radius:0;border-top-right-radius:0}x-buttons&gt;x-box[vertical]&gt;x-button:not(:last-of-type){border-bottom:none;border-bottom-left-radius:0;border-bottom-right-radius:0}x-buttons&gt;x-box[vertical]&gt;x-button[toggled]+x-button{border-top-color:var(--x-toggled-border-color)}x-buttons&gt;x-box[vertical]&gt;x-button[pressed]+x-button{border-top-color:var(--x-pressed-border-color)}x-button[skin=condensed]{padding:2px 7px}x-button[skin^=textured]{color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);--x-normal-border-color:rgba(0, 0, 0, 0.25);--x-toggled-border-color:#5E5D5E;--x-pressed-border-color:rgba(0, 0, 0, 0.3)}x-button[skin^=textured-condensed]{padding:2px 7px}x-button[skin^=textured][expanded],x-button[skin^=textured][pressed]{background:linear-gradient(to bottom,#e5e5e5,#d6d4d6)}x-button[skin^=textured][toggled]{color:rgba(255,255,255,.94);background-image:linear-gradient(to bottom,#696869,#717071)}x-button[skin^=textured][toggled][expanded],x-button[skin^=textured][toggled][pressed]{background:linear-gradient(to bottom,#5a595a,#535253)}x-button[skin^=plain]{min-height:16px;color:rgba(0,0,0,.7);background:0 0;border-radius:5px;--x-normal-border-color:#ACACAC;--x-toggled-border-color:#787878;--x-pressed-border-color:#787878}x-button[skin^=plain-condensed]{padding:2px 7px}x-button[skin^=plain][expanded],x-button[skin^=plain][pressed]{background:rgba(0,0,0,.07)}x-button[skin^=plain][toggled]{color:rgba(255,255,255,.95);background:#959595}x-button[skin^=plain][toggled][expanded],x-button[skin^=plain][toggled][pressed]{background:#787878}x-button[skin^=iconic]{padding:2px 6px 4px 6px;color:#737373;background:0 0;border:none;border-radius:4px 4px 0 0}x-button[skin^=iconic][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin^=iconic][toggled][pressed]{color:#737373}x-button[skin=iconic]&gt;x-box&gt;x-icon,x-button[skin=iconic]&gt;x-icon{width:32px;height:32px}x-button[skin=iconic-condensed]&gt;x-box&gt;x-icon,x-button[skin=iconic-condensed]&gt;x-icon{width:24px;height:24px}x-button[skin^=iconic][pressed]&gt;x-box&gt;x-icon,x-button[skin^=iconic][pressed]&gt;x-icon{filter:brightness(.3)}x-button[skin=iconic] x-label{font-size:12px}x-button[skin^=iconic]&gt;x-box[vertical]&gt;x-icon+x-label{margin-top:3px}x-buttons&gt;x-box[vertical]&gt;x-button[skin^=iconic]{justify-content:center}x-button[skin^=flat]{padding:0;background:0 0;border:none;opacity:1;color:rgba(0,0,0,.65);--arrow-margin:0 0 0 2px}x-button[skin=flat]{--arrow-width:10px;--arrow-height:10px}x-button[skin^=flat][expanded],x-button[skin^=flat][toggled]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%));background:0 0}x-button[skin^=flat][pressed]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 14%))}x-button[skin^=flat][mixed]{opacity:.7}x-button[skin^=flat][disabled]{opacity:.5}x-button[skin=flat]&gt;x-icon{width:26px;height:26px}x-button[skin=flat-condensed]&gt;x-icon{width:16px;height:16px}x-buttons&gt;x-button[skin=flat]:not(:first-of-type){margin-left:10px}x-buttons&gt;x-button[skin=flat-condensed]:not(:first-of-type){margin-left:5px}x-buttons&gt;x-box[vertical]&gt;x-button[skin=flat]:not(:first-of-type){margin-top:10px}x-buttons&gt;x-box[vertical]&gt;x-button[skin=flat-condensed]:not(:first-of-type){margin-top:5px}x-button[skin=mini]{padding:0 6px;min-height:19px;color:rgba(0,0,0,.5);background:0 0;border:none;border-radius:0;--arrow-margin:0 0 0 2px}x-button[skin=mini][expanded]{color:var(--text-color)}x-button[skin=mini][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin=mini][expanded][toggled],x-button[skin=mini][pressed],x-button[skin=mini][pressed][toggled]{color:var(--primary-color);background:linear-gradient(to bottom,#c1c1c1,#b4b4b4)}x-buttons&gt;x-box[vertical]&gt;x-button[skin=mini]{padding:3px 6px}x-button[skin=mini-bordered]{padding:2px 4px;min-height:19px;color:var(--primary-color);background:linear-gradient(to bottom,#fafafa,#f5f5f5);border:1px solid #b4b4b4;border-radius:2px}x-button[skin=mini-bordered][expanded]{background:rgba(0,0,0,.05)}x-button[skin=bordered-mini][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin=mini-bordered][expanded][toggled],x-button[skin=mini-bordered][pressed],x-button[skin=mini-bordered][pressed][toggled]{color:var(--primary-color);background:linear-gradient(to bottom,#c1c1c1,#b4b4b4);border-color:#b4b4b4}x-button[skin=recessed]{min-height:18px;padding:2px 8px;color:var(--primary-color);background:0 0;border:none;border-radius:4px}x-button[skin=recessed][disabled]{opacity:.3}x-button[skin=recessed]:hover{background:rgba(0,0,0,.07)}x-button[skin=recessed][toggled]{color:rgba(255,255,255,.95);background:rgba(0,0,0,.42)}x-button[skin=recessed][pressed]{color:rgba(255,255,255,.95);background:rgba(0,0,0,.6)}x-button[skin=recessed]&gt;x-label{font-size:12px;font-weight:700;text-align:center}x-buttons&gt;x-button[skin=recessed]{border-radius:4px!important}x-buttons&gt;x-button+x-button[skin=recessed]{margin-left:4px}x-buttons&gt;x-box[vertical]&gt;x-button+x-button[skin=recessed]{margin-top:4px}x-button[skin=nav]{padding:8px 15px;color:#4a4a4a;background:0 0;border:none;border-radius:0;cursor:default}x-button[skin=nav][toggled]{background:rgba(0,0,0,.14)}x-button[skin=nav][pressed]{background:rgba(0,0,0,.14);color:#4a4a4a}x-button[skin=nav][toggled][pressed]{background:rgba(0,0,0,.2)}x-button[skin=nav] x-icon{width:24px;height:24px;opacity:.9;margin-right:12px}x-button[skin=nav] x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:500;font-size:13px;text-align:start}x-button[skin=dock]{width:38px;height:38px;min-height:38px;padding:0;border-radius:0;border:1px solid #adadad}x-button[skin=dock][toggled]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%));background:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}x-button[skin=dock][pressed]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%));background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%))}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock]{width:38px;justify-content:center}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock][toggled]+x-button{border-top-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%))}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock][pressed]+x-button{border-top-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%))}x-buttons&gt;x-button[skin=dock][toggled]+x-button{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%))}x-buttons&gt;x-button[skin=dock][pressed]+x-button{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%))}x-button[skin=help]{width:22px;height:22px;min-height:22px;padding:0;color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l));background:none;border-color:rgba(0,0,0,.25);border-radius:999px}x-button[skin=help][expanded],x-button[skin=help][pressed]{background:#f7f7f7}x-button[skin=help]&gt;x-icon{width:13px;height:13px}x-button[skin=disclosure]{padding:0 4px;color:rgba(0,0,0,.9);background:0 0;border:none}x-button[skin=disclosure][disabled]{opacity:.3}x-button[skin=disclosure][toggled]{color:rgba(0,0,0,.9);background:0 0}x-button[skin=disclosure] x-icon{width:11px;height:11px;margin-right:4px;color:#8c8c8c;transform:rotate(-90deg);transition:transform .1s linear}x-button[skin=disclosure][toggled] x-icon{color:#8c8c8c;transform:rotate(0)}x-button[skin=disclosure][pressed] x-icon{color:rgba(0,0,0,.5)}x-button[skin=disclosure] x-label{font-size:12px}x-button[skin=disclosure-bordered]{padding:0;width:21px;height:21px;min-height:21px}x-button[skin=disclosure-bordered][toggled]{color:var(--primary-color);background:none;border-color:#acacac}x-button[skin=disclosure-bordered][pressed]{color:var(--primary-color);background:#f0f0f0;border-color:#acacac}x-button[skin=disclosure-bordered]&gt;x-icon{width:9px;height:8px;transition:transform .15s ease-in-out}x-button[skin=disclosure-bordered][toggled]&gt;x-icon{transform:rotate(-180deg)}x-tabs{width:fit-content;max-width:100%;color:#262626}x-tab{padding:2px 12px;min-height:23px;box-sizing:border-box;border:1px solid #acacac;border-radius:4px;background:none;font-size:14px;--selection-indicator-height:0}x-tab:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:1}x-tab:not(:first-of-type){border-top-left-radius:0;border-bottom-left-radius:0}x-tab:not(:last-of-type){border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}x-tab[expanded]{background:#f0f0f0}x-tab[selected]{color:rgba(255,255,255,.9);border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%));background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}x-tab[selected]+x-tab{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%))}x-tab[pressed]{background:#f0f0f0}x-tab[selected][pressed]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 12%));background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 5%)),hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%)))}x-tab[selected][pressed]+x-tab{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 12%))}x-tab&gt;x-box&gt;x-icon,x-tab&gt;x-icon{color:inherit;width:15px;height:15px;min-width:15px}x-tab&gt;x-box&gt;x-label,x-tab&gt;x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.2;cursor:inherit;flex:1}x-tab&gt;x-box[vertical]{align-items:center}x-tab&gt;x-box&gt;*{margin:0 6px 0 0}x-tab&gt;x-box&gt;:last-child{margin:0}x-tab&gt;x-box[vertical]&gt;*{margin:0 0 2px 0}x-tab&gt;x-box[vertical]&gt;:last-child{margin:0}x-doctabs{background-image:linear-gradient(to bottom,#c4c2c4,#bfbebf);background-repeat:no-repeat;background-position:center center;height:25px;outline:1px solid #9c9c9c;--open-button-width:18px;--open-button-height:18px;--open-button-margin:0 4px}x-doctab{outline:1px solid #9c9c9c;background:#c1bfc1;border-bottom:none;max-width:220px;padding:0 18px;justify-content:center;align-items:center;--ripple-type:none;--selection-indicator-height:0;--close-button-position:absolute;--close-button-width:16px;--close-button-height:16px;--close-button-left:0px;--close-button-margin:0 0 0 3px;--close-button-opacity:0}x-doctab[edited]{--close-button-opacity:0.7}x-doctab:hover{background:#b6b4b6;--close-button-opacity:0.7}x-doctab:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:100}x-doctab[selected]{background-image:linear-gradient(to bottom,#dcdadc,#d6d5d6)}x-doctab img,x-doctab x-icon{margin:0 5px 0 0;width:15px;height:15px;min-width:15px}x-doctab x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;font-weight:400;text-align:center}x-doctab:focus x-label,x-doctab[selected] x-label{font-weight:600}x-doctab&gt;*{opacity:.75}x-doctab:focus&gt;*,x-doctab[selected]&gt;*{opacity:1}x-doctab[disabled]&gt;*{opacity:.5}x-menu{padding:4px 0;border-radius:4px;background:#f0f0f0;box-shadow:rgba(0,0,0,.3) 0 4px 22px;border:1px solid rgba(0,0,0,.25);color:var(--text-color);--open-transition:none}x-menu hr{border-color:rgba(0,0,0,.12);width:100%;height:1px;margin:4px 0;box-sizing:border-box}x-menu hr+hr,x-menu hr:last-child{display:none}x-menuitem{padding:0 12px 0 23px;min-height:24px;color:#3e3e3e;--trigger-effect:blink;--checkmark-width:18px;--checkmark-height:18px;--checkmark-margin:0 2px 0 -20px;--checkmark-d:path(&quot;M 44 61.2 L 29 47 L 21 55 L 45.53 79.613 L 79.031 26.397 L 70.063 20.387 L 44.052 61.152 Z&quot;)}x-menuitem:focus,x-menuitem[expanded]{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 7%));color:none}x-menuitem img{width:16px;height:16px}x-menuitem x-icon{width:16px;height:16px}x-menuitem x-icon:not([name]){display:none}x-menuitem x-label{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:14px}x-menuitem x-shortcut{margin-left:auto}x-menuitem:focus&gt;x-swatch,x-menuitem[expanded]&gt;x-swatch{border-color:rgba(255,255,255,.65)}x-menuitem img+x-label,x-menuitem x-icon[name]+x-label,x-menuitem x-label+x-shortcut,x-menuitem x-swatch+x-label{margin-left:8px}x-menubar{height:28px;padding:0 6px;background:linear-gradient(to bottom,#fafafa,#f0f0f0);border:1px solid #b8b8b8}x-menubar&gt;x-menuitem{padding:0 11px;height:100%}x-popover{color:var(--text-color);background:#f0f0f0;border:1px solid rgba(0,0,0,.25);border-radius:4px;box-shadow:rgba(0,0,0,.3) 0 4px 22px;--open-transition:none}x-popover&gt;main{width:100%;padding:10px;overflow:auto}x-notification{border-radius:5px}x-notification ::selection,x-notification::selection{color:#000;background:none}x-notification p{margin:0}x-notification strong{color:none}x-checkbox{width:15px;height:15px;margin:0 6px 0 0;color:rgba(0,0,0,.5);background:none;border:1px solid #a5a5a5;border-radius:2px;transition:color .1s cubic-bezier(.4,0,.2,1)}x-checkbox:active{background:rgba(0,0,0,.03)}x-checkbox:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-checkbox[toggled]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 3%));border:2px solid currentColor}x-checkbox[toggled]:active{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%))}x-radio{width:16px;height:16px;background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));border:1px solid #b8b8b8;--dot-transform:scale(1);--dot-color:white;--dot-box-shadow:none}x-radio:active{--dot-color:#f3f3f3}x-radio:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-radio[toggled]{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 3%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));--dot-transform:scale(0.4);--dot-box-shadow:rgba(0, 0, 0, 0.4) 1px 3px 7px}x-radio[toggled]:active{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%));--dot-color:white}x-radio+x-label{margin-left:4px;padding:5px 0;font-size:13px;font-weight:500}x-switch{width:34px;height:15px;box-shadow:0 0 0 2px #b3b3b3;border-radius:999px;--focus-ring-width:3px;--focus-ring-opacity:1;--focus-ring-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 20%));--focus-ring-transition-duration:0;--thumb-color:white;--thumb-size:15px;--track-height:100%;--track-opacity:1;--track-color:#b3b3b3}x-switch[toggled]{box-shadow:0 0 0 2px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));--track-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-switch[skin=big]{width:42px;height:24px;--thumb-size:20px}x-select{background:none;border:1px solid #acacac;border-radius:4px;color:#262626;padding:0 0 0 9px;height:24px;position:relative;font-size:14px;--arrow-color:white}x-select[disabled]{opacity:.4}x-select:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-select::before{content:&quot;&quot;;display:block;width:20px;height:calc(100% + 2px);position:absolute;top:-1px;right:-1px;background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)));border:1px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%));border-radius:0 4px 4px 0;box-sizing:border-box}x-select x-swatch{width:18px;height:18px}x-select[skin=textured]{color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);--arrow-color:currentColor;--arrow-margin:0 5px 0 7px}x-select[skin=textured]:active{background:linear-gradient(to bottom,#e5e5e5,#d6d4d6)}x-select[skin=textured]::before{display:none}x-input{border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px;--selection-background:inherit}x-input:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-input[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-input+x-input{margin-top:20px}x-input&gt;x-icon{width:15px;height:15px;min-width:15px;margin:0 0 0 5px;color:#565656}x-input&gt;x-icon:hover{cursor:default}x-input&gt;x-label{display:none;position:absolute;top:50%;max-width:100%;padding:0 5px 0 5px;transform:translateY(-50%);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}x-input[empty]&gt;x-label{display:block}x-input&gt;x-icon+x-label{padding:0 5px 0 25px}x-input[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-input[skin=textured]:focus{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));outline:0}x-input[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-input[skin=textured]&gt;x-icon{color:#767676}x-dateselect{border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px}x-dateselect:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-dateselect[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-dateselect+x-dateselect{margin-top:20px}x-dateselect&gt;x-label{display:none;position:absolute;top:50%;max-width:100%;padding:0 5px 0 5px;transform:translateY(-50%);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}x-dateselect[empty]&gt;x-label{display:block}x-dateselect:active&gt;x-label,x-dateselect:focus&gt;x-label{display:none}x-dateselect[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-dateselect[skin=textured]:focus{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));outline:0}x-dateselect[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-numberinput{background:none;border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px;--selection-background:inherit}x-numberinput:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-numberinput[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-numberinput&gt;x-stepper{margin-right:-20px;margin-left:5px}x-numberinput&gt;x-label{display:none;position:absolute;width:100%;height:20px;bottom:6px;top:50%;left:0;padding:0 5px;transform:translateY(-50%);line-height:1.8;color:rgba(0,0,0,.4);pointer-events:none;font-family:inherit;font-size:inherit}x-numberinput[empty]&gt;x-label{display:block}x-numberinput[skin=condensed]&gt;x-stepper{border-radius:0;margin:0;height:100%;display:flex}x-numberinput[skin=condensed]:focus&gt;x-stepper{display:none}x-taginput{background:none;border:1px solid #bfbfbf;--selection-background:inherit}x-taginput:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-taginput[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-taginput&gt;x-label{align-self:center;margin-left:-8px;color:rgba(0,0,0,.4)}x-textarea{border:1px solid #bfbfbf;font-size:12px;--inner-padding:2px 5px;--selection-background:inherit}x-textarea:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-textarea[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-textarea&gt;x-label{display:none;position:absolute;width:100%;top:0;left:0;padding:var(--inner-padding);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;pointer-events:none}x-textarea[empty]&gt;x-label{display:block}x-textarea[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-textarea[skin=textured]:focus{outline:0;box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-textarea[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-slider{--thumb-width:17px;--thumb-height:17px;--thumb-color:white;--focus-ring-width:6px;--focus-ring-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 20%));--focus-ring-transition-duration:0;--track-height:3px;--track-color:#B0B0B0;--track-tint-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-slider:active{--thumb-color:#F1F5F5}x-slider&gt;x-label{font-size:11px}x-slider[skin=arrow]{--track-tint-color:#B0B0B0;--thumb-d:path(&quot;M 0 0 L 100 0 L 100 55 L 50 100 L 0 55 Z&quot;);--thumb-width:16px;--thumb-height:20px}x-progressbar{height:6px;background:#dbdbdb;box-shadow:inset 0 0 0 1px silver;border-radius:5px;--bar-background:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-throbber[type=ring]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 0%))}xel-codeview{font-family:Menlo,&quot;Andale Mono&quot;,monospace;background:none;border:1px solid #d0d0d0;--selection-background:inherit}:host(xel-app) #sidebar{background:#f5f5f5}:host(xel-app) #sidebar #header{background:rgba(0,0,0,.03)}:host(xel-app) #sidebar h1{color:rgba(0,0,0,.5)}:host(xel-app) #nav{box-sizing:border-box;padding:0 30px}:host(xel-app) #nav section{margin:15px 0}:host(xel-app) #nav h3{opacity:.4;margin:12px 0 6px -6px;padding:0;font-size:13px;font-weight:700;user-select:none;cursor:default}:host(xel-app) #nav hr{margin:0 0 0 -30px;width:calc(100% + 60px)}:host(xel-app) #sidebar #nav .external-link-icon{color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}:host(xel-app) #about-view{background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}:host(xel-app) #setup-view h3 x-icon{color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}img{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;user-drag:none;-webkit-touch-callout:none}path:hover{stroke:red}
+       id="style2895">
+   :not(:defined){display:none}html{width:100%;height:100%;margin:0}body{width:100%;height:100%;margin:0;color:var(--text-color);background:#ececec;font-family:BlinkMacSystemFont,Roboto,&quot;Helvetica Neue&quot;,&quot;Lucida Grande&quot;,Arial,sans-serif;font-size:15px;line-height:1.6;overflow-y:overlay;--accent-color-h:211;--accent-color-s:97%;--accent-color-l:53%;--text-color:rgba(0, 0, 0, 0.8);--selection-background:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 35%))}p:last-child{margin-bottom:0}em{font-weight:500}code,pre,var{font-size:14px;font-family:Menlo,&quot;Andale Mono&quot;,monospace;font-style:normal;padding:0 4px;background:#fbfbfb;outline:1px solid #d0d0d0}hr{width:100%;height:1px;min-height:1px;box-sizing:border-box;margin:2px 0 2px 0;background:rgba(0,0,0,.12);border:none}a{color:inherit;text-decoration:none}dl a,li a,p a,x-label a{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 10%));text-decoration:underline}li a:hover dl a:hover,p a:hover,x-label a:hover{text-decoration:none}h2{margin:35px 0 15px 0;box-sizing:border-box;font-size:50px;font-weight:200;line-height:1.1}h3{margin:27px 0 18px 0;box-sizing:border-box;font-size:36px;font-weight:200;line-height:1.2}h4{margin:34px 0 18px 0;box-sizing:border-box;font-size:24px;font-weight:300;line-height:1.1}h5{margin:10px 0 8px 0;box-sizing:border-box;font-size:14px;font-weight:600;line-height:1.1}::selection{background:var(--selection-background)}:host([error]) ::selection{color:#fff;background:#d50000}::-webkit-scrollbar{max-width:6px;max-height:6px;background:0 0}::-webkit-scrollbar-corner{display:none}::-webkit-scrollbar-track{border-radius:25px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.2);border-radius:25px}::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.6)}dialog{position:fixed;width:70%;height:auto;min-height:100px;top:0;margin:0 auto;padding:0;box-sizing:border-box;transition:transform .3s cubic-bezier(0,0,.2,1);color:inherit;border:1px solid #a9a9a9;border-top:none;background:#efefef;box-shadow:rgba(0,0,0,.3) 0 4px 22px}dialog::backdrop{background:rgba(0,0,0,0)}dialog h3{font-size:15px;font-weight:700;color:rgba(0,0,0,.95);margin-top:0;margin-bottom:10px}dialog main{padding:20px 24px 0;font-size:13px;line-height:1.6}dialog&gt;footer{padding:12px;display:flex;flex-flow:row;justify-content:flex-end;margin-top:auto}dialog&gt;footer x-button{margin-left:8px}x-card{background:#e8e8e8;border:1px solid #cdcdcd;border-radius:4px}x-card&gt;main{padding:16px 20px}x-card h3:first-child{margin-top:0}x-accordion{margin:8px 0;--arrow-color:rgba(0, 0, 0, 0.48);--focused-arrow-background:rgba(0, 0, 0, 0.08);--arrow-align:flex-start;--arrow-d:path(&quot;M 91.623 50.002 L 8.377 98.065 L 8.377 1.936 L 91.623 50.002 Z&quot;);--arrow-width:10px;--arrow-height:10px}x-accordion[expanded]{--arrow-transform:rotate(90deg)}x-accordion&gt;header{display:flex;align-items:center;box-sizing:border-box;width:100%;padding:7px 0 7px 16px}x-accordion&gt;header&gt;x-label{font-weight:500;color:rgba(0,0,0,.87)}x-accordion&gt;header&gt;x-label:first-child{flex:1}x-accordion&gt;header&gt;:not(:last-child){margin-right:20px}x-accordion&gt;main{padding:4px 0 8px 0}x-accordion:not([expanded]):not([animating])&gt;main{display:none}x-icon{width:17px;height:17px}x-label{font-size:13px}x-stepper{flex-flow:column-reverse;border-radius:7px;overflow:hidden;box-sizing:border-box;width:12px;height:22px;box-shadow:0 0 0 1px #bfbfbf;background:#fff;color:rgba(0,0,0,.8);--pressed-button-background:hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l))}x-swatch{border:1px solid rgba(0,0,0,.3);border-radius:2px}x-button{min-height:24px;padding:2px 14px;color:var(--text-color);background:#fff;border:1px solid var(--x-normal-border-color);border-radius:4px;--x-normal-border-color:#ACACAC;--x-toggled-border-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 8%));--x-pressed-border-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 12%))}x-button:focus:not(:active){box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:1}x-button[disabled]{opacity:.4}x-button[mixed]{opacity:.7}x-button[expanded]{background:rgba(0,0,0,.05)}x-button[toggled]{color:#fff;border-color:var(--x-toggled-border-color);background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}x-button[pressed]{color:#fff;border-color:var(--x-pressed-border-color);background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 5%)),hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%)))}x-button&gt;x-box&gt;x-label,x-button&gt;x-label{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center}x-button&gt;x-box{overflow:hidden;align-items:center}x-button&gt;x-box[vertical]&gt;*{margin:0 0 2px 0}x-button&gt;x-box:not([vertical])&gt;*{margin:0 6px 0 0}x-button&gt;x-box[vertical]&gt;:last-child{margin:0}x-button&gt;x-box:not([vertical])&gt;:last-child{margin:0}x-buttons&gt;x-button:not(:first-of-type){border-top-left-radius:0;border-bottom-left-radius:0}x-buttons&gt;x-button:not(:last-of-type){border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}x-buttons&gt;x-button[toggled]+x-button{border-left-color:var(--x-toggled-border-color)}x-buttons&gt;x-button[pressed]+x-button{border-left-color:var(--x-pressed-border-color)}x-buttons&gt;x-box[vertical]{width:100%}x-buttons&gt;x-box[vertical]&gt;x-button{width:100%;justify-content:flex-start}x-buttons&gt;x-box[vertical]&gt;x-button:not(:first-of-type){border-top-left-radius:0;border-top-right-radius:0}x-buttons&gt;x-box[vertical]&gt;x-button:not(:last-of-type){border-bottom:none;border-bottom-left-radius:0;border-bottom-right-radius:0}x-buttons&gt;x-box[vertical]&gt;x-button[toggled]+x-button{border-top-color:var(--x-toggled-border-color)}x-buttons&gt;x-box[vertical]&gt;x-button[pressed]+x-button{border-top-color:var(--x-pressed-border-color)}x-button[skin=condensed]{padding:2px 7px}x-button[skin^=textured]{color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);--x-normal-border-color:rgba(0, 0, 0, 0.25);--x-toggled-border-color:#5E5D5E;--x-pressed-border-color:rgba(0, 0, 0, 0.3)}x-button[skin^=textured-condensed]{padding:2px 7px}x-button[skin^=textured][expanded],x-button[skin^=textured][pressed]{background:linear-gradient(to bottom,#e5e5e5,#d6d4d6)}x-button[skin^=textured][toggled]{color:rgba(255,255,255,.94);background-image:linear-gradient(to bottom,#696869,#717071)}x-button[skin^=textured][toggled][expanded],x-button[skin^=textured][toggled][pressed]{background:linear-gradient(to bottom,#5a595a,#535253)}x-button[skin^=plain]{min-height:16px;color:rgba(0,0,0,.7);background:0 0;border-radius:5px;--x-normal-border-color:#ACACAC;--x-toggled-border-color:#787878;--x-pressed-border-color:#787878}x-button[skin^=plain-condensed]{padding:2px 7px}x-button[skin^=plain][expanded],x-button[skin^=plain][pressed]{background:rgba(0,0,0,.07)}x-button[skin^=plain][toggled]{color:rgba(255,255,255,.95);background:#959595}x-button[skin^=plain][toggled][expanded],x-button[skin^=plain][toggled][pressed]{background:#787878}x-button[skin^=iconic]{padding:2px 6px 4px 6px;color:#737373;background:0 0;border:none;border-radius:4px 4px 0 0}x-button[skin^=iconic][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin^=iconic][toggled][pressed]{color:#737373}x-button[skin=iconic]&gt;x-box&gt;x-icon,x-button[skin=iconic]&gt;x-icon{width:32px;height:32px}x-button[skin=iconic-condensed]&gt;x-box&gt;x-icon,x-button[skin=iconic-condensed]&gt;x-icon{width:24px;height:24px}x-button[skin^=iconic][pressed]&gt;x-box&gt;x-icon,x-button[skin^=iconic][pressed]&gt;x-icon{filter:brightness(.3)}x-button[skin=iconic] x-label{font-size:12px}x-button[skin^=iconic]&gt;x-box[vertical]&gt;x-icon+x-label{margin-top:3px}x-buttons&gt;x-box[vertical]&gt;x-button[skin^=iconic]{justify-content:center}x-button[skin^=flat]{padding:0;background:0 0;border:none;opacity:1;color:rgba(0,0,0,.65);--arrow-margin:0 0 0 2px}x-button[skin=flat]{--arrow-width:10px;--arrow-height:10px}x-button[skin^=flat][expanded],x-button[skin^=flat][toggled]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%));background:0 0}x-button[skin^=flat][pressed]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 14%))}x-button[skin^=flat][mixed]{opacity:.7}x-button[skin^=flat][disabled]{opacity:.5}x-button[skin=flat]&gt;x-icon{width:26px;height:26px}x-button[skin=flat-condensed]&gt;x-icon{width:16px;height:16px}x-buttons&gt;x-button[skin=flat]:not(:first-of-type){margin-left:10px}x-buttons&gt;x-button[skin=flat-condensed]:not(:first-of-type){margin-left:5px}x-buttons&gt;x-box[vertical]&gt;x-button[skin=flat]:not(:first-of-type){margin-top:10px}x-buttons&gt;x-box[vertical]&gt;x-button[skin=flat-condensed]:not(:first-of-type){margin-top:5px}x-button[skin=mini]{padding:0 6px;min-height:19px;color:rgba(0,0,0,.5);background:0 0;border:none;border-radius:0;--arrow-margin:0 0 0 2px}x-button[skin=mini][expanded]{color:var(--text-color)}x-button[skin=mini][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin=mini][expanded][toggled],x-button[skin=mini][pressed],x-button[skin=mini][pressed][toggled]{color:var(--primary-color);background:linear-gradient(to bottom,#c1c1c1,#b4b4b4)}x-buttons&gt;x-box[vertical]&gt;x-button[skin=mini]{padding:3px 6px}x-button[skin=mini-bordered]{padding:2px 4px;min-height:19px;color:var(--primary-color);background:linear-gradient(to bottom,#fafafa,#f5f5f5);border:1px solid #b4b4b4;border-radius:2px}x-button[skin=mini-bordered][expanded]{background:rgba(0,0,0,.05)}x-button[skin=bordered-mini][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin=mini-bordered][expanded][toggled],x-button[skin=mini-bordered][pressed],x-button[skin=mini-bordered][pressed][toggled]{color:var(--primary-color);background:linear-gradient(to bottom,#c1c1c1,#b4b4b4);border-color:#b4b4b4}x-button[skin=recessed]{min-height:18px;padding:2px 8px;color:var(--primary-color);background:0 0;border:none;border-radius:4px}x-button[skin=recessed][disabled]{opacity:.3}x-button[skin=recessed]:hover{background:rgba(0,0,0,.07)}x-button[skin=recessed][toggled]{color:rgba(255,255,255,.95);background:rgba(0,0,0,.42)}x-button[skin=recessed][pressed]{color:rgba(255,255,255,.95);background:rgba(0,0,0,.6)}x-button[skin=recessed]&gt;x-label{font-size:12px;font-weight:700;text-align:center}x-buttons&gt;x-button[skin=recessed]{border-radius:4px!important}x-buttons&gt;x-button+x-button[skin=recessed]{margin-left:4px}x-buttons&gt;x-box[vertical]&gt;x-button+x-button[skin=recessed]{margin-top:4px}x-button[skin=nav]{padding:8px 15px;color:#4a4a4a;background:0 0;border:none;border-radius:0;cursor:default}x-button[skin=nav][toggled]{background:rgba(0,0,0,.14)}x-button[skin=nav][pressed]{background:rgba(0,0,0,.14);color:#4a4a4a}x-button[skin=nav][toggled][pressed]{background:rgba(0,0,0,.2)}x-button[skin=nav] x-icon{width:24px;height:24px;opacity:.9;margin-right:12px}x-button[skin=nav] x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:500;font-size:13px;text-align:start}x-button[skin=dock]{width:38px;height:38px;min-height:38px;padding:0;border-radius:0;border:1px solid #adadad}x-button[skin=dock][toggled]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%));background:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}x-button[skin=dock][pressed]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%));background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%))}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock]{width:38px;justify-content:center}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock][toggled]+x-button{border-top-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%))}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock][pressed]+x-button{border-top-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%))}x-buttons&gt;x-button[skin=dock][toggled]+x-button{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%))}x-buttons&gt;x-button[skin=dock][pressed]+x-button{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%))}x-button[skin=help]{width:22px;height:22px;min-height:22px;padding:0;color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l));background:#fff;border-color:rgba(0,0,0,.25);border-radius:999px}x-button[skin=help][expanded],x-button[skin=help][pressed]{background:#f7f7f7}x-button[skin=help]&gt;x-icon{width:13px;height:13px}x-button[skin=disclosure]{padding:0 4px;color:rgba(0,0,0,.9);background:0 0;border:none}x-button[skin=disclosure][disabled]{opacity:.3}x-button[skin=disclosure][toggled]{color:rgba(0,0,0,.9);background:0 0}x-button[skin=disclosure] x-icon{width:11px;height:11px;margin-right:4px;color:#8c8c8c;transform:rotate(-90deg);transition:transform .1s linear}x-button[skin=disclosure][toggled] x-icon{color:#8c8c8c;transform:rotate(0)}x-button[skin=disclosure][pressed] x-icon{color:rgba(0,0,0,.5)}x-button[skin=disclosure] x-label{font-size:12px}x-button[skin=disclosure-bordered]{padding:0;width:21px;height:21px;min-height:21px}x-button[skin=disclosure-bordered][toggled]{color:var(--primary-color);background:#fff;border-color:#acacac}x-button[skin=disclosure-bordered][pressed]{color:var(--primary-color);background:#f0f0f0;border-color:#acacac}x-button[skin=disclosure-bordered]&gt;x-icon{width:9px;height:8px;transition:transform .15s ease-in-out}x-button[skin=disclosure-bordered][toggled]&gt;x-icon{transform:rotate(-180deg)}x-tabs{width:fit-content;max-width:100%;color:#262626}x-tab{padding:2px 12px;min-height:23px;box-sizing:border-box;border:1px solid #acacac;border-radius:4px;background:#fff;font-size:14px;--selection-indicator-height:0}x-tab:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:1}x-tab:not(:first-of-type){border-top-left-radius:0;border-bottom-left-radius:0}x-tab:not(:last-of-type){border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}x-tab[expanded]{background:#f0f0f0}x-tab[selected]{color:rgba(255,255,255,.9);border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%));background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}x-tab[selected]+x-tab{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%))}x-tab[pressed]{background:#f0f0f0}x-tab[selected][pressed]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 12%));background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 5%)),hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%)))}x-tab[selected][pressed]+x-tab{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 12%))}x-tab&gt;x-box&gt;x-icon,x-tab&gt;x-icon{color:inherit;width:15px;height:15px;min-width:15px}x-tab&gt;x-box&gt;x-label,x-tab&gt;x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.2;cursor:inherit;flex:1}x-tab&gt;x-box[vertical]{align-items:center}x-tab&gt;x-box&gt;*{margin:0 6px 0 0}x-tab&gt;x-box&gt;:last-child{margin:0}x-tab&gt;x-box[vertical]&gt;*{margin:0 0 2px 0}x-tab&gt;x-box[vertical]&gt;:last-child{margin:0}x-doctabs{background-image:linear-gradient(to bottom,#c4c2c4,#bfbebf);background-repeat:no-repeat;background-position:center center;height:25px;outline:1px solid #9c9c9c;--open-button-width:18px;--open-button-height:18px;--open-button-margin:0 4px}x-doctab{outline:1px solid #9c9c9c;background:#c1bfc1;border-bottom:none;max-width:220px;padding:0 18px;justify-content:center;align-items:center;--ripple-type:none;--selection-indicator-height:0;--close-button-position:absolute;--close-button-width:16px;--close-button-height:16px;--close-button-left:0px;--close-button-margin:0 0 0 3px;--close-button-opacity:0}x-doctab[edited]{--close-button-opacity:0.7}x-doctab:hover{background:#b6b4b6;--close-button-opacity:0.7}x-doctab:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:100}x-doctab[selected]{background-image:linear-gradient(to bottom,#dcdadc,#d6d5d6)}x-doctab img,x-doctab x-icon{margin:0 5px 0 0;width:15px;height:15px;min-width:15px}x-doctab x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;font-weight:400;text-align:center}x-doctab:focus x-label,x-doctab[selected] x-label{font-weight:600}x-doctab&gt;*{opacity:.75}x-doctab:focus&gt;*,x-doctab[selected]&gt;*{opacity:1}x-doctab[disabled]&gt;*{opacity:.5}x-menu{padding:4px 0;border-radius:4px;background:#f0f0f0;box-shadow:rgba(0,0,0,.3) 0 4px 22px;border:1px solid rgba(0,0,0,.25);color:var(--text-color);--open-transition:none}x-menu hr{border-color:rgba(0,0,0,.12);width:100%;height:1px;margin:4px 0;box-sizing:border-box}x-menu hr+hr,x-menu hr:last-child{display:none}x-menuitem{padding:0 12px 0 23px;min-height:24px;color:#3e3e3e;--trigger-effect:blink;--checkmark-width:18px;--checkmark-height:18px;--checkmark-margin:0 2px 0 -20px;--checkmark-d:path(&quot;M 44 61.2 L 29 47 L 21 55 L 45.53 79.613 L 79.031 26.397 L 70.063 20.387 L 44.052 61.152 Z&quot;)}x-menuitem:focus,x-menuitem[expanded]{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 7%));color:#fff}x-menuitem img{width:16px;height:16px}x-menuitem x-icon{width:16px;height:16px}x-menuitem x-icon:not([name]){display:none}x-menuitem x-label{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:14px}x-menuitem x-shortcut{margin-left:auto}x-menuitem:focus&gt;x-swatch,x-menuitem[expanded]&gt;x-swatch{border-color:rgba(255,255,255,.65)}x-menuitem img+x-label,x-menuitem x-icon[name]+x-label,x-menuitem x-label+x-shortcut,x-menuitem x-swatch+x-label{margin-left:8px}x-menubar{height:28px;padding:0 6px;background:linear-gradient(to bottom,#fafafa,#f0f0f0);border:1px solid #b8b8b8}x-menubar&gt;x-menuitem{padding:0 11px;height:100%}x-popover{color:var(--text-color);background:#f0f0f0;border:1px solid rgba(0,0,0,.25);border-radius:4px;box-shadow:rgba(0,0,0,.3) 0 4px 22px;--open-transition:none}x-popover&gt;main{width:100%;padding:10px;overflow:auto}x-notification{border-radius:5px}x-notification ::selection,x-notification::selection{color:#000;background:#fff}x-notification p{margin:0}x-notification strong{color:#fff}x-checkbox{width:15px;height:15px;margin:0 6px 0 0;color:rgba(0,0,0,.5);background:#fff;border:1px solid #a5a5a5;border-radius:2px;transition:color .1s cubic-bezier(.4,0,.2,1)}x-checkbox:active{background:rgba(0,0,0,.03)}x-checkbox:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-checkbox[toggled]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 3%));border:2px solid currentColor}x-checkbox[toggled]:active{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%))}x-radio{width:16px;height:16px;background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));border:1px solid #b8b8b8;--dot-transform:scale(1);--dot-color:white;--dot-box-shadow:none}x-radio:active{--dot-color:#f3f3f3}x-radio:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-radio[toggled]{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 3%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));--dot-transform:scale(0.4);--dot-box-shadow:rgba(0, 0, 0, 0.4) 1px 3px 7px}x-radio[toggled]:active{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%));--dot-color:white}x-radio+x-label{margin-left:4px;padding:5px 0;font-size:13px;font-weight:500}x-switch{width:34px;height:15px;box-shadow:0 0 0 2px #b3b3b3;border-radius:999px;--focus-ring-width:3px;--focus-ring-opacity:1;--focus-ring-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 20%));--focus-ring-transition-duration:0;--thumb-color:white;--thumb-size:15px;--track-height:100%;--track-opacity:1;--track-color:#b3b3b3}x-switch[toggled]{box-shadow:0 0 0 2px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));--track-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-switch[skin=big]{width:42px;height:24px;--thumb-size:20px}x-select{background:#fff;border:1px solid #acacac;border-radius:4px;color:#262626;padding:0 0 0 9px;height:24px;position:relative;font-size:14px;--arrow-color:white}x-select[disabled]{opacity:.4}x-select:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-select::before{content:&quot;&quot;;display:block;width:20px;height:calc(100% + 2px);position:absolute;top:-1px;right:-1px;background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)));border:1px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%));border-radius:0 4px 4px 0;box-sizing:border-box}x-select x-swatch{width:18px;height:18px}x-select[skin=textured]{color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);--arrow-color:currentColor;--arrow-margin:0 5px 0 7px}x-select[skin=textured]:active{background:linear-gradient(to bottom,#e5e5e5,#d6d4d6)}x-select[skin=textured]::before{display:none}x-input{border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px;--selection-background:inherit}x-input:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-input[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-input+x-input{margin-top:20px}x-input&gt;x-icon{width:15px;height:15px;min-width:15px;margin:0 0 0 5px;color:#565656}x-input&gt;x-icon:hover{cursor:default}x-input&gt;x-label{display:none;position:absolute;top:50%;max-width:100%;padding:0 5px 0 5px;transform:translateY(-50%);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}x-input[empty]&gt;x-label{display:block}x-input&gt;x-icon+x-label{padding:0 5px 0 25px}x-input[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-input[skin=textured]:focus{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));outline:0}x-input[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-input[skin=textured]&gt;x-icon{color:#767676}x-dateselect{border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px}x-dateselect:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-dateselect[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-dateselect+x-dateselect{margin-top:20px}x-dateselect&gt;x-label{display:none;position:absolute;top:50%;max-width:100%;padding:0 5px 0 5px;transform:translateY(-50%);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}x-dateselect[empty]&gt;x-label{display:block}x-dateselect:active&gt;x-label,x-dateselect:focus&gt;x-label{display:none}x-dateselect[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-dateselect[skin=textured]:focus{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));outline:0}x-dateselect[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-numberinput{background:#fff;border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px;--selection-background:inherit}x-numberinput:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-numberinput[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-numberinput&gt;x-stepper{margin-right:-20px;margin-left:5px}x-numberinput&gt;x-label{display:none;position:absolute;width:100%;height:20px;bottom:6px;top:50%;left:0;padding:0 5px;transform:translateY(-50%);line-height:1.8;color:rgba(0,0,0,.4);pointer-events:none;font-family:inherit;font-size:inherit}x-numberinput[empty]&gt;x-label{display:block}x-numberinput[skin=condensed]&gt;x-stepper{border-radius:0;margin:0;height:100%;display:flex}x-numberinput[skin=condensed]:focus&gt;x-stepper{display:none}x-taginput{background:#fff;border:1px solid #bfbfbf;--selection-background:inherit}x-taginput:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-taginput[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-taginput&gt;x-label{align-self:center;margin-left:-8px;color:rgba(0,0,0,.4)}x-textarea{border:1px solid #bfbfbf;font-size:12px;--inner-padding:2px 5px;--selection-background:inherit}x-textarea:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-textarea[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-textarea&gt;x-label{display:none;position:absolute;width:100%;top:0;left:0;padding:var(--inner-padding);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;pointer-events:none}x-textarea[empty]&gt;x-label{display:block}x-textarea[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-textarea[skin=textured]:focus{outline:0;box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-textarea[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-slider{--thumb-width:17px;--thumb-height:17px;--thumb-color:white;--focus-ring-width:6px;--focus-ring-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 20%));--focus-ring-transition-duration:0;--track-height:3px;--track-color:#B0B0B0;--track-tint-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-slider:active{--thumb-color:#F1F5F5}x-slider&gt;x-label{font-size:11px}x-slider[skin=arrow]{--track-tint-color:#B0B0B0;--thumb-d:path(&quot;M 0 0 L 100 0 L 100 55 L 50 100 L 0 55 Z&quot;);--thumb-width:16px;--thumb-height:20px}x-progressbar{height:6px;background:#dbdbdb;box-shadow:inset 0 0 0 1px silver;border-radius:5px;--bar-background:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-throbber[type=ring]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 0%))}xel-codeview{font-family:Menlo,&quot;Andale Mono&quot;,monospace;background:#fff;border:1px solid #d0d0d0;--selection-background:inherit}:host(xel-app) #sidebar{background:#f5f5f5}:host(xel-app) #sidebar #header{background:rgba(0,0,0,.03)}:host(xel-app) #sidebar h1{color:rgba(0,0,0,.5)}:host(xel-app) #nav{box-sizing:border-box;padding:0 30px}:host(xel-app) #nav section{margin:15px 0}:host(xel-app) #nav h3{opacity:.4;margin:12px 0 6px -6px;padding:0;font-size:13px;font-weight:700;user-select:none;cursor:default}:host(xel-app) #nav hr{margin:0 0 0 -30px;width:calc(100% + 60px)}:host(xel-app) #sidebar #nav .external-link-icon{color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}:host(xel-app) #about-view{background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}:host(xel-app) #setup-view h3 x-icon{color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}img{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;user-drag:none;-webkit-touch-callout:none}path:hover{stroke:red}
     </style>
     <style
-       id="style880">
+       id="style2897">
     .foreignBody {
         margin: 0;
         color: rgba(0, 0, 0, 0.65);
@@ -336,7 +336,7 @@ button, input, optgroup, select, textarea {
 </style>
   </defs>
   <g
-     id="g892">
+     id="g2909">
     <path
        transform="rotate(0,0, 0) scale(1)"
        d="M227,75L277,75L277,75L310,75L310,75L339,75"
@@ -345,65 +345,65 @@ button, input, optgroup, select, textarea {
        stroke-width="1.3"
        fill="none"
        marker-end="url(#association)"
-       id="path886" />
+       id="path2903" />
     <text
        x="237"
        y="65"
        font-size="smaller"
        fill="#FD6A02"
-       id="text888" />
+       id="text2905" />
     <text
        x="319"
        y="65"
        font-size="smaller"
        fill="#FD6A02"
-       id="text890" />
+       id="text2907" />
   </g>
   <g
-     id="g900">
+     id="g2917">
     <path
        transform="rotate(0,0, 0) scale(1)"
-       d="M20,151L20,180L277,180L277,260L298,260L298,260L327,260"
+       d="M20,151L20,180L277,180L277,263L298,263L298,263L327,263"
        stroke="#FD6A02"
        stroke-dasharray="6"
        stroke-width="1.3"
        fill="none"
        marker-end="url(#implementation)"
-       id="path894" />
+       id="path2911" />
     <text
        x="30"
        y="161"
        font-size="smaller"
        fill="#FD6A02"
-       id="text896" />
+       id="text2913" />
     <text
        x="307"
-       y="250"
+       y="253"
        font-size="smaller"
        fill="#FD6A02"
-       id="text898" />
+       id="text2915" />
   </g>
   <g
-     transform="translate(339.7890625, 11.6875)"
-     id="g1006">
+     transform="translate(339.7890625, 8.375)"
+     id="g3001">
     <g
        transform="translate(0, 0)"
-       id="g1004">
+       id="g2999">
       <rect
          width="233.9140625"
-         height="128.5"
+         height="135.125"
          stroke="#FD6A02"
          fill="none"
          stroke-width="1"
          transform="translate(0, 0)"
          rx="0"
-         id="rect902" />
+         id="rect2919" />
       <g
          transform="translate(0, 0)"
-         id="g1002">
+         id="g2997">
         <g
            transform="translate(0, 0)"
-           id="g910">
+           id="g2927">
           <rect
              width="233.9140625"
              height="37.375"
@@ -412,7 +412,7 @@ button, input, optgroup, select, textarea {
              stroke-width="1"
              transform="translate(0, 0)"
              rx="0"
-             id="rect904" />
+             id="rect2921" />
           <text
              fill="#FD6A02"
              font-size="16"
@@ -420,17 +420,17 @@ button, input, optgroup, select, textarea {
              transform="translate(35, 10)"
              alignment-baseline="middle"
              font-family="Arial"
-             id="text908"><tspan
+             id="text2925"><tspan
                x="0"
                dy="16"
                font-family="Arial"
                font-size="16"
                font-weight="bold"
-               id="tspan906">Transaction(sum, date)</tspan></text>
+               id="tspan2923">Transaction(sum, date)</tspan></text>
         </g>
         <g
            transform="translate(0, 37.375)"
-           id="g914">
+           id="g2931">
           <rect
              width="2"
              height="3"
@@ -439,14 +439,14 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect912" />
+             id="rect2929" />
         </g>
         <g
            transform="translate(0, 40.375)"
-           id="g964">
+           id="g2981">
           <g
              transform="translate(0, 0)"
-             id="g938">
+             id="g2955">
             <rect
                width="233.9140625"
                height="23.375"
@@ -455,10 +455,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect916" />
+               id="rect2933" />
             <g
                transform="translate(0, 0)"
-               id="g936">
+               id="g2953">
               <rect
                  width="15"
                  height="15"
@@ -467,10 +467,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect918" />
+                 id="rect2935" />
               <g
                  transform="translate(15, 9.6875)"
-                 id="g922">
+                 id="g2939">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11"
@@ -478,7 +478,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path920" />
+                   id="path2937" />
               </g>
               <rect
                  width="2"
@@ -488,13 +488,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(25, 1.6875)"
                  rx="2"
-                 id="rect924" />
+                 id="rect2941" />
               <g
                  transform="translate(27, 0)"
-                 id="g934">
+                 id="g2951">
                 <g
                    transform="translate(0, 0)"
-                   id="g932">
+                   id="g2949">
                   <rect
                      width="37.140625"
                      height="23.375"
@@ -503,7 +503,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect926" />
+                     id="rect2943" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -511,20 +511,20 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text930"><tspan
+                     id="text2947"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan928">date</tspan></text>
+                       id="tspan2945">date</tspan></text>
                 </g>
               </g>
             </g>
           </g>
           <g
              transform="translate(0, 23.375)"
-             id="g962">
+             id="g2979">
             <rect
                width="233.9140625"
                height="23.375"
@@ -533,10 +533,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect940" />
+               id="rect2957" />
             <g
                transform="translate(0, 0)"
-               id="g960">
+               id="g2977">
               <rect
                  width="15"
                  height="15"
@@ -545,10 +545,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect942" />
+                 id="rect2959" />
               <g
                  transform="translate(15, 9.6875)"
-                 id="g946">
+                 id="g2963">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11"
@@ -556,7 +556,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path944" />
+                   id="path2961" />
               </g>
               <rect
                  width="2"
@@ -566,13 +566,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(25, 1.6875)"
                  rx="2"
-                 id="rect948" />
+                 id="rect2965" />
               <g
                  transform="translate(27, 0)"
-                 id="g958">
+                 id="g2975">
                 <g
                    transform="translate(0, 0)"
-                   id="g956">
+                   id="g2973">
                   <rect
                      width="36.2265625"
                      height="23.375"
@@ -581,7 +581,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect950" />
+                     id="rect2967" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -589,13 +589,13 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text954"><tspan
+                     id="text2971"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan952">sum</tspan></text>
+                       id="tspan2969">sum</tspan></text>
                 </g>
               </g>
             </g>
@@ -603,14 +603,14 @@ button, input, optgroup, select, textarea {
         </g>
         <g
            transform="translate(0, 87.125)"
-           id="g970">
+           id="g2987">
           <path
              d="M 0,7 L 233.9140625 7"
              fill="none"
              stroke="#FD6A02"
              stroke-dasharray="none"
              stroke-width="1"
-             id="path966" />
+             id="path2983" />
           <rect
              width="10"
              height="10"
@@ -619,93 +619,24 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect968" />
+             id="rect2985" />
         </g>
         <g
            transform="translate(0, 97.125)"
-           id="g996">
-          <g
+           id="g2991">
+          <rect
+             width="30"
+             height="30"
+             stroke="none"
+             fill="none"
+             stroke-width="1.3"
              transform="translate(0, 0)"
-             id="g994">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect972" />
-            <g
-               transform="translate(0, 0)"
-               id="g992">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect974" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g978">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path976" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect980" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g990">
-                <g
-                   transform="translate(0, 0)"
-                   id="g988">
-                  <rect
-                     width="110.078125"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect982" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text986"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan984">get_date(date)</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
+             rx="2"
+             id="rect2989" />
         </g>
         <g
-           transform="translate(0, 120.5)"
-           id="g1000">
+           transform="translate(0, 127.125)"
+           id="g2995">
           <rect
              width="8"
              height="8"
@@ -714,17 +645,17 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect998" />
+             id="rect2993" />
         </g>
       </g>
     </g>
   </g>
   <g
      transform="translate(0, 0)"
-     id="g1136">
+     id="g3131">
     <g
        transform="translate(0, 0)"
-       id="g1134">
+       id="g3129">
       <rect
          width="227.046875"
          height="151.875"
@@ -733,13 +664,13 @@ button, input, optgroup, select, textarea {
          stroke-width="1"
          transform="translate(0, 0)"
          rx="0"
-         id="rect1008" />
+         id="rect3003" />
       <g
          transform="translate(0, 0)"
-         id="g1132">
+         id="g3127">
         <g
            transform="translate(0, 0)"
-           id="g1016">
+           id="g3011">
           <rect
              width="227.046875"
              height="37.375"
@@ -748,7 +679,7 @@ button, input, optgroup, select, textarea {
              stroke-width="1"
              transform="translate(0, 0)"
              rx="0"
-             id="rect1010" />
+             id="rect3005" />
           <text
              fill="#FD6A02"
              font-size="16"
@@ -756,17 +687,17 @@ button, input, optgroup, select, textarea {
              transform="translate(84.6171875, 10)"
              alignment-baseline="middle"
              font-family="Arial"
-             id="text1014"><tspan
+             id="text3009"><tspan
                x="0"
                dy="16"
                font-family="Arial"
                font-size="16"
                font-weight="bold"
-               id="tspan1012">Account</tspan></text>
+               id="tspan3007">Account</tspan></text>
         </g>
         <g
            transform="translate(0, 37.375)"
-           id="g1020">
+           id="g3015">
           <rect
              width="2"
              height="3"
@@ -775,14 +706,14 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect1018" />
+             id="rect3013" />
         </g>
         <g
            transform="translate(0, 40.375)"
-           id="g1046">
+           id="g3041">
           <g
              transform="translate(0, 0)"
-             id="g1044">
+             id="g3039">
             <rect
                width="227.046875"
                height="23.375"
@@ -791,10 +722,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1022" />
+               id="rect3017" />
             <g
                transform="translate(0, 0)"
-               id="g1042">
+               id="g3037">
               <rect
                  width="15"
                  height="15"
@@ -803,10 +734,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1024" />
+                 id="rect3019" />
               <g
                  transform="translate(15, 9.6875)"
-                 id="g1028">
+                 id="g3023">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11"
@@ -814,7 +745,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1026" />
+                   id="path3021" />
               </g>
               <rect
                  width="2"
@@ -824,13 +755,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(25, 1.6875)"
                  rx="2"
-                 id="rect1030" />
+                 id="rect3025" />
               <g
                  transform="translate(27, 0)"
-                 id="g1040">
+                 id="g3035">
                 <g
                    transform="translate(0, 0)"
-                   id="g1038">
+                   id="g3033">
                   <rect
                      width="137.6171875"
                      height="23.375"
@@ -839,7 +770,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1032" />
+                     id="rect3027" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -847,13 +778,13 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1036"><tspan
+                     id="text3031"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1034">transactions_array</tspan></text>
+                       id="tspan3029">transactions_array</tspan></text>
                 </g>
               </g>
             </g>
@@ -861,14 +792,14 @@ button, input, optgroup, select, textarea {
         </g>
         <g
            transform="translate(0, 63.75)"
-           id="g1052">
+           id="g3047">
           <path
              d="M 0,7 L 227.046875 7"
              fill="none"
              stroke="#FD6A02"
              stroke-dasharray="none"
              stroke-width="1"
-             id="path1048" />
+             id="path3043" />
           <rect
              width="10"
              height="10"
@@ -877,14 +808,14 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect1050" />
+             id="rect3045" />
         </g>
         <g
            transform="translate(0, 73.75)"
-           id="g1126">
+           id="g3121">
           <g
              transform="translate(0, 0)"
-             id="g1076">
+             id="g3071">
             <rect
                width="100"
                height="23.375"
@@ -893,10 +824,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1054" />
+               id="rect3049" />
             <g
                transform="translate(0, 0)"
-               id="g1074">
+               id="g3069">
               <rect
                  width="15"
                  height="15"
@@ -905,10 +836,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1056" />
+                 id="rect3051" />
               <g
                  transform="translate(15, 7.6875)"
-                 id="g1060">
+                 id="g3055">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11M7.5 1V9"
@@ -916,7 +847,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1058" />
+                   id="path3053" />
               </g>
               <rect
                  width="5"
@@ -926,13 +857,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(22, 1.6875)"
                  rx="2"
-                 id="rect1062" />
+                 id="rect3057" />
               <g
                  transform="translate(27, 0)"
-                 id="g1072">
+                 id="g3067">
                 <g
                    transform="translate(0, 0)"
-                   id="g1070">
+                   id="g3065">
                   <rect
                      width="138.5078125"
                      height="23.375"
@@ -941,7 +872,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1064" />
+                     id="rect3059" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -949,20 +880,20 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1068"><tspan
+                     id="text3063"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1066">deposit(sum, date)</tspan></text>
+                       id="tspan3061">deposit(sum, date)</tspan></text>
                 </g>
               </g>
             </g>
           </g>
           <g
              transform="translate(0, 23.375)"
-             id="g1100">
+             id="g3095">
             <rect
                width="100"
                height="23.375"
@@ -971,10 +902,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1078" />
+               id="rect3073" />
             <g
                transform="translate(0, 0)"
-               id="g1098">
+               id="g3093">
               <rect
                  width="15"
                  height="15"
@@ -983,10 +914,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1080" />
+                 id="rect3075" />
               <g
                  transform="translate(15, 7.6875)"
-                 id="g1084">
+                 id="g3079">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11M7.5 1V9"
@@ -994,7 +925,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1082" />
+                   id="path3077" />
               </g>
               <rect
                  width="5"
@@ -1004,13 +935,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(22, 1.6875)"
                  rx="2"
-                 id="rect1086" />
+                 id="rect3081" />
               <g
                  transform="translate(27, 0)"
-                 id="g1096">
+                 id="g3091">
                 <g
                    transform="translate(0, 0)"
-                   id="g1094">
+                   id="g3089">
                   <rect
                      width="150.046875"
                      height="23.375"
@@ -1019,7 +950,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1088" />
+                     id="rect3083" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -1027,20 +958,20 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1092"><tspan
+                     id="text3087"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1090">withdraw(sum, date)</tspan></text>
+                       id="tspan3085">withdraw(sum, date)</tspan></text>
                 </g>
               </g>
             </g>
           </g>
           <g
              transform="translate(0, 46.75)"
-             id="g1124">
+             id="g3119">
             <rect
                width="100"
                height="23.375"
@@ -1049,10 +980,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1102" />
+               id="rect3097" />
             <g
                transform="translate(0, 0)"
-               id="g1122">
+               id="g3117">
               <rect
                  width="15"
                  height="15"
@@ -1061,10 +992,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1104" />
+                 id="rect3099" />
               <g
                  transform="translate(15, 7.6875)"
-                 id="g1108">
+                 id="g3103">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11M7.5 1V9"
@@ -1072,7 +1003,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1106" />
+                   id="path3101" />
               </g>
               <rect
                  width="5"
@@ -1082,13 +1013,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(22, 1.6875)"
                  rx="2"
-                 id="rect1110" />
+                 id="rect3105" />
               <g
                  transform="translate(27, 0)"
-                 id="g1120">
+                 id="g3115">
                 <g
                    transform="translate(0, 0)"
-                   id="g1118">
+                   id="g3113">
                   <rect
                      width="116.28125"
                      height="23.375"
@@ -1097,7 +1028,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1112" />
+                     id="rect3107" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -1105,13 +1036,13 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1116"><tspan
+                     id="text3111"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1114">print_statement</tspan></text>
+                       id="tspan3109">print_statement</tspan></text>
                 </g>
               </g>
             </g>
@@ -1119,7 +1050,7 @@ button, input, optgroup, select, textarea {
         </g>
         <g
            transform="translate(0, 143.875)"
-           id="g1130">
+           id="g3125">
           <rect
              width="8"
              height="8"
@@ -1128,17 +1059,17 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect1128" />
+             id="rect3123" />
         </g>
       </g>
     </g>
   </g>
   <g
-     transform="translate(327.046875, 240.1875)"
-     id="g1266">
+     transform="translate(327.046875, 243.5)"
+     id="g3261">
     <g
        transform="translate(0, 0)"
-       id="g1264">
+       id="g3259">
       <rect
          width="259.3984375"
          height="151.875"
@@ -1147,13 +1078,13 @@ button, input, optgroup, select, textarea {
          stroke-width="1"
          transform="translate(0, 0)"
          rx="0"
-         id="rect1138" />
+         id="rect3133" />
       <g
          transform="translate(0, 0)"
-         id="g1262">
+         id="g3257">
         <g
            transform="translate(0, 0)"
-           id="g1146">
+           id="g3141">
           <rect
              width="259.3984375"
              height="37.375"
@@ -1162,7 +1093,7 @@ button, input, optgroup, select, textarea {
              stroke-width="1"
              transform="translate(0, 0)"
              rx="0"
-             id="rect1140" />
+             id="rect3135" />
           <text
              fill="#FD6A02"
              font-size="16"
@@ -1170,17 +1101,17 @@ button, input, optgroup, select, textarea {
              transform="translate(35, 10)"
              alignment-baseline="middle"
              font-family="Arial"
-             id="text1144"><tspan
+             id="text3139"><tspan
                x="0"
                dy="16"
                font-family="Arial"
                font-size="16"
                font-weight="bold"
-               id="tspan1142">Printer(transactions_array)</tspan></text>
+               id="tspan3137">Printer(transactions_array)</tspan></text>
         </g>
         <g
            transform="translate(0, 37.375)"
-           id="g1150">
+           id="g3145">
           <rect
              width="2"
              height="3"
@@ -1189,14 +1120,14 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect1148" />
+             id="rect3143" />
         </g>
         <g
            transform="translate(0, 40.375)"
-           id="g1176">
+           id="g3171">
           <g
              transform="translate(0, 0)"
-             id="g1174">
+             id="g3169">
             <rect
                width="259.3984375"
                height="23.375"
@@ -1205,10 +1136,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1152" />
+               id="rect3147" />
             <g
                transform="translate(0, 0)"
-               id="g1172">
+               id="g3167">
               <rect
                  width="15"
                  height="15"
@@ -1217,10 +1148,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1154" />
+                 id="rect3149" />
               <g
                  transform="translate(15, 9.6875)"
-                 id="g1158">
+                 id="g3153">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11"
@@ -1228,7 +1159,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1156" />
+                   id="path3151" />
               </g>
               <rect
                  width="2"
@@ -1238,13 +1169,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(25, 1.6875)"
                  rx="2"
-                 id="rect1160" />
+                 id="rect3155" />
               <g
                  transform="translate(27, 0)"
-                 id="g1170">
+                 id="g3165">
                 <g
                    transform="translate(0, 0)"
-                   id="g1168">
+                   id="g3163">
                   <rect
                      width="137.6171875"
                      height="23.375"
@@ -1253,7 +1184,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1162" />
+                     id="rect3157" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -1261,13 +1192,13 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1166"><tspan
+                     id="text3161"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1164">transactions_array</tspan></text>
+                       id="tspan3159">transactions_array</tspan></text>
                 </g>
               </g>
             </g>
@@ -1275,14 +1206,14 @@ button, input, optgroup, select, textarea {
         </g>
         <g
            transform="translate(0, 63.75)"
-           id="g1182">
+           id="g3177">
           <path
              d="M 0,7 L 259.3984375 7"
              fill="none"
              stroke="#FD6A02"
              stroke-dasharray="none"
              stroke-width="1"
-             id="path1178" />
+             id="path3173" />
           <rect
              width="10"
              height="10"
@@ -1291,14 +1222,14 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect1180" />
+             id="rect3175" />
         </g>
         <g
            transform="translate(0, 73.75)"
-           id="g1256">
+           id="g3251">
           <g
              transform="translate(0, 0)"
-             id="g1206">
+             id="g3201">
             <rect
                width="100"
                height="23.375"
@@ -1307,10 +1238,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1184" />
+               id="rect3179" />
             <g
                transform="translate(0, 0)"
-               id="g1204">
+               id="g3199">
               <rect
                  width="15"
                  height="15"
@@ -1319,10 +1250,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1186" />
+                 id="rect3181" />
               <g
                  transform="translate(15, 7.6875)"
-                 id="g1190">
+                 id="g3185">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11M7.5 1V9"
@@ -1330,7 +1261,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1188" />
+                   id="path3183" />
               </g>
               <rect
                  width="5"
@@ -1340,13 +1271,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(22, 1.6875)"
                  rx="2"
-                 id="rect1192" />
+                 id="rect3187" />
               <g
                  transform="translate(27, 0)"
-                 id="g1202">
+                 id="g3197">
                 <g
                    transform="translate(0, 0)"
-                   id="g1200">
+                   id="g3195">
                   <rect
                      width="95.84375"
                      height="23.375"
@@ -1355,7 +1286,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1194" />
+                     id="rect3189" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -1363,20 +1294,20 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1198"><tspan
+                     id="text3193"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1196">print_header</tspan></text>
+                       id="tspan3191">print_header</tspan></text>
                 </g>
               </g>
             </g>
           </g>
           <g
              transform="translate(0, 23.375)"
-             id="g1230">
+             id="g3225">
             <rect
                width="100"
                height="23.375"
@@ -1385,10 +1316,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1208" />
+               id="rect3203" />
             <g
                transform="translate(0, 0)"
-               id="g1228">
+               id="g3223">
               <rect
                  width="15"
                  height="15"
@@ -1397,10 +1328,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1210" />
+                 id="rect3205" />
               <g
                  transform="translate(15, 7.6875)"
-                 id="g1214">
+                 id="g3209">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11M7.5 1V9"
@@ -1408,7 +1339,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1212" />
+                   id="path3207" />
               </g>
               <rect
                  width="5"
@@ -1418,13 +1349,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(22, 1.6875)"
                  rx="2"
-                 id="rect1216" />
+                 id="rect3211" />
               <g
                  transform="translate(27, 0)"
-                 id="g1226">
+                 id="g3221">
                 <g
                    transform="translate(0, 0)"
-                   id="g1224">
+                   id="g3219">
                   <rect
                      width="78.0234375"
                      height="23.375"
@@ -1433,7 +1364,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1218" />
+                     id="rect3213" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -1441,20 +1372,20 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1222"><tspan
+                     id="text3217"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1220">sort_array</tspan></text>
+                       id="tspan3215">sort_array</tspan></text>
                 </g>
               </g>
             </g>
           </g>
           <g
              transform="translate(0, 46.75)"
-             id="g1254">
+             id="g3249">
             <rect
                width="100"
                height="23.375"
@@ -1463,10 +1394,10 @@ button, input, optgroup, select, textarea {
                stroke-width="1.3"
                transform="translate(0, 0)"
                rx="0"
-               id="rect1232" />
+               id="rect3227" />
             <g
                transform="translate(0, 0)"
-               id="g1252">
+               id="g3247">
               <rect
                  width="15"
                  height="15"
@@ -1475,10 +1406,10 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(0, 4.1875)"
                  rx="2"
-                 id="rect1234" />
+                 id="rect3229" />
               <g
                  transform="translate(15, 7.6875)"
-                 id="g1238">
+                 id="g3233">
                 <path
                    transform="rotate(0,0, 0) scale(1)"
                    d="M4 5H11M7.5 1V9"
@@ -1486,7 +1417,7 @@ button, input, optgroup, select, textarea {
                    stroke-dasharray="none"
                    stroke-width="1.3"
                    fill="none"
-                   id="path1236" />
+                   id="path3231" />
               </g>
               <rect
                  width="5"
@@ -1496,13 +1427,13 @@ button, input, optgroup, select, textarea {
                  stroke-width="1.3"
                  transform="translate(22, 1.6875)"
                  rx="2"
-                 id="rect1240" />
+                 id="rect3235" />
               <g
                  transform="translate(27, 0)"
-                 id="g1250">
+                 id="g3245">
                 <g
                    transform="translate(0, 0)"
-                   id="g1248">
+                   id="g3243">
                   <rect
                      width="82.4765625"
                      height="23.375"
@@ -1511,7 +1442,7 @@ button, input, optgroup, select, textarea {
                      stroke-width="0"
                      transform="translate(0, 0)"
                      rx="0"
-                     id="rect1242" />
+                     id="rect3237" />
                   <text
                      fill="#FD6A02"
                      font-size="16"
@@ -1519,13 +1450,13 @@ button, input, optgroup, select, textarea {
                      transform="translate(3, 3)"
                      alignment-baseline="middle"
                      font-family="Arial"
-                     id="text1246"><tspan
+                     id="text3241"><tspan
                        x="0"
                        dy="16"
                        font-family="Arial"
                        font-size="16"
                        font-weight="normal"
-                       id="tspan1244">print_array</tspan></text>
+                       id="tspan3239">print_array</tspan></text>
                 </g>
               </g>
             </g>
@@ -1533,7 +1464,7 @@ button, input, optgroup, select, textarea {
         </g>
         <g
            transform="translate(0, 143.875)"
-           id="g1260">
+           id="g3255">
           <rect
              width="8"
              height="8"
@@ -1542,7 +1473,7 @@ button, input, optgroup, select, textarea {
              stroke-width="1.3"
              transform="translate(0, 0)"
              rx="2"
-             id="rect1258" />
+             id="rect3253" />
         </g>
       </g>
     </g>
