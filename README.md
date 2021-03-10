@@ -78,19 +78,15 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
 ### Making a Deposit
 
-Deposit funds to the account by executing `account.deposit(sum, "date")`, where the `sum` parameter is a non-optional integer, and the `date` parameter is an optional argument. If no `date` argument is supplied, a default value of the current date and time (`DateTime.now`) will be appended to the deposit. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
-
-A deposit can be assigned to any date; the manager will insert it into the account history in chronological order.
+Deposit funds to the account by executing `account.deposit(sum, "date")`, where the `sum` parameter is a non-optional integer, and the `date` parameter is a non-optional argument. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
 
 ### Making a Withdrawal
 
-Withdraw funds from the account by executing `account.withdraw(sum, "date")`, where the `sum` parameter is a non-optional integer, and the `date` parameter is an optional argument. If no `date` argument is supplied, a default value of the current date and time (`DateTime.now`) will be appended to the withdrawal. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
-
-A withdrawal can be assigned to any date; the manager will attempt to insert it into the account history in chronological order. However, the withdrawal will be rejected (returning error code `Insufficient funds!`) unless sufficient funds to cover the withdrawal are available at the time the withdrawal is made.
+Withdraw funds from the account by executing `account.withdraw(sum, "date")`, where the `sum` parameter is a non-optional positive integer, and the `date` parameter is a non-optional argument. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
 
 ### Printing a Statement
 
-Print an account statement to console by executing `account.print_statement`.
+Print an account statement to console by executing `account.print_statement`. Account statements are prefixed with a header, and transactions are printed in reverse order of input.
 
 ---
 
@@ -98,22 +94,48 @@ Print an account statement to console by executing `account.print_statement`.
 
 ### Modelling
 
+My approach to this problem relied on TDD, BDD, encapsulation and the SRP in order to create modular code that could be tested in independent units as well as collectively in features. The problem itself is simple; with no GUI it was not necessary to structure an MVC/MVP model. I split responsibilities into several classes so as to improve readability and modularity. I tried to balance the SRP against oversimplification leading to an excessive number of component classes.
+
+To keep the code readable, I prioritised thoughtful naming of objects to reduce the need to explain in comments the purpose of each object and method.
+
 ### Test-Driven Design
+
+TDD was used to structure Unit Tests. These were employed to test individual classes and their methods to ensure that they interacted as expected. RSpec was instructed (using the `--format documentation` and `--color` arguments to provide verbose feedback on passing and failing tests.
 
 ### Behaviour-Driven Design
 
+BDD was used to structure Feature Tests. After unit tests were created to test methods and classes in isolation, feature tests were employed to test the entire program.
+
+### Continuous Development
+
+The code was continuously tested throughout development to ensure development was proceeding as expected, and that changes during development did not impact previously tested units and features.
+
+### Refactoring
+
+Refactoring was performed after the completion of any individual unit, and periodically throughout development, in order to simplify the code. The aim was to keep the code simple and readable, rather than as compact as possible. To check that the resulting code conformed to the Ruby style guide, it was parsed before each commit through Rubocop (integrating Rubocop-rspec), a linter.
+
 ---
 
-## Testing
+## Additional Development
+
+Several suggested additional features have been implemented on the `additional_features` branch. These include:
+
+1. [ ] Making the `date` argument optional by setting a default parameter (`DateTime.now`).
+2. [ ] Sorting transactions into chronological order before printing them in reverse chronological order.
+3. [ ] Rejection of withdrawals when funds would be insufficient to cover them (returning error `Insufficient funds available!`).
+4. [ ] Code hardening to improve resilience against erroneous input and provide a more helpful error message.
 
 ---
 
 ## Built With
 
-- [Ruby](https://www.ruby-lang.org/), courtesy of Yukihiro Matsumoto.
-- [RSpec](https://rspec.info/), courtesy of Jon Rowe, Benoit Tigeot, Phil Pirozhkov, Xavier Shay and Yuji Nakayama.
-- [Rubocop](https://rubocop.org/), courtesy of Bozhidar Batsov.
-- [SimpleCov](https://github.com/simplecov-ruby/simplecov), courtesy of Christoph Olszowka.
+This program's dependencies are minimal and relate solely to testing. They were chosen for their ubiquity and self-contained nature, so that they could be specified as `require: false` and required only in the `test` environment to reduce their impact on the program's speed. For clarity, all dependencies are explicitly invoked by the `Gemfile`.
+
+- [Ruby](https://www.ruby-lang.org/), courtesy of [Yukihiro Matsumoto](https://github.com/matz).
+- [RSpec](https://rspec.info/), courtesy of [Jon Rowe](https://github.com/JonRowe), [Benoit Tigeot](https://github.com/benoittgt), [Phil Pirozhkov](https://github.com/pirj), [Xavier Shay](https://github.com/xaviershay) and [Yuji Nakayama](https://github.com/yujinakayama).
+- [Rubocop](https://rubocop.org/) and [Rubocop-RSpec](https://github.com/rubocop/rubocop-rspec), both courtesy of [Bozhidar Batsov](https://github.com/bbatsov).
+- [SimpleCov](https://github.com/simplecov-ruby/simplecov), courtesy of [Christoph Olszowka](https://github.com/colszowka).
+- [SimpleCov-Console](https://github.com/chetan/simplecov-console), courtesy of [Chetan Sarva](https://github.com/chetan).
 
 ---
 
