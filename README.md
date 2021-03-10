@@ -193,10 +193,11 @@ Refactoring was performed after the completion of any individual unit, and perio
 
 Several suggested additional features have been implemented on the `additional_features` branch. These include:
 
-1. [ ] Making the `date` argument optional by setting a default parameter (`DateTime.now`).
-2. [ ] Sorting transactions into chronological order before printing them in reverse chronological order.
-3. [ ] Rejection of withdrawals when funds would be insufficient to cover them (returning error `Insufficient funds available!`).
-4. [ ] Code hardening to improve resilience against erroneous input and provide a more helpful error message.
+1. [ ] Allowing the input of sums to two decimal places.
+2. [ ] Making the `date` argument optional by setting a default parameter (`DateTime.now`).
+3. [ ] Sorting transactions into chronological order before printing them in reverse chronological order.
+4. [ ] Rejection of withdrawals when funds would be insufficient to cover them (returning error `Insufficient funds available!`).
+5. [ ] Code hardening to improve resilience against erroneous input and provide a more helpful error message.
 
 ---
 
