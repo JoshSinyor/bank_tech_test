@@ -113,6 +113,7 @@ Print an account statement to console by executing `account.print_statement`.
 - [Ruby](https://www.ruby-lang.org/), courtesy of Yukihiro Matsumoto.
 - [RSpec](https://rspec.info/), courtesy of Jon Rowe, Benoit Tigeot, Phil Pirozhkov, Xavier Shay and Yuji Nakayama.
 - [Rubocop](https://rubocop.org/), courtesy of Bozhidar Batsov.
+- [SimpleCov](https://github.com/simplecov-ruby/simplecov), courtesy of Christoph Olszowka.
 
 ---
 
