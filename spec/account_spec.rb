@@ -3,23 +3,31 @@
 require 'account'
 
 describe Account do
-
-  describe 'initialize' do
+  describe '#initialize' do
     it 'initializes with a transaction array' do
-      expect(subject).to have_attributes(:transactions_array)
+      expect(described_class.new).to respond_to(:transactions_array)
     end
 
     it 'initializes with an empty transaction array' do
-      expect(subject.transactions_array).to be_empty
+      expect(described_class.new.transactions_array).to be_empty
     end
   end
 
-  it 'responds to #deposit' do
+  describe '#deposit' do
+    it 'responds to #deposit' do
+      expect(described_class.new).to respond_to(:deposit)
+    end
   end
 
-  it 'responds to #withdraw' do
+  describe '#withdraw' do
+    it 'responds to #withdraw' do
+      expect(described_class.new).to respond_to(:withdraw)
+    end
   end
 
-  it 'responds to #print' do
+  describe '#print' do
+    it 'responds to #print' do
+      expect(described_class.new).to respond_to(:print)
+    end
   end
 end
