@@ -34,10 +34,10 @@ The specification of this tech test is as follows:
 
 ### Requirements
 
-[ ] 1. You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
-[ ] 2. Deposits, withdrawal.
-[ ] 3. Account statement (date, amount, balance) printing.
-[ ] 4. Data can be kept in memory (it doesn't need to be stored to a database or anything).
+1. [ ] You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
+2. [ ] Deposits, withdrawal.
+3. [ ] Account statement (date, amount, balance) printing.
+4. [ ] Data can be kept in memory (it doesn't need to be stored to a database or anything).
 
 ### Acceptance Criteria
 
@@ -78,13 +78,13 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
 ### Making a Deposit
 
-Deposit funds to the account by executing `account.deposit(sum, date)`, where the `sum` parameter is a non-optional integer, and the `date` parameter is an optional argument. If no `date` argument is supplied, a default value of the current date and time (`DateTime.now`) will be appended to the deposit. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
+Deposit funds to the account by executing `account.deposit(sum, "date")`, where the `sum` parameter is a non-optional integer, and the `date` parameter is an optional argument. If no `date` argument is supplied, a default value of the current date and time (`DateTime.now`) will be appended to the deposit. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
 
 A deposit can be assigned to any date; the manager will insert it into the account history in chronological order.
 
 ### Making a Withdrawal
 
-Withdraw funds from the account by executing `account.withdraw(sum, date)`, where the `sum` parameter is a non-optional integer, and the `date` parameter is an optional argument. If no `date` argument is supplied, a default value of the current date and time (`DateTime.now`) will be appended to the withdrawal. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
+Withdraw funds from the account by executing `account.withdraw(sum, "date")`, where the `sum` parameter is a non-optional integer, and the `date` parameter is an optional argument. If no `date` argument is supplied, a default value of the current date and time (`DateTime.now`) will be appended to the withdrawal. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
 
 A withdrawal can be assigned to any date; the manager will attempt to insert it into the account history in chronological order. However, the withdrawal will be rejected (returning error code `Insufficient funds!`) unless sufficient funds to cover the withdrawal are available at the time the withdrawal is made.
 
