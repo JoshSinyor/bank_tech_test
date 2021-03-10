@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'test_helpers'
+
 require 'simplecov'
 require 'simplecov-console'
 
