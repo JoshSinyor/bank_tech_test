@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Examples of this class are accounts.
+# Instances of this class are accounts.
 class Account
   attr_reader :transactions_array
 
