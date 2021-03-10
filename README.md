@@ -41,10 +41,10 @@ The specification of this tech test is as follows:
 
 ### Acceptance Criteria
 
-Given a client makes a deposit of 1000 on 10-01-2012, and
-A deposit of 2000 on 13-01-2012, and
-A withdrawal of 500 on 14-01-2012;
-When she prints her bank statement,
+Given a client makes a deposit of 1000 on 10-01-2012, and\
+A deposit of 2000 on 13-01-2012, and\
+A withdrawal of 500 on 14-01-2012;\
+When she prints her bank statement,\
 Then she would see:
 
 ```
