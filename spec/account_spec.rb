@@ -6,11 +6,11 @@ describe Account do
 
   describe 'initialize' do
     it 'initializes with a transaction array' do
-      expect(subject).to have_attributes(:transactions)
+      expect(subject).to have_attributes(:transactions_array)
     end
 
     it 'initializes with an empty transaction array' do
-      expect(subject.transactions).to be_empty
+      expect(subject.transactions_array).to be_empty
     end
   end
 
