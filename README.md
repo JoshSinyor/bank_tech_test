@@ -147,6 +147,30 @@ Actions are *italic*. Nouns are **bold**. Attributes of nouns are **_bold italic
 
 As per [Class Responsibility Collaborator](http://agilemodeling.com/artifacts/crcModel.htm) modelling, there are three obvious areas of responsibility, and therefore three classes - **Account**, **Transaction** and **Printer**.
 
+Class: **Account**
+
+Responsibility | Collaborators
+--- | ---
+Knows own transactions | Transaction
+
+Class: **Transaction**
+
+Responsibility | Collaborators
+--- | ---
+Knows own date |
+Knows own sum |
+
+Class: **Printer**
+
+Responsibility | Collaborators
+--- | ---
+Knows transactions | Account
+Knows balance |
+
+The relationship between these classes can be summarised in this Domain Model Diagram:
+
+![basic_classes_diagram](docs/basic_classes_diagram.svg)
+
 ### Test-Driven Design
 
 TDD was used to structure Unit Tests. These were employed to test individual classes and their methods to ensure that they interacted as expected. RSpec was instructed (using the `--format documentation` and `--color` arguments to provide verbose feedback on passing and failing tests.
