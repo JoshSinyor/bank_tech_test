@@ -15,8 +15,7 @@ class Account
   end
 
   def withdraw(sum, date)
-    sum = -sum
-    @transactions_array.push(Transaction.new(sum, date))
+    @transactions_array.push(Transaction.new(-sum, date))
   end
 
   def print; end
