@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative 'transaction'
+
 # Instances of this class are accounts.
 class Account
   attr_reader :transactions_array
