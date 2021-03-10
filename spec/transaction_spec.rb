@@ -3,13 +3,18 @@
 require 'transaction'
 
 describe Transaction do
-  describe '#initialize' do
-    it 'initializes with a sum' do
-      expect(described_class.new).to respond_to(:sum)
+  describe 'initialize' do
+    subject(:transaction) { described_class.new(RANDOM_SUM, RANDOM_DATE) }
+
+    it { is_expected.to respond_to :date }
+    it { is_expected.to respond_to :sum }
+
+    it 'with the supplied date' do
+      expect(transaction.date).to eq RANDOM_DATE
     end
 
-    it 'initializes with a date' do
-      expect(described_class.new).to respond_to(:date)
+    it 'with the supplied sum' do
+      expect(transaction.sum).to eq RANDOM_SUM
     end
   end
 end
