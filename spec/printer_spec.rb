@@ -4,6 +4,7 @@ require 'printer'
 
 describe Printer do
   subject(:printer) { described_class.new }
+
   let(:array) { :array }
 
   describe '#print' do
