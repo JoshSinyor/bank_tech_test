@@ -3,12 +3,13 @@
 require 'printer'
 
 describe Printer do
-  it { is_expected.to respond_to :print_header }
-  it { is_expected.to respond_to :print_array }
+  subject(:printer) { described_class.new }
+  let(:array) { :array }
 
-  describe '#print_header' do
-    it 'on the first line' do
-      expect(described_class.print_header).to eq HEADER
+  describe '#print' do
+    it 'a header on the first line' do
+      output = capture_stdout { printer.print(:array) }
+      expect(output).to start_with(Printer::HEADER)
     end
   end
 end

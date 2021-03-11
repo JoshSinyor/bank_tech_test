@@ -23,3 +23,14 @@ TEST_DATE_9 = '04-13-2001' # Impossible month
 TEST_DATE_8 = '01-01-2099' # Impossible year
 
 RANDOM_DATE = Time.at(rand * Time.now.to_i).strftime('%d-%m-%Y')
+
+def capture_stdout
+  original_stdout = $stdout
+  $stdout = fake = StringIO.new
+  begin
+    yield
+  ensure
+    $stdout = original_stdout
+  end
+  fake.string
+end

@@ -6,6 +6,7 @@ describe Account do
   subject(:account) { described_class.new }
 
   it { is_expected.to respond_to :transactions_array }
+  it { is_expected.to respond_to :printer }
   it { is_expected.to respond_to :deposit }
   it { is_expected.to respond_to :withdraw }
   it { is_expected.to respond_to :print }
@@ -62,7 +63,8 @@ describe Account do
 
   describe '#print' do
     it 'a header on the first line' do
-      # expect(account.print).to eq Printer::HEADER
+      output = capture_stdout { account.print }
+      expect(output).to start_with(Printer::HEADER)
     end
   end
 end
