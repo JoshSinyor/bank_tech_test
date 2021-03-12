@@ -1,34 +1,26 @@
 # frozen_string_literal: true
 
+require_relative 'transactions'
 require_relative 'printer'
 
 # Instances of this class are accounts.
 class Account
-  attr_reader :balance, :transactions_array, :printer
+  attr_reader :transactions, :printer
 
   def initialize
-    @balance = 0
-    @transactions_array = []
+    @transactions = Transactions.new
     @printer = Printer.new
   end
 
   def deposit(sum, date)
-    @balance += sum
-    @transactions_array.unshift({ date: date,
-                                  credit: sum,
-                                  debit: nil,
-                                  balance: @balance })
+    @transactions.add(date, sum, nil)
   end
 
   def withdraw(sum, date)
-    @balance -= sum
-    @transactions_array.unshift({ date: date,
-                                  credit: nil,
-                                  debit: sum,
-                                  balance: @balance })
+    @transactions.add(date, nil, sum)
   end
 
   def print_statement
-    @printer.print(@transactions_array)
+    @printer.print(@transactions.array)
   end
 end

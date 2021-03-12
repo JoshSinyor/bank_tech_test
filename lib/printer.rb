@@ -17,7 +17,15 @@ class Printer
 
   def print_transactions(array)
     array.each do |row|
-      puts "#{row[:date]} || #{row[:credit]} || #{row[:debit]} || #{row[:balance]}"
+      format_row(row)
+      puts "#{row[:date]} || #{row[:credit]}|| #{row[:debit]}|| #{row[:balance]}"
     end
+  end
+
+  def format_row(row)
+    row[:date] = row[:date].strftime('%d/%m/%Y')
+    row[:credit] = format('%.02f ', row[:credit]) if row[:credit]
+    row[:debit] = format('%.02f ', row[:debit]) if row[:debit]
+    row[:balance] = format('%.02f', row[:balance])
   end
 end
