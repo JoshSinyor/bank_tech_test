@@ -6,7 +6,7 @@ class Printer
 
   def print(array)
     print_header
-    print_transactions(array) unless array.empty?
+    print_transactions(deep_copy(array)) unless array.empty?
   end
 
   private
@@ -15,8 +15,12 @@ class Printer
     puts HEADER
   end
 
+  def deep_copy(array)
+    Marshal.load(Marshal.dump(array))
+  end
+
   def print_transactions(array)
-    array.each do |row|
+    array.map do |row|
       format_row(row)
       puts "#{row[:date]} || #{row[:credit]}|| #{row[:debit]}|| #{row[:balance]}"
     end

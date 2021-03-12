@@ -20,6 +20,7 @@ RANDOM_DATE = Time.at(rand * Time.now.to_i).strftime('%d-%m-%Y')
 RANDOM_DATE_OBJECT = DateTime.new(RANDOM_DATE.split('-')[2].to_i,
                                   RANDOM_DATE.split('-')[1].to_i,
                                   RANDOM_DATE.split('-')[0].to_i)
+RANDOM_DATE_OUTPUT = RANDOM_DATE_OBJECT.strftime('%d/%m/%Y')
 
 TEST_DATE_1 = '01-01-2001'
 TEST_DATE_2 = '02-01-2001'
@@ -33,11 +34,8 @@ TEST_DATE_8 = '01-01-2099' # Impossible year
 
 ###
 
-TEST_TRANSACTION = [{ date: RANDOM_DATE, credit: RANDOM_SUM, debit: nil }].freeze
-TEST_TRANSACTION_OUTPUT = "#{RANDOM_DATE} || #{RANDOM_SUM} || || #{RANDOM_SUM}"
-
-TEST_ARRAY = [{ date: RANDOM_DATE, credit: RANDOM_SUM, debit: nil, balance: RANDOM_SUM }].freeze
-TEST_ARRAY_OUTPUT = "#{RANDOM_DATE} || #{RANDOM_SUM} || || #{RANDOM_SUM}"
+TEST_ARRAY = [{ date: RANDOM_DATE_OBJECT, credit: RANDOM_SUM, debit: nil, balance: RANDOM_SUM }].freeze
+TEST_ARRAY_OUTPUT = "#{RANDOM_DATE_OUTPUT} || #{format('%.02f ', RANDOM_SUM)}|| || #{format('%.02f', RANDOM_SUM)}"
 
 ###
 
