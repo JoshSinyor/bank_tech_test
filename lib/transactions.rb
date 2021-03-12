@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'date'
-require_relative 'printer'
 
 # Instances of this class are the account's transaction array.
 class Transactions
