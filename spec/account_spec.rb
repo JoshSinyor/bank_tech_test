@@ -44,7 +44,7 @@ describe Account do
       expect(account.transactions.array.first[:debit]).to eq RANDOM_SUM
     end
   end
-  
+
   describe '#print_statement' do
     it 'sends the #transactions.array' do
       # This needs mocking to check that the correct output is being sent.

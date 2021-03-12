@@ -24,7 +24,7 @@ describe Printer do
   describe '#print_transactions' do
     it 'starting on the second line' do
       output = capture_stdout { printer.print(test_array) }
-      expect(output.split("\n")[1]).to include(TEST_ARRAY_OUTPUT)
+      expect(output.split("\n")[1]).to eq TEST_ARRAY_OUTPUT
     end
   end
 end
