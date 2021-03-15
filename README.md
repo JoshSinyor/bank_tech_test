@@ -30,7 +30,9 @@ This repository reflects Makers Academy Week 10 project [Bank Tech Test](https:/
   * [Continuous Development](#continuous-development)
   * [Refactoring](#refactoring)
 - [Project Conclusions](#project-conclusions)
-- [Additional Development](#additional-development)
+  * [Final Appearance](#final-appearance)
+  * [Specific Characteristics of Note](#specific-characteristics-of-note)
+  * [Additional Development](#additional-development)
 - [Built With](#built-with)
 - [Author(s)](#author-s-)
 - [License(s)](#license-s-)
@@ -192,16 +194,22 @@ Refactoring was performed after the completion of any individual unit, and perio
 
 ## Project Conclusions
 
+### Final Appearance
+
+As per the instructions, this program runs exclusively in a REPL. It is pictured below executing the instructions in the Acceptance Criteria.
+
+![basic_classes_diagram](docs/acceptance_criteria_screenshot.png)
+
+### Specific Characteristics of Note
+
 The presented development state shows some aspects of note:
 
 1. The date of transactions is stored as a `DateTime` object, rather than as a string. It seems best practice to store dates in an appropriate object, especially because this compartmentalisation allows easy reformatting (using `strftime`) and greater precision (e.g. hours and minutes) should that be desirable in the future.
 2. The presence of a full-blown feature test, using Ruby's poorly documented `PTY` package. The feature test (integrated in RSpec) opens the program from scratch in a pseudoterminal and executes the acceptance criteria tests specified.
 3. 100% test coverage (according to SimpleCov) was achieved.
-4. Rubocop reports only 4 errors, of which 3 are related to unavoidable excessive block length in the RSpec tests, and the final one a naming convention related to the feature tests.
+4. Rubocop reports only 4 errors, of which 3 are related to unavoidable excessive block length in the RSpec tests, and the final one a naming convention related to the feature tests. This could be easily corrected, but might make the RSpec output less clear.
 
----
-
-## Additional Development
+### Additional Development
 
 I suggest implementing some additional features:
 
