@@ -204,9 +204,11 @@ As per the instructions, this program runs exclusively in a REPL. It is pictured
 The presented development state shows some aspects of note:
 
 1. The date of transactions is stored as a `DateTime` object, rather than as a string. It seems best practice to store dates in an appropriate object, especially because this compartmentalisation allows easy reformatting (using `strftime`) and greater precision (e.g. hours and minutes) should that be desirable in the future.
-2. The presence of a full-blown feature test, using Ruby's poorly documented `PTY` package. The feature test (integrated in RSpec) opens the program from scratch in a pseudoterminal and executes the acceptance criteria tests specified.
-3. 100% test coverage (according to SimpleCov) was achieved.
-4. Rubocop reports only 4 errors, of which 3 are related to unavoidable excessive block length in the RSpec tests, and the final one a naming convention related to the feature tests. This could be easily corrected, but might make the RSpec output less clear.
+2. Transactions are stored as hashes, rather than strings. This makes it easier to reference the characteristics (`:date`, `:credit` and `:debit`) of each transaction.
+3. A true deep copy (using `Marshal.load(Marshal.dump(array))`) is used to create a clone of the `@transactions` array. This is required because the array's elements individual transactions have `DateTime` objects. Ruby's `dup`, `deep_dup` and `clone` methods are all shallow copies.
+4. The presence of a full-blown feature test, using Ruby's poorly documented `PTY` package. The feature test (integrated in RSpec) opens the program from scratch in a pseudoterminal and executes the acceptance criteria tests specified.
+5. 100% test coverage (according to SimpleCov) was achieved.
+6. Rubocop reports only 4 errors, of which 3 are related to unavoidable excessive block length in the RSpec tests, and the final one a naming convention related to the feature tests. This could be easily corrected, but might make the RSpec output less clear.
 
 ### Additional Development
 
