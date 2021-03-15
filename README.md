@@ -29,6 +29,7 @@ This repository reflects Makers Academy Week 10 project [Bank Tech Test](https:/
   * [Behaviour-Driven Design](#behaviour-driven-design)
   * [Continuous Development](#continuous-development)
   * [Refactoring](#refactoring)
+- [Project Conclusions](#project-conclusions)
 - [Additional Development](#additional-development)
 - [Built With](#built-with)
 - [Author(s)](#author-s-)
@@ -151,14 +152,14 @@ Class: **Account**
 
 Responsibility | Collaborators
 --- | ---
-Knows own transactions | Transaction
+Knows own transactions | Transactions
 
-Class: **Transaction**
+Class: **Transactions**
 
 Responsibility | Collaborators
 --- | ---
-Knows own date |
-Knows own sum |
+Knows own transaction dates |
+Knows own transaction sums |
 
 Class: **Printer**
 
@@ -189,15 +190,25 @@ Refactoring was performed after the completion of any individual unit, and perio
 
 ---
 
+## Project Conclusions
+
+The presented development state shows some aspects of note:
+
+1. The date of transactions is stored as a `DateTime` object, rather than as a string. It seems best practice to store dates in an appropriate object, especially because this compartmentalisation allows easy reformatting (using `strftime`) and greater precision (e.g. hours and minutes) should that be desirable in the future.
+2. The presence of a full-blown feature test, using Ruby's poorly documented `PTY` package. The feature test (integrated in RSpec) opens the program from scratch in a pseudoterminal and executes the acceptance criteria tests specified.
+3. 100% test coverage (according to SimpleCov) was achieved.
+4. Rubocop reports only 4 errors, of which 3 are related to unavoidable excessive block length in the RSpec tests, and the final one a naming convention related to the feature tests.
+
+---
+
 ## Additional Development
 
-Several suggested additional features have been implemented on the `additional_features` branch. These include:
+I suggest implementing some additional features:
 
-1. [ ] Allowing the input of sums to two decimal places.
-2. [ ] Making the `date` argument optional by setting a default parameter (`DateTime.now`).
-3. [ ] Sorting transactions into chronological order before printing them in reverse chronological order.
-4. [ ] Rejection of withdrawals when funds would be insufficient to cover them (returning error `Insufficient funds available!`).
-5. [ ] Code hardening to improve resilience against erroneous input and provide a more helpful error message.
+1. Making the `date` argument optional by setting a default parameter (`DateTime.now`).
+2. Sorting transactions into chronological order before printing them in reverse chronological order.
+3. Rejection of withdrawals when funds would be insufficient to cover them (returning error `Insufficient funds available!`).
+4. Code hardening to improve resilience against erroneous input and provide a more helpful error message.
 
 ---
 
