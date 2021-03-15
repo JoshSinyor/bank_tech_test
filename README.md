@@ -78,7 +78,6 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
 1. [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) this repository.
 2. Install the necessary Gems from the `Gemfile` by executing `bundle install`.
-3. Confirm successful installation by executing `rspec /spec/install_spec`. If the program and its dependencies have been successfully installed, "`Program successfully installed.`" will be printed to console.
 
 ---
 
