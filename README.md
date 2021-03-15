@@ -46,7 +46,7 @@ The specification of this tech test is as follows:
 
 1. [x] You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
 2. [x] Deposits, withdrawal.
-3. [ ] Account statement (date, amount, balance) printing.
+3. [x] Account statement (date, amount, balance) printing.
 4. [x] Data can be kept in memory (it doesn't need to be stored to a database or anything).
 
 ### Acceptance Criteria
@@ -83,7 +83,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 ## Running the Program
 
 1. Move your working directory to the project directory (`/bank_tech_test`).
-2. Start the program by executing `ruby lib/bank_tech_test.rb`.
+2. Start the program by opening `account.rb` in your REPL of choice.
 3. Create a new account by executing `account = Account.new`.
 
 ### Making a Deposit
