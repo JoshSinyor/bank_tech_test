@@ -53,11 +53,11 @@ The specification of this tech test is as follows:
 
 ### Acceptance Criteria
 
-Given a client makes a deposit of 1000 on 10-01-2012, and\
-A deposit of 2000 on 13-01-2012, and\
-A withdrawal of 500 on 14-01-2012;\
-When she prints her bank statement,\
-Then she would see:
+> Given a client makes a deposit of 1000 on 10-01-2012, and\
+> A deposit of 2000 on 13-01-2012, and\
+> A withdrawal of 500 on 14-01-2012;\
+> When she prints her bank statement,\
+> Then she would see:
 
 ```
 date || credit || debit || balance
@@ -89,7 +89,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
 ### Making a Deposit
 
-Deposit funds to the account by executing `account.deposit(sum, "date")`, where the `sum` parameter is a non-optional integer, and the `date` parameter is a non-optional argument. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
+Deposit funds to the account by executing `account.deposit(sum, "date")`, where the `sum` parameter is a non-optional positive integer, and the `date` parameter is a non-optional argument. To supply a `date` argument, use integers for day, month and year in the format `dd-mm-yyyy`.
 
 ### Making a Withdrawal
 
@@ -161,13 +161,13 @@ Responsibility | Collaborators
 --- | ---
 Knows own transaction dates |
 Knows own transaction sums |
+Knows own balance |
 
 Class: **Printer**
 
 Responsibility | Collaborators
 --- | ---
 Knows transactions | Account
-Knows balance |
 
 The relationship between these classes can be summarised in this Domain Model Diagram:
 
@@ -204,20 +204,22 @@ As per the instructions, this program runs exclusively in a REPL. It is pictured
 The presented development state shows some aspects of note:
 
 1. The date of transactions is stored as a `DateTime` object, rather than as a string. It seems best practice to store dates in an appropriate object, especially because this compartmentalisation allows easy reformatting (using `strftime`) and greater precision (e.g. hours and minutes) should that be desirable in the future.
-2. Transactions are stored as hashes, rather than strings. This makes it easier to reference the characteristics (`:date`, `:credit` and `:debit`) of each transaction.
+2. Transactions are stored as hashes, rather than strings. This makes it easier to reference the characteristics (`:date`, and `:sum`) of each transaction.
 3. A true deep copy (using `Marshal.load(Marshal.dump(array))`) is used to create a clone of the `@transactions` array. This is required because the array's elements individual transactions have `DateTime` objects. Ruby's `dup`, `deep_dup` and `clone` methods are all shallow copies.
 4. The presence of a full-blown feature test, using Ruby's poorly documented `PTY` package. The feature test (integrated in RSpec) opens the program from scratch in a pseudoterminal and executes the acceptance criteria tests specified.
 5. 100% test coverage (according to SimpleCov) was achieved.
-6. Rubocop reports only 4 errors, of which 3 are related to unavoidable excessive block length in the RSpec tests, and the final one a naming convention related to the feature tests. This could be easily corrected, but might make the RSpec output less clear.
+6. Rubocop reports only 2 errors, a DescribeClass and an unavoidable ExampleLength, both relating to the feature test. The latter could be easily corrected, but would make the RSpec output less clear.
 
 ### Additional Development
 
 I suggest implementing some additional features:
 
-1. Making the `date` argument optional by setting a default parameter (`DateTime.now`).
-2. Sorting transactions into chronological order before printing them in reverse chronological order.
-3. Rejection of withdrawals when funds would be insufficient to cover them (returning error `Insufficient funds available!`).
-4. Code hardening to improve resilience against erroneous input and provide a more helpful error message.
+1. Suppressing the output of the terminal to reduce clutter.
+2. Making the `date` argument optional by setting a default parameter (`DateTime.now`).
+3. Sorting the transaction array elements into reversed chronological order - compensating for input of transactions out of chronological order - before printing. This would require a shift to dynamic calculation of the `balance` value.
+4. Rejection of withdrawals when funds would be insufficient to cover them (returning error `Insufficient funds available!`).
+5. Code hardening to improve resilience against erroneous input, and provide more helpful error messages.
+6. Justification of tables to align columns to the widest content.
 
 ---
 
@@ -247,4 +249,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
+- Diagram(s) generated with [Diagram.codes Studio](https://studio.diagram.codes/).
 - Table of contents generated with [markdown-toc](http://ecotrust-canada.github.io/markdown-toc/).
