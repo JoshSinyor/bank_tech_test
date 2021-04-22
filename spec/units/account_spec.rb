@@ -24,7 +24,7 @@ describe Account do
 
     it 'with the supplied sum' do
       account.deposit(RANDOM_SUM, RANDOM_DATE)
-      expect(account.transactions.array.first[:credit]).to eq RANDOM_SUM
+      expect(account.transactions.array.first[:sum]).to eq RANDOM_SUM
     end
   end
 
@@ -41,7 +41,7 @@ describe Account do
 
     it 'with the supplied sum' do
       account.withdraw(RANDOM_SUM, RANDOM_DATE)
-      expect(account.transactions.array.first[:debit]).to eq RANDOM_SUM
+      expect(-account.transactions.array.first[:sum]).to eq RANDOM_SUM
     end
   end
 

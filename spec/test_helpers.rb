@@ -14,7 +14,7 @@ RANDOM_DATE_OUTPUT = RANDOM_DATE_OBJECT.strftime('%d/%m/%Y')
 
 ###
 
-TEST_ARRAY = [{ date: RANDOM_DATE_OBJECT, credit: RANDOM_SUM, debit: nil, balance: RANDOM_SUM }].freeze
+TEST_ARRAY = [{ date: RANDOM_DATE_OBJECT, sum: RANDOM_SUM, balance: RANDOM_SUM }].freeze
 TEST_ARRAY_OUTPUT = "#{RANDOM_DATE_OUTPUT} || #{format('%.02f ', RANDOM_SUM)}|| || #{format('%.02f', RANDOM_SUM)}"
 
 ###

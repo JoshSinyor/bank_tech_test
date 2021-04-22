@@ -20,23 +20,18 @@ describe Transactions do
 
   describe '#add' do
     it 'to the #transactions.array' do
-      transactions.add(RANDOM_DATE, RANDOM_SUM, nil)
+      transactions.add(RANDOM_DATE, RANDOM_SUM)
       expect(transactions.array).not_to be_empty
     end
 
     it 'with the supplied date' do
-      transactions.add(RANDOM_DATE, nil, RANDOM_SUM)
+      transactions.add(RANDOM_DATE, RANDOM_SUM)
       expect(transactions.array.first[:date]).to eq RANDOM_DATE_OBJECT
     end
 
-    it 'with the supplied credit sum' do
-      transactions.add(RANDOM_DATE, RANDOM_SUM, nil)
-      expect(transactions.array.first[:credit]).to eq RANDOM_SUM
-    end
-
-    it 'with the supplied debit sum' do
-      transactions.add(RANDOM_DATE, nil, RANDOM_SUM)
-      expect(transactions.array.first[:debit]).to eq RANDOM_SUM
+    it 'with the supplied sum' do
+      transactions.add(RANDOM_DATE, RANDOM_SUM)
+      expect(transactions.array.first[:sum]).to eq RANDOM_SUM
     end
   end
 end
