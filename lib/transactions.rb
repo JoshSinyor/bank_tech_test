@@ -12,8 +12,8 @@ class Transactions
   end
 
   def add(date, sum)
-    update_balance(sum)
     date = parse_date(date)
+    update_balance(sum)
     @array.unshift({ date: date,
                      sum: sum,
                      balance: @balance })
