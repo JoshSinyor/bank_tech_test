@@ -2,14 +2,14 @@
 
 # Instances of this class are STDOUT to console.
 class Printer
-  HEADER = 'date || credit || debit || balance'
-
   def print(array)
     print_header
     print_transactions(deep_copy(array)) unless array.empty?
   end
 
   private
+
+  HEADER = 'date || credit || debit || balance'
 
   def print_header
     puts HEADER
