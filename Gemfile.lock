@@ -48,6 +48,8 @@ GEM
       simplecov
       terminal-table
     simplecov-html (0.12.3)
+    simplecov-shields-badge (0.1.0)
+      simplecov (~> 0.15)
     simplecov_json_formatter (0.1.2)
     terminal-table (1.6.0)
     unicode-display_width (2.0.0)
@@ -61,6 +63,7 @@ DEPENDENCIES
   rubocop-rspec (= 2.2.0)
   simplecov (= 0.21.2)
   simplecov-console (= 0.9.1)
+  simplecov-shields-badge (= 0.1.0)
 
 RUBY VERSION
    ruby 3.0.0p0
