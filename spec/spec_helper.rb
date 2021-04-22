@@ -10,6 +10,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
   SimpleCov::Formatter::ShieldsBadge
 ])
+
 SimpleCov.start
 
 RSpec.configure do |config|
