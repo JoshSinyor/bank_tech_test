@@ -28,8 +28,8 @@ class Printer
 
   def format_row(row)
     row[:date] = row[:date].strftime('%d/%m/%Y')
-    row[:credit] = format('%.02f ', row[:credit]) if row[:credit]
-    row[:debit] = format('%.02f ', row[:debit]) if row[:debit]
+    row[:credit] = format('%.02f ', row[:sum]) if row[:sum].positive?
+    row[:debit] = format('%.02f ', -row[:sum]) if row[:sum].negative?
     row[:balance] = format('%.02f', row[:balance])
   end
 end

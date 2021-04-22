@@ -11,20 +11,18 @@ class Transactions
     @array = []
   end
 
-  def add(date, credit, debit)
-    update_balance(credit, debit)
+  def add(date, sum)
+    update_balance(sum)
     date = parse_date(date)
     @array.unshift({ date: date,
-                     credit: credit,
-                     debit: debit,
+                     sum: sum,
                      balance: @balance })
   end
 
   private
 
-  def update_balance(credit, debit)
-    @balance += credit if credit
-    @balance -= debit if debit
+  def update_balance(sum)
+    @balance += sum
   end
 
   def parse_date(date)

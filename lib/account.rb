@@ -13,11 +13,11 @@ class Account
   end
 
   def deposit(sum, date)
-    @transactions.add(date, sum, nil)
+    @transactions.add(date, sum)
   end
 
   def withdraw(sum, date)
-    @transactions.add(date, nil, sum)
+    @transactions.add(date, -sum)
   end
 
   def print_statement
