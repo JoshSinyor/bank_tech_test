@@ -1,7 +1,6 @@
 name: SimpleCov_Shield_Badge
 
-on:
-  push
+on: [push]
 
 jobs:
   test:
