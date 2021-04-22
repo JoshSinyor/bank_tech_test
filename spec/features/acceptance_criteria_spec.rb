@@ -19,11 +19,11 @@ HEREDOC
 
 describe 'Feature Test' do
   it 'meets acceptance criteria' do
-    master, slave = PTY.open
+    primary, replica = PTY.open
     read, write = IO.pipe
-    spawn('irb -r ./lib/account', in: read, out: slave)
+    spawn('irb -r ./lib/account', in: read, out: replica)
     read.close
-    slave.close
+    replica.close
 
     write.puts 'irb_context.echo = false'
     ACCEPTANCE_CRITERIA_INPUT.each { |input| write.puts input }
@@ -32,7 +32,7 @@ describe 'Feature Test' do
     output = ''
 
     loop do
-      output += "#{master.gets.chomp}\n"
+      output += "#{primary.gets.chomp}\n"
     rescue NoMethodError
       break
     end
