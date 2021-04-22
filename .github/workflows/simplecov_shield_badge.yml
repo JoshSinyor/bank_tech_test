@@ -15,8 +15,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      uses: ruby/setup-ruby@v1
+
+    - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.0.0
-        bundler-cache: true
-    - run: rspec
+
+    - name: Run bundle install
+      run: bundle install
+
+    - run: bundle exec rspec
