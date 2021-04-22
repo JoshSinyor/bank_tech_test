@@ -8,14 +8,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="mainsvg"
-   width="637.296875"
-   height="503.875"
-   viewBox="-10 -10 637.296875 503.875"
+   width="584.44531"
+   height="474.875"
+   viewBox="-10 -10 584.44531 474.875"
    version="1.1"
-   sodipodi:docname="basic_classes_diagram.svg"
+   sodipodi:docname="basic_classes_diagram_2.svg"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
   <metadata
-     id="metadata1969">
+     id="metadata1391">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
+     pagecolor="#none"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -34,19 +34,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1615"
-     inkscape:window-height="843"
-     id="namedview1967"
+     inkscape:window-width="1920"
+     inkscape:window-height="999"
+     id="namedview1389"
      showgrid="false"
-     inkscape:zoom="1.1172187"
-     inkscape:cx="318.64844"
-     inkscape:cy="251.9375"
+     inkscape:zoom="1.1798915"
+     inkscape:cx="292.22266"
+     inkscape:cy="242.4375"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="mainsvg" />
+     inkscape:current-layer="mainsvg"
+     inkscape:document-rotation="0" />
   <defs
-     id="defs1460">
+     id="defs882">
     <marker
        id="arrow"
        viewBox="0 0 10 10"
@@ -55,11 +56,11 @@
        markerWidth="5"
        markerHeight="5"
        orient="auto-start-reverse"
-       fill="#FD6A02">
+       fill="#fd6a02">
       <path
-         stroke="#FD6A02"
-         d="M 0 0 L 10 5 L 0 10 z"
-         id="path1411" />
+         stroke="#fd6a02"
+         d="M 0,0 10,5 0,10 Z"
+         id="path833" />
     </marker>
     <marker
        id="Many"
@@ -70,10 +71,10 @@
        markerHeight="15"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         d="M0 8H15M15 15L2 8L15 1"
+         stroke="#fd6a02"
+         d="M 0,8 H 15 M 15,15 2,8 15,1"
          fill="none"
-         id="path1414" />
+         id="path836" />
     </marker>
     <marker
        id="ZeroOrOne"
@@ -84,22 +85,22 @@
        markerHeight="21"
        orient="auto-start-reverse">
       <path
-         d="M9 5H16"
-         stroke="#FD6A02"
+         d="m 9,5 h 7"
+         stroke="#fd6a02"
          fill="none"
-         id="path1417" />
+         id="path839" />
       <circle
          cx="5"
          cy="5"
          r="4.5"
-         stroke="#FD6A02"
-         fill="none"
-         id="circle1419" />
+         stroke="#fd6a02"
+         fill="#none"
+         id="circle841" />
       <path
-         d="M12 0L12 10"
-         stroke="#FD6A02"
+         d="M 12,0 V 10"
+         stroke="#fd6a02"
          fill="none"
-         id="path1421" />
+         id="path843" />
     </marker>
     <marker
        id="OneOnlyOne"
@@ -110,10 +111,10 @@
        markerHeight="13"
        orient="auto-start-reverse">
       <path
-         d="M0 7H4M4 7H7M4 7V0M4 7V14M7 7H10M7 7V0M7 7V14"
-         stroke="#FD6A02"
+         d="M 0,7 H 4 M 4,7 H 7 M 4,7 V 0 m 0,7 v 7 M 7,7 h 3 M 7,7 V 0 m 0,7 v 7"
+         stroke="#fd6a02"
          fill="none"
-         id="path1424" />
+         id="path846" />
     </marker>
     <marker
        id="OneOrMany"
@@ -124,10 +125,10 @@
        markerHeight="15"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         d="M2 1V15M2 8L15 15M2 8L15 1M2 8H0M2 8H15"
+         stroke="#fd6a02"
+         d="M 2,1 V 15 M 2,8 15,15 M 2,8 15,1 M 2,8 H 0 m 2,0 h 13"
          fill="none"
-         id="path1427" />
+         id="path849" />
     </marker>
     <marker
        id="ZeroOrMany"
@@ -138,44 +139,44 @@
        markerHeight="25"
        orient="auto-start-reverse">
       <path
-         d="M13 8H27M27 15L14 8L27 1"
-         stroke="#FD6A02"
+         d="M 13,8 H 27 M 27,15 14,8 27,1"
+         stroke="#fd6a02"
          fill="none"
-         id="path1430" />
+         id="path852" />
       <path
-         d="M13.5 7.5C13.5 10.7795 10.6254 13.5 7 13.5C3.37461 13.5 0.5 10.7795 0.5 7.5C0.5 4.22054 3.37461 1.5 7 1.5C10.6254 1.5 13.5 4.22054 13.5 7.5Z"
-         stroke="#FD6A02"
-         fill="none"
-         id="path1432" />
+         d="m 13.5,7.5 c 0,3.2795 -2.8746,6 -6.5,6 -3.62539,0 -6.5,-2.7205 -6.5,-6 0,-3.27946 2.87461,-6 6.5,-6 3.6254,0 6.5,2.72054 6.5,6 z"
+         stroke="#fd6a02"
+         fill="#none"
+         id="path854" />
     </marker>
     <marker
        id="aggregation"
        viewBox="0 0 10 6"
-       refX="9.3"
+       refX="9.3000002"
        refY="2.8"
        markerWidth="23"
        markerHeight="15"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         fill="none"
+         stroke="#fd6a02"
+         fill="#none"
          stroke-width="0.7"
-         d="M1.01614 2.82609L5 0.574341L8.98386 2.82609L5 5.07783L1.01614 2.82609Z"
-         id="path1435" />
+         d="M 1.01614,2.82609 5,0.574341 8.98386,2.82609 5,5.07783 Z"
+         id="path857" />
     </marker>
     <marker
        id="composition"
        viewBox="0 0 10 6"
-       refX="9.7"
+       refX="9.6999998"
        refY="2.8"
        markerWidth="18"
        markerHeight="15"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         fill="#FD6A02"
-         d="M1.01614 2.82609L5 0.574341L8.98386 2.82609L5 5.07783L1.01614 2.82609Z"
-         id="path1438" />
+         stroke="#fd6a02"
+         fill="#fd6a02"
+         d="M 1.01614,2.82609 5,0.574341 8.98386,2.82609 5,5.07783 Z"
+         id="path860" />
     </marker>
     <marker
        id="implementation"
@@ -186,11 +187,11 @@
        markerHeight="20"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         fill="#FD6A02"
+         stroke="#fd6a02"
+         fill="#none"
          stroke-width="0.7"
-         d="M0.750001 1.10289L7.5 5L0.750001 8.89712L0.750001 1.10289Z"
-         id="path1441" />
+         d="M 0.750001,1.10289 7.5,5 0.750001,8.89712 Z"
+         id="path863" />
     </marker>
     <marker
        id="dependency"
@@ -201,10 +202,10 @@
        markerHeight="11"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         fill="none"
-         d="M1 5.93162H10.886M10.886 5.93162L1 0.5M10.886 5.93162L1 11"
-         id="path1444" />
+         stroke="#fd6a02"
+         fill="#none"
+         d="m 1,5.93162 h 9.886 m 0,0 L 1,0.5 M 10.886,5.93162 1,11"
+         id="path866" />
     </marker>
     <marker
        id="inheritance"
@@ -215,11 +216,11 @@
        markerHeight="20"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         fill="none"
+         stroke="#fd6a02"
+         fill="#none"
          stroke-width="0.7"
-         d="M0.750001 1.10289L7.5 5L0.750001 8.89712L0.750001 1.10289Z"
-         id="path1447" />
+         d="M 0.750001,1.10289 7.5,5 0.750001,8.89712 Z"
+         id="path869" />
     </marker>
     <marker
        id="association"
@@ -230,16 +231,16 @@
        markerHeight="11"
        orient="auto-start-reverse">
       <path
-         stroke="#FD6A02"
-         d="M1 5.93162H10.886M10.886 5.93162L1 0.5M10.886 5.93162L1 11"
-         id="path1450" />
+         stroke="#fd6a02"
+         d="m 1,5.93162 h 9.886 m 0,0 L 1,0.5 M 10.886,5.93162 1,11"
+         id="path872" />
     </marker>
     <filter
        id="shadowOLD"
-       x="-50%"
-       y="-50%"
-       width="250%"
-       height="250%">
+       x="-0.5"
+       y="-0.5"
+       width="2.5"
+       height="2.5">
       <feDropShadow
          flood-color="black"
          flood-opacity="0.3"
@@ -252,8 +253,8 @@
        filterUnits="userSpaceOnUse"
        x="-10"
        y="-10"
-       width="637.296875px"
-       height="493.875px">
+       width="603.44531"
+       height="493.875">
       <feDropShadow
          flood-color="black"
          flood-opacity="0.1"
@@ -266,8 +267,8 @@
        filterUnits="userSpaceOnUse"
        x="-10"
        y="-10"
-       width="737.296875px"
-       height="593.875px">
+       width="703.44531"
+       height="593.875">
       <feDropShadow
          flood-color="black"
          flood-opacity="0.1"
@@ -276,11 +277,11 @@
          stdDeviation="1" />
     </filter>
     <style
-       id="style1456">
+       id="style878">
    :not(:defined){display:none}html{width:100%;height:100%;margin:0}body{width:100%;height:100%;margin:0;color:var(--text-color);background:#ececec;font-family:BlinkMacSystemFont,Roboto,&quot;Helvetica Neue&quot;,&quot;Lucida Grande&quot;,Arial,sans-serif;font-size:15px;line-height:1.6;overflow-y:overlay;--accent-color-h:211;--accent-color-s:97%;--accent-color-l:53%;--text-color:rgba(0, 0, 0, 0.8);--selection-background:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 35%))}p:last-child{margin-bottom:0}em{font-weight:500}code,pre,var{font-size:14px;font-family:Menlo,&quot;Andale Mono&quot;,monospace;font-style:normal;padding:0 4px;background:#fbfbfb;outline:1px solid #d0d0d0}hr{width:100%;height:1px;min-height:1px;box-sizing:border-box;margin:2px 0 2px 0;background:rgba(0,0,0,.12);border:none}a{color:inherit;text-decoration:none}dl a,li a,p a,x-label a{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 10%));text-decoration:underline}li a:hover dl a:hover,p a:hover,x-label a:hover{text-decoration:none}h2{margin:35px 0 15px 0;box-sizing:border-box;font-size:50px;font-weight:200;line-height:1.1}h3{margin:27px 0 18px 0;box-sizing:border-box;font-size:36px;font-weight:200;line-height:1.2}h4{margin:34px 0 18px 0;box-sizing:border-box;font-size:24px;font-weight:300;line-height:1.1}h5{margin:10px 0 8px 0;box-sizing:border-box;font-size:14px;font-weight:600;line-height:1.1}::selection{background:var(--selection-background)}:host([error]) ::selection{color:#fff;background:#d50000}::-webkit-scrollbar{max-width:6px;max-height:6px;background:0 0}::-webkit-scrollbar-corner{display:none}::-webkit-scrollbar-track{border-radius:25px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.2);border-radius:25px}::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.6)}dialog{position:fixed;width:70%;height:auto;min-height:100px;top:0;margin:0 auto;padding:0;box-sizing:border-box;transition:transform .3s cubic-bezier(0,0,.2,1);color:inherit;border:1px solid #a9a9a9;border-top:none;background:#efefef;box-shadow:rgba(0,0,0,.3) 0 4px 22px}dialog::backdrop{background:rgba(0,0,0,0)}dialog h3{font-size:15px;font-weight:700;color:rgba(0,0,0,.95);margin-top:0;margin-bottom:10px}dialog main{padding:20px 24px 0;font-size:13px;line-height:1.6}dialog&gt;footer{padding:12px;display:flex;flex-flow:row;justify-content:flex-end;margin-top:auto}dialog&gt;footer x-button{margin-left:8px}x-card{background:#e8e8e8;border:1px solid #cdcdcd;border-radius:4px}x-card&gt;main{padding:16px 20px}x-card h3:first-child{margin-top:0}x-accordion{margin:8px 0;--arrow-color:rgba(0, 0, 0, 0.48);--focused-arrow-background:rgba(0, 0, 0, 0.08);--arrow-align:flex-start;--arrow-d:path(&quot;M 91.623 50.002 L 8.377 98.065 L 8.377 1.936 L 91.623 50.002 Z&quot;);--arrow-width:10px;--arrow-height:10px}x-accordion[expanded]{--arrow-transform:rotate(90deg)}x-accordion&gt;header{display:flex;align-items:center;box-sizing:border-box;width:100%;padding:7px 0 7px 16px}x-accordion&gt;header&gt;x-label{font-weight:500;color:rgba(0,0,0,.87)}x-accordion&gt;header&gt;x-label:first-child{flex:1}x-accordion&gt;header&gt;:not(:last-child){margin-right:20px}x-accordion&gt;main{padding:4px 0 8px 0}x-accordion:not([expanded]):not([animating])&gt;main{display:none}x-icon{width:17px;height:17px}x-label{font-size:13px}x-stepper{flex-flow:column-reverse;border-radius:7px;overflow:hidden;box-sizing:border-box;width:12px;height:22px;box-shadow:0 0 0 1px #bfbfbf;background:#fff;color:rgba(0,0,0,.8);--pressed-button-background:hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l))}x-swatch{border:1px solid rgba(0,0,0,.3);border-radius:2px}x-button{min-height:24px;padding:2px 14px;color:var(--text-color);background:#fff;border:1px solid var(--x-normal-border-color);border-radius:4px;--x-normal-border-color:#ACACAC;--x-toggled-border-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 8%));--x-pressed-border-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 12%))}x-button:focus:not(:active){box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:1}x-button[disabled]{opacity:.4}x-button[mixed]{opacity:.7}x-button[expanded]{background:rgba(0,0,0,.05)}x-button[toggled]{color:#fff;border-color:var(--x-toggled-border-color);background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}x-button[pressed]{color:#fff;border-color:var(--x-pressed-border-color);background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 5%)),hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%)))}x-button&gt;x-box&gt;x-label,x-button&gt;x-label{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center}x-button&gt;x-box{overflow:hidden;align-items:center}x-button&gt;x-box[vertical]&gt;*{margin:0 0 2px 0}x-button&gt;x-box:not([vertical])&gt;*{margin:0 6px 0 0}x-button&gt;x-box[vertical]&gt;:last-child{margin:0}x-button&gt;x-box:not([vertical])&gt;:last-child{margin:0}x-buttons&gt;x-button:not(:first-of-type){border-top-left-radius:0;border-bottom-left-radius:0}x-buttons&gt;x-button:not(:last-of-type){border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}x-buttons&gt;x-button[toggled]+x-button{border-left-color:var(--x-toggled-border-color)}x-buttons&gt;x-button[pressed]+x-button{border-left-color:var(--x-pressed-border-color)}x-buttons&gt;x-box[vertical]{width:100%}x-buttons&gt;x-box[vertical]&gt;x-button{width:100%;justify-content:flex-start}x-buttons&gt;x-box[vertical]&gt;x-button:not(:first-of-type){border-top-left-radius:0;border-top-right-radius:0}x-buttons&gt;x-box[vertical]&gt;x-button:not(:last-of-type){border-bottom:none;border-bottom-left-radius:0;border-bottom-right-radius:0}x-buttons&gt;x-box[vertical]&gt;x-button[toggled]+x-button{border-top-color:var(--x-toggled-border-color)}x-buttons&gt;x-box[vertical]&gt;x-button[pressed]+x-button{border-top-color:var(--x-pressed-border-color)}x-button[skin=condensed]{padding:2px 7px}x-button[skin^=textured]{color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);--x-normal-border-color:rgba(0, 0, 0, 0.25);--x-toggled-border-color:#5E5D5E;--x-pressed-border-color:rgba(0, 0, 0, 0.3)}x-button[skin^=textured-condensed]{padding:2px 7px}x-button[skin^=textured][expanded],x-button[skin^=textured][pressed]{background:linear-gradient(to bottom,#e5e5e5,#d6d4d6)}x-button[skin^=textured][toggled]{color:rgba(255,255,255,.94);background-image:linear-gradient(to bottom,#696869,#717071)}x-button[skin^=textured][toggled][expanded],x-button[skin^=textured][toggled][pressed]{background:linear-gradient(to bottom,#5a595a,#535253)}x-button[skin^=plain]{min-height:16px;color:rgba(0,0,0,.7);background:0 0;border-radius:5px;--x-normal-border-color:#ACACAC;--x-toggled-border-color:#787878;--x-pressed-border-color:#787878}x-button[skin^=plain-condensed]{padding:2px 7px}x-button[skin^=plain][expanded],x-button[skin^=plain][pressed]{background:rgba(0,0,0,.07)}x-button[skin^=plain][toggled]{color:rgba(255,255,255,.95);background:#959595}x-button[skin^=plain][toggled][expanded],x-button[skin^=plain][toggled][pressed]{background:#787878}x-button[skin^=iconic]{padding:2px 6px 4px 6px;color:#737373;background:0 0;border:none;border-radius:4px 4px 0 0}x-button[skin^=iconic][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin^=iconic][toggled][pressed]{color:#737373}x-button[skin=iconic]&gt;x-box&gt;x-icon,x-button[skin=iconic]&gt;x-icon{width:32px;height:32px}x-button[skin=iconic-condensed]&gt;x-box&gt;x-icon,x-button[skin=iconic-condensed]&gt;x-icon{width:24px;height:24px}x-button[skin^=iconic][pressed]&gt;x-box&gt;x-icon,x-button[skin^=iconic][pressed]&gt;x-icon{filter:brightness(.3)}x-button[skin=iconic] x-label{font-size:12px}x-button[skin^=iconic]&gt;x-box[vertical]&gt;x-icon+x-label{margin-top:3px}x-buttons&gt;x-box[vertical]&gt;x-button[skin^=iconic]{justify-content:center}x-button[skin^=flat]{padding:0;background:0 0;border:none;opacity:1;color:rgba(0,0,0,.65);--arrow-margin:0 0 0 2px}x-button[skin=flat]{--arrow-width:10px;--arrow-height:10px}x-button[skin^=flat][expanded],x-button[skin^=flat][toggled]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%));background:0 0}x-button[skin^=flat][pressed]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 14%))}x-button[skin^=flat][mixed]{opacity:.7}x-button[skin^=flat][disabled]{opacity:.5}x-button[skin=flat]&gt;x-icon{width:26px;height:26px}x-button[skin=flat-condensed]&gt;x-icon{width:16px;height:16px}x-buttons&gt;x-button[skin=flat]:not(:first-of-type){margin-left:10px}x-buttons&gt;x-button[skin=flat-condensed]:not(:first-of-type){margin-left:5px}x-buttons&gt;x-box[vertical]&gt;x-button[skin=flat]:not(:first-of-type){margin-top:10px}x-buttons&gt;x-box[vertical]&gt;x-button[skin=flat-condensed]:not(:first-of-type){margin-top:5px}x-button[skin=mini]{padding:0 6px;min-height:19px;color:rgba(0,0,0,.5);background:0 0;border:none;border-radius:0;--arrow-margin:0 0 0 2px}x-button[skin=mini][expanded]{color:var(--text-color)}x-button[skin=mini][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin=mini][expanded][toggled],x-button[skin=mini][pressed],x-button[skin=mini][pressed][toggled]{color:var(--primary-color);background:linear-gradient(to bottom,#c1c1c1,#b4b4b4)}x-buttons&gt;x-box[vertical]&gt;x-button[skin=mini]{padding:3px 6px}x-button[skin=mini-bordered]{padding:2px 4px;min-height:19px;color:var(--primary-color);background:linear-gradient(to bottom,#fafafa,#f5f5f5);border:1px solid #b4b4b4;border-radius:2px}x-button[skin=mini-bordered][expanded]{background:rgba(0,0,0,.05)}x-button[skin=bordered-mini][toggled]{background:linear-gradient(to bottom,#d7d7d7,#c9c9c9)}x-button[skin=mini-bordered][expanded][toggled],x-button[skin=mini-bordered][pressed],x-button[skin=mini-bordered][pressed][toggled]{color:var(--primary-color);background:linear-gradient(to bottom,#c1c1c1,#b4b4b4);border-color:#b4b4b4}x-button[skin=recessed]{min-height:18px;padding:2px 8px;color:var(--primary-color);background:0 0;border:none;border-radius:4px}x-button[skin=recessed][disabled]{opacity:.3}x-button[skin=recessed]:hover{background:rgba(0,0,0,.07)}x-button[skin=recessed][toggled]{color:rgba(255,255,255,.95);background:rgba(0,0,0,.42)}x-button[skin=recessed][pressed]{color:rgba(255,255,255,.95);background:rgba(0,0,0,.6)}x-button[skin=recessed]&gt;x-label{font-size:12px;font-weight:700;text-align:center}x-buttons&gt;x-button[skin=recessed]{border-radius:4px!important}x-buttons&gt;x-button+x-button[skin=recessed]{margin-left:4px}x-buttons&gt;x-box[vertical]&gt;x-button+x-button[skin=recessed]{margin-top:4px}x-button[skin=nav]{padding:8px 15px;color:#4a4a4a;background:0 0;border:none;border-radius:0;cursor:default}x-button[skin=nav][toggled]{background:rgba(0,0,0,.14)}x-button[skin=nav][pressed]{background:rgba(0,0,0,.14);color:#4a4a4a}x-button[skin=nav][toggled][pressed]{background:rgba(0,0,0,.2)}x-button[skin=nav] x-icon{width:24px;height:24px;opacity:.9;margin-right:12px}x-button[skin=nav] x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:500;font-size:13px;text-align:start}x-button[skin=dock]{width:38px;height:38px;min-height:38px;padding:0;border-radius:0;border:1px solid #adadad}x-button[skin=dock][toggled]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%));background:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}x-button[skin=dock][pressed]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%));background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%))}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock]{width:38px;justify-content:center}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock][toggled]+x-button{border-top-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%))}x-buttons&gt;x-box[vertical]&gt;x-button[skin=dock][pressed]+x-button{border-top-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%))}x-buttons&gt;x-button[skin=dock][toggled]+x-button{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 20%))}x-buttons&gt;x-button[skin=dock][pressed]+x-button{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 30%))}x-button[skin=help]{width:22px;height:22px;min-height:22px;padding:0;color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l));background:#fff;border-color:rgba(0,0,0,.25);border-radius:999px}x-button[skin=help][expanded],x-button[skin=help][pressed]{background:#f7f7f7}x-button[skin=help]&gt;x-icon{width:13px;height:13px}x-button[skin=disclosure]{padding:0 4px;color:rgba(0,0,0,.9);background:0 0;border:none}x-button[skin=disclosure][disabled]{opacity:.3}x-button[skin=disclosure][toggled]{color:rgba(0,0,0,.9);background:0 0}x-button[skin=disclosure] x-icon{width:11px;height:11px;margin-right:4px;color:#8c8c8c;transform:rotate(-90deg);transition:transform .1s linear}x-button[skin=disclosure][toggled] x-icon{color:#8c8c8c;transform:rotate(0)}x-button[skin=disclosure][pressed] x-icon{color:rgba(0,0,0,.5)}x-button[skin=disclosure] x-label{font-size:12px}x-button[skin=disclosure-bordered]{padding:0;width:21px;height:21px;min-height:21px}x-button[skin=disclosure-bordered][toggled]{color:var(--primary-color);background:#fff;border-color:#acacac}x-button[skin=disclosure-bordered][pressed]{color:var(--primary-color);background:#f0f0f0;border-color:#acacac}x-button[skin=disclosure-bordered]&gt;x-icon{width:9px;height:8px;transition:transform .15s ease-in-out}x-button[skin=disclosure-bordered][toggled]&gt;x-icon{transform:rotate(-180deg)}x-tabs{width:fit-content;max-width:100%;color:#262626}x-tab{padding:2px 12px;min-height:23px;box-sizing:border-box;border:1px solid #acacac;border-radius:4px;background:#fff;font-size:14px;--selection-indicator-height:0}x-tab:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:1}x-tab:not(:first-of-type){border-top-left-radius:0;border-bottom-left-radius:0}x-tab:not(:last-of-type){border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}x-tab[expanded]{background:#f0f0f0}x-tab[selected]{color:rgba(255,255,255,.9);border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%));background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}x-tab[selected]+x-tab{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%))}x-tab[pressed]{background:#f0f0f0}x-tab[selected][pressed]{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 12%));background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 5%)),hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 7%)))}x-tab[selected][pressed]+x-tab{border-left-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 12%))}x-tab&gt;x-box&gt;x-icon,x-tab&gt;x-icon{color:inherit;width:15px;height:15px;min-width:15px}x-tab&gt;x-box&gt;x-label,x-tab&gt;x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.2;cursor:inherit;flex:1}x-tab&gt;x-box[vertical]{align-items:center}x-tab&gt;x-box&gt;*{margin:0 6px 0 0}x-tab&gt;x-box&gt;:last-child{margin:0}x-tab&gt;x-box[vertical]&gt;*{margin:0 0 2px 0}x-tab&gt;x-box[vertical]&gt;:last-child{margin:0}x-doctabs{background-image:linear-gradient(to bottom,#c4c2c4,#bfbebf);background-repeat:no-repeat;background-position:center center;height:25px;outline:1px solid #9c9c9c;--open-button-width:18px;--open-button-height:18px;--open-button-margin:0 4px}x-doctab{outline:1px solid #9c9c9c;background:#c1bfc1;border-bottom:none;max-width:220px;padding:0 18px;justify-content:center;align-items:center;--ripple-type:none;--selection-indicator-height:0;--close-button-position:absolute;--close-button-width:16px;--close-button-height:16px;--close-button-left:0px;--close-button-margin:0 0 0 3px;--close-button-opacity:0}x-doctab[edited]{--close-button-opacity:0.7}x-doctab:hover{background:#b6b4b6;--close-button-opacity:0.7}x-doctab:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));z-index:100}x-doctab[selected]{background-image:linear-gradient(to bottom,#dcdadc,#d6d5d6)}x-doctab img,x-doctab x-icon{margin:0 5px 0 0;width:15px;height:15px;min-width:15px}x-doctab x-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;font-weight:400;text-align:center}x-doctab:focus x-label,x-doctab[selected] x-label{font-weight:600}x-doctab&gt;*{opacity:.75}x-doctab:focus&gt;*,x-doctab[selected]&gt;*{opacity:1}x-doctab[disabled]&gt;*{opacity:.5}x-menu{padding:4px 0;border-radius:4px;background:#f0f0f0;box-shadow:rgba(0,0,0,.3) 0 4px 22px;border:1px solid rgba(0,0,0,.25);color:var(--text-color);--open-transition:none}x-menu hr{border-color:rgba(0,0,0,.12);width:100%;height:1px;margin:4px 0;box-sizing:border-box}x-menu hr+hr,x-menu hr:last-child{display:none}x-menuitem{padding:0 12px 0 23px;min-height:24px;color:#3e3e3e;--trigger-effect:blink;--checkmark-width:18px;--checkmark-height:18px;--checkmark-margin:0 2px 0 -20px;--checkmark-d:path(&quot;M 44 61.2 L 29 47 L 21 55 L 45.53 79.613 L 79.031 26.397 L 70.063 20.387 L 44.052 61.152 Z&quot;)}x-menuitem:focus,x-menuitem[expanded]{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 7%));color:#fff}x-menuitem img{width:16px;height:16px}x-menuitem x-icon{width:16px;height:16px}x-menuitem x-icon:not([name]){display:none}x-menuitem x-label{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:14px}x-menuitem x-shortcut{margin-left:auto}x-menuitem:focus&gt;x-swatch,x-menuitem[expanded]&gt;x-swatch{border-color:rgba(255,255,255,.65)}x-menuitem img+x-label,x-menuitem x-icon[name]+x-label,x-menuitem x-label+x-shortcut,x-menuitem x-swatch+x-label{margin-left:8px}x-menubar{height:28px;padding:0 6px;background:linear-gradient(to bottom,#fafafa,#f0f0f0);border:1px solid #b8b8b8}x-menubar&gt;x-menuitem{padding:0 11px;height:100%}x-popover{color:var(--text-color);background:#f0f0f0;border:1px solid rgba(0,0,0,.25);border-radius:4px;box-shadow:rgba(0,0,0,.3) 0 4px 22px;--open-transition:none}x-popover&gt;main{width:100%;padding:10px;overflow:auto}x-notification{border-radius:5px}x-notification ::selection,x-notification::selection{color:#000;background:#fff}x-notification p{margin:0}x-notification strong{color:#fff}x-checkbox{width:15px;height:15px;margin:0 6px 0 0;color:rgba(0,0,0,.5);background:#fff;border:1px solid #a5a5a5;border-radius:2px;transition:color .1s cubic-bezier(.4,0,.2,1)}x-checkbox:active{background:rgba(0,0,0,.03)}x-checkbox:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-checkbox[toggled]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 3%));border:2px solid currentColor}x-checkbox[toggled]:active{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%))}x-radio{width:16px;height:16px;background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));border:1px solid #b8b8b8;--dot-transform:scale(1);--dot-color:white;--dot-box-shadow:none}x-radio:active{--dot-color:#f3f3f3}x-radio:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-radio[toggled]{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 3%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));--dot-transform:scale(0.4);--dot-box-shadow:rgba(0, 0, 0, 0.4) 1px 3px 7px}x-radio[toggled]:active{background:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 5%));--dot-color:white}x-radio+x-label{margin-left:4px;padding:5px 0;font-size:13px;font-weight:500}x-switch{width:34px;height:15px;box-shadow:0 0 0 2px #b3b3b3;border-radius:999px;--focus-ring-width:3px;--focus-ring-opacity:1;--focus-ring-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 20%));--focus-ring-transition-duration:0;--thumb-color:white;--thumb-size:15px;--track-height:100%;--track-opacity:1;--track-color:#b3b3b3}x-switch[toggled]{box-shadow:0 0 0 2px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));--track-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-switch[skin=big]{width:42px;height:24px;--thumb-size:20px}x-select{background:#fff;border:1px solid #acacac;border-radius:4px;color:#262626;padding:0 0 0 9px;height:24px;position:relative;font-size:14px;--arrow-color:white}x-select[disabled]{opacity:.4}x-select:focus{box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%))}x-select::before{content:&quot;&quot;;display:block;width:20px;height:calc(100% + 2px);position:absolute;top:-1px;right:-1px;background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)));border:1px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 8%));border-radius:0 4px 4px 0;box-sizing:border-box}x-select x-swatch{width:18px;height:18px}x-select[skin=textured]{color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);--arrow-color:currentColor;--arrow-margin:0 5px 0 7px}x-select[skin=textured]:active{background:linear-gradient(to bottom,#e5e5e5,#d6d4d6)}x-select[skin=textured]::before{display:none}x-input{border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px;--selection-background:inherit}x-input:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-input[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-input+x-input{margin-top:20px}x-input&gt;x-icon{width:15px;height:15px;min-width:15px;margin:0 0 0 5px;color:#565656}x-input&gt;x-icon:hover{cursor:default}x-input&gt;x-label{display:none;position:absolute;top:50%;max-width:100%;padding:0 5px 0 5px;transform:translateY(-50%);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}x-input[empty]&gt;x-label{display:block}x-input&gt;x-icon+x-label{padding:0 5px 0 25px}x-input[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-input[skin=textured]:focus{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));outline:0}x-input[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-input[skin=textured]&gt;x-icon{color:#767676}x-dateselect{border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px}x-dateselect:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-dateselect[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-dateselect+x-dateselect{margin-top:20px}x-dateselect&gt;x-label{display:none;position:absolute;top:50%;max-width:100%;padding:0 5px 0 5px;transform:translateY(-50%);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}x-dateselect[empty]&gt;x-label{display:block}x-dateselect:active&gt;x-label,x-dateselect:focus&gt;x-label{display:none}x-dateselect[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-dateselect[skin=textured]:focus{border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));outline:0}x-dateselect[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-numberinput{background:#fff;border:1px solid #bfbfbf;font-size:12px;--inner-padding:0 5px;--selection-background:inherit}x-numberinput:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-numberinput[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-numberinput&gt;x-stepper{margin-right:-20px;margin-left:5px}x-numberinput&gt;x-label{display:none;position:absolute;width:100%;height:20px;bottom:6px;top:50%;left:0;padding:0 5px;transform:translateY(-50%);line-height:1.8;color:rgba(0,0,0,.4);pointer-events:none;font-family:inherit;font-size:inherit}x-numberinput[empty]&gt;x-label{display:block}x-numberinput[skin=condensed]&gt;x-stepper{border-radius:0;margin:0;height:100%;display:flex}x-numberinput[skin=condensed]:focus&gt;x-stepper{display:none}x-taginput{background:#fff;border:1px solid #bfbfbf;--selection-background:inherit}x-taginput:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-taginput[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-taginput&gt;x-label{align-self:center;margin-left:-8px;color:rgba(0,0,0,.4)}x-textarea{border:1px solid #bfbfbf;font-size:12px;--inner-padding:2px 5px;--selection-background:inherit}x-textarea:focus{outline:3px solid hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%));z-index:10}x-textarea[error]{border-color:#d50000;outline:3px solid rgba(255,0,0,.49)}x-textarea&gt;x-label{display:none;position:absolute;width:100%;top:0;left:0;padding:var(--inner-padding);color:rgba(0,0,0,.4);font-family:inherit;font-size:inherit;line-height:inherit;pointer-events:none}x-textarea[empty]&gt;x-label{display:block}x-textarea[skin=textured]{height:24px;color:#737373;background-image:linear-gradient(to bottom,#fcfcfc,#f1f1f1);border-color:rgba(0,0,0,.25);border-radius:4px}x-textarea[skin=textured]:focus{outline:0;box-shadow:0 0 0 3px hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 20%));border-color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) - 3%))}x-textarea[skin=textured][error]{border-color:#d50000;box-shadow:0 0 0 3px rgba(255,0,0,.49);outline:0}x-slider{--thumb-width:17px;--thumb-height:17px;--thumb-color:white;--focus-ring-width:6px;--focus-ring-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 20%));--focus-ring-transition-duration:0;--track-height:3px;--track-color:#B0B0B0;--track-tint-color:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-slider:active{--thumb-color:#F1F5F5}x-slider&gt;x-label{font-size:11px}x-slider[skin=arrow]{--track-tint-color:#B0B0B0;--thumb-d:path(&quot;M 0 0 L 100 0 L 100 55 L 50 100 L 0 55 Z&quot;);--thumb-width:16px;--thumb-height:20px}x-progressbar{height:6px;background:#dbdbdb;box-shadow:inset 0 0 0 1px silver;border-radius:5px;--bar-background:hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 7%))}x-throbber[type=ring]{color:hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 0%))}xel-codeview{font-family:Menlo,&quot;Andale Mono&quot;,monospace;background:#fff;border:1px solid #d0d0d0;--selection-background:inherit}:host(xel-app) #sidebar{background:#f5f5f5}:host(xel-app) #sidebar #header{background:rgba(0,0,0,.03)}:host(xel-app) #sidebar h1{color:rgba(0,0,0,.5)}:host(xel-app) #nav{box-sizing:border-box;padding:0 30px}:host(xel-app) #nav section{margin:15px 0}:host(xel-app) #nav h3{opacity:.4;margin:12px 0 6px -6px;padding:0;font-size:13px;font-weight:700;user-select:none;cursor:default}:host(xel-app) #nav hr{margin:0 0 0 -30px;width:calc(100% + 60px)}:host(xel-app) #sidebar #nav .external-link-icon{color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}:host(xel-app) #about-view{background:linear-gradient(to bottom,hsl(var(--accent-color-h),var(--accent-color-s),calc(var(--accent-color-l) + 15%)),hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l)))}:host(xel-app) #setup-view h3 x-icon{color:hsl(var(--accent-color-h),var(--accent-color-s),var(--accent-color-l))}img{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;user-drag:none;-webkit-touch-callout:none}path:hover{stroke:red}
     </style>
     <style
-       id="style1458">
+       id="style880">
     .foreignBody {
         margin: 0;
         color: rgba(0, 0, 0, 0.65);
@@ -335,1606 +336,1261 @@ button, input, optgroup, select, textarea {
 }
 </style>
   </defs>
+  <text
+     x="227.5"
+     y="67.5"
+     font-size="smaller"
+     fill="#fd6a02"
+     id="text888" />
+  <text
+     x="306.5"
+     y="67.5"
+     font-size="smaller"
+     fill="#fd6a02"
+     id="text890" />
+  <text
+     x="20.5"
+     y="175.5"
+     font-size="smaller"
+     fill="#fd6a02"
+     id="text896" />
+  <text
+     x="297.5"
+     y="275.5"
+     font-size="smaller"
+     fill="#fd6a02"
+     id="text898" />
   <g
-     id="g1470">
+     id="g3182">
     <path
-       transform="rotate(0,0, 0) scale(1)"
-       d="M227,87L277,87L277,87L298,87L298,87L327,87"
-       stroke="#FD6A02"
+       d="m 217.5,77.5 h 50 v 0 h 30 v 0 h 29"
+       stroke="#fd6a02"
        stroke-dasharray="none"
        stroke-width="1.3"
        fill="none"
-       marker-end="url(#association)"
-       id="path1464" />
-    <text
-       x="237"
-       y="77"
-       font-size="smaller"
-       fill="#FD6A02"
-       id="text1466" />
-    <text
-       x="307"
-       y="77"
-       font-size="smaller"
-       fill="#FD6A02"
-       id="text1468" />
-  </g>
-  <g
-     id="g1478">
+       marker-start="url(#composition)"
+       id="path886" />
     <path
-       transform="rotate(0,0, 0) scale(1)"
-       d="M20,175L20,204L277,204L277,295L313,295L313,295L342,295"
-       stroke="#FD6A02"
-       stroke-dasharray="6"
+       d="m 10.5,165.5 v 29 h 257 v 91 h 21 v 0 h 29"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
        stroke-width="1.3"
        fill="none"
-       marker-end="url(#implementation)"
-       id="path1472" />
+       marker-start="url(#composition)"
+       id="path894" />
+    <rect
+       width="237.76562"
+       height="175.25"
+       stroke="#fd6a02"
+       fill="#none"
+       stroke-width="1"
+       rx="0"
+       id="rect902"
+       x="326.86328"
+       y="-9.5"
+       style="fill:none" />
+    <rect
+       width="237.76562"
+       height="37.375"
+       stroke="#fd6a02"
+       fill="#none"
+       stroke-width="1"
+       rx="0"
+       id="rect904"
+       x="326.86328"
+       y="-9.5"
+       style="fill:none" />
     <text
-       x="30"
-       y="185"
-       font-size="smaller"
-       fill="#FD6A02"
-       id="text1474" />
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="bold"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text908"
+       x="400.24609"
+       y="0.5"><tspan
+         x="400.24609"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="bold"
+         id="tspan906">Transactions</tspan></text>
+    <rect
+       width="2"
+       height="3"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect912"
+       x="326.86328"
+       y="27.875" />
+    <rect
+       width="237.76562"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect916"
+       x="326.86328"
+       y="30.875" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect918"
+       x="326.86328"
+       y="35.0625" />
+    <path
+       d="m 345.86328,45.5625 h 7"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path920" />
+    <rect
+       width="2"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect924"
+       x="351.86328"
+       y="32.5625" />
+    <rect
+       width="62.046875"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect926"
+       x="353.86328"
+       y="30.875" />
     <text
-       x="322"
-       y="285"
-       font-size="smaller"
-       fill="#FD6A02"
-       id="text1476" />
-  </g>
-  <g
-     transform="translate(327.046875, 0)"
-     id="g1632">
-    <g
-       transform="translate(0, 0)"
-       id="g1630">
-      <rect
-         width="290.25"
-         height="175.25"
-         stroke="#FD6A02"
-         fill="none"
-         stroke-width="1"
-         transform="translate(0, 0)"
-         rx="0"
-         id="rect1480" />
-      <g
-         transform="translate(0, 0)"
-         id="g1628">
-        <g
-           transform="translate(0, 0)"
-           id="g1488">
-          <rect
-             width="290.25"
-             height="37.375"
-             stroke="#FD6A02"
-             fill="none"
-             stroke-width="1"
-             transform="translate(0, 0)"
-             rx="0"
-             id="rect1482" />
-          <text
-             fill="#FD6A02"
-             font-size="16"
-             font-weight="bold"
-             transform="translate(99.625, 10)"
-             alignment-baseline="middle"
-             font-family="Arial"
-             id="text1486"><tspan
-               x="0"
-               dy="16"
-               font-family="Arial"
-               font-size="16"
-               font-weight="bold"
-               id="tspan1484">Transactions</tspan></text>
-        </g>
-        <g
-           transform="translate(0, 37.375)"
-           id="g1492">
-          <rect
-             width="2"
-             height="3"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1490" />
-        </g>
-        <g
-           transform="translate(0, 40.375)"
-           id="g1542">
-          <g
-             transform="translate(0, 0)"
-             id="g1516">
-            <rect
-               width="290.25"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1494" />
-            <g
-               transform="translate(0, 0)"
-               id="g1514">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1496" />
-              <g
-                 transform="translate(15, 9.6875)"
-                 id="g1500">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1498" />
-              </g>
-              <rect
-                 width="2"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(25, 1.6875)"
-                 rx="2"
-                 id="rect1502" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1512">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1510">
-                  <rect
-                     width="62.046875"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1504" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1508"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1506">balance</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 23.375)"
-             id="g1540">
-            <rect
-               width="290.25"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1518" />
-            <g
-               transform="translate(0, 0)"
-               id="g1538">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1520" />
-              <g
-                 transform="translate(15, 9.6875)"
-                 id="g1524">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1522" />
-              </g>
-              <rect
-                 width="2"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(25, 1.6875)"
-                 rx="2"
-                 id="rect1526" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1536">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1534">
-                  <rect
-                     width="42.453125"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1528" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1532"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1530">array</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g
-           transform="translate(0, 87.125)"
-           id="g1548">
-          <path
-             d="M 0,7 L 290.25 7"
-             fill="none"
-             stroke="#FD6A02"
-             stroke-dasharray="none"
-             stroke-width="1"
-             id="path1544" />
-          <rect
-             width="10"
-             height="10"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1546" />
-        </g>
-        <g
-           transform="translate(0, 97.125)"
-           id="g1622">
-          <g
-             transform="translate(0, 0)"
-             id="g1572">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1550" />
-            <g
-               transform="translate(0, 0)"
-               id="g1570">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1552" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1556">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1554" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1558" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1568">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1566">
-                  <rect
-                     width="166.09375"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1560" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1564"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1562">add(date, credit, debit)</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 23.375)"
-             id="g1596">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1574" />
-            <g
-               transform="translate(0, 0)"
-               id="g1594">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1576" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1580">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1578" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1582" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1592">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1590">
-                  <rect
-                     width="213.25"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1584" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1588"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1586">update_balance(credit, debit)</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 46.75)"
-             id="g1620">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1598" />
-            <g
-               transform="translate(0, 0)"
-               id="g1618">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1600" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1604">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1602" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1606" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1616">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1614">
-                  <rect
-                     width="86.0625"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1608" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1612"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1610">parse_date</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g
-           transform="translate(0, 167.25)"
-           id="g1626">
-          <rect
-             width="8"
-             height="8"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1624" />
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     transform="translate(0, 0)"
-     id="g1786">
-    <g
-       transform="translate(0, 0)"
-       id="g1784">
-      <rect
-         width="227.046875"
-         height="175.25"
-         stroke="#FD6A02"
-         fill="none"
-         stroke-width="1"
-         transform="translate(0, 0)"
-         rx="0"
-         id="rect1634" />
-      <g
-         transform="translate(0, 0)"
-         id="g1782">
-        <g
-           transform="translate(0, 0)"
-           id="g1642">
-          <rect
-             width="227.046875"
-             height="37.375"
-             stroke="#FD6A02"
-             fill="none"
-             stroke-width="1"
-             transform="translate(0, 0)"
-             rx="0"
-             id="rect1636" />
-          <text
-             fill="#FD6A02"
-             font-size="16"
-             font-weight="bold"
-             transform="translate(84.6171875, 10)"
-             alignment-baseline="middle"
-             font-family="Arial"
-             id="text1640"><tspan
-               x="0"
-               dy="16"
-               font-family="Arial"
-               font-size="16"
-               font-weight="bold"
-               id="tspan1638">Account</tspan></text>
-        </g>
-        <g
-           transform="translate(0, 37.375)"
-           id="g1646">
-          <rect
-             width="2"
-             height="3"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1644" />
-        </g>
-        <g
-           transform="translate(0, 40.375)"
-           id="g1696">
-          <g
-             transform="translate(0, 0)"
-             id="g1670">
-            <rect
-               width="227.046875"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1648" />
-            <g
-               transform="translate(0, 0)"
-               id="g1668">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1650" />
-              <g
-                 transform="translate(15, 9.6875)"
-                 id="g1654">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1652" />
-              </g>
-              <rect
-                 width="2"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(25, 1.6875)"
-                 rx="2"
-                 id="rect1656" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1666">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1664">
-                  <rect
-                     width="92.265625"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1658" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1662"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1660">transactions</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 23.375)"
-             id="g1694">
-            <rect
-               width="227.046875"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1672" />
-            <g
-               transform="translate(0, 0)"
-               id="g1692">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1674" />
-              <g
-                 transform="translate(15, 9.6875)"
-                 id="g1678">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1676" />
-              </g>
-              <rect
-                 width="2"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(25, 1.6875)"
-                 rx="2"
-                 id="rect1680" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1690">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1688">
-                  <rect
-                     width="51.3515625"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1682" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1686"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1684">printer</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g
-           transform="translate(0, 87.125)"
-           id="g1702">
-          <path
-             d="M 0,7 L 227.046875 7"
-             fill="none"
-             stroke="#FD6A02"
-             stroke-dasharray="none"
-             stroke-width="1"
-             id="path1698" />
-          <rect
-             width="10"
-             height="10"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1700" />
-        </g>
-        <g
-           transform="translate(0, 97.125)"
-           id="g1776">
-          <g
-             transform="translate(0, 0)"
-             id="g1726">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1704" />
-            <g
-               transform="translate(0, 0)"
-               id="g1724">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1706" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1710">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1708" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1712" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1722">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1720">
-                  <rect
-                     width="138.5078125"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1714" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1718"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1716">deposit(sum, date)</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 23.375)"
-             id="g1750">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1728" />
-            <g
-               transform="translate(0, 0)"
-               id="g1748">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1730" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1734">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1732" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1736" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1746">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1744">
-                  <rect
-                     width="150.046875"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1738" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1742"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1740">withdraw(sum, date)</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 46.75)"
-             id="g1774">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1752" />
-            <g
-               transform="translate(0, 0)"
-               id="g1772">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1754" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1758">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1756" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1760" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1770">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1768">
-                  <rect
-                     width="116.28125"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1762" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1766"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1764">print_statement</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g
-           transform="translate(0, 167.25)"
-           id="g1780">
-          <rect
-             width="8"
-             height="8"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1778" />
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     transform="translate(342.47265625, 275.25)"
-     id="g1964">
-    <g
-       transform="translate(0, 0)"
-       id="g1962">
-      <rect
-         width="259.3984375"
-         height="198.625"
-         stroke="#FD6A02"
-         fill="none"
-         stroke-width="1"
-         transform="translate(0, 0)"
-         rx="0"
-         id="rect1788" />
-      <g
-         transform="translate(0, 0)"
-         id="g1960">
-        <g
-           transform="translate(0, 0)"
-           id="g1796">
-          <rect
-             width="259.3984375"
-             height="37.375"
-             stroke="#FD6A02"
-             fill="none"
-             stroke-width="1"
-             transform="translate(0, 0)"
-             rx="0"
-             id="rect1790" />
-          <text
-             fill="#FD6A02"
-             font-size="16"
-             font-weight="bold"
-             transform="translate(35, 10)"
-             alignment-baseline="middle"
-             font-family="Arial"
-             id="text1794"><tspan
-               x="0"
-               dy="16"
-               font-family="Arial"
-               font-size="16"
-               font-weight="bold"
-               id="tspan1792">Printer(transactions_array)</tspan></text>
-        </g>
-        <g
-           transform="translate(0, 37.375)"
-           id="g1800">
-          <rect
-             width="2"
-             height="3"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1798" />
-        </g>
-        <g
-           transform="translate(0, 40.375)"
-           id="g1826">
-          <g
-             transform="translate(0, 0)"
-             id="g1824">
-            <rect
-               width="259.3984375"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1802" />
-            <g
-               transform="translate(0, 0)"
-               id="g1822">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1804" />
-              <g
-                 transform="translate(15, 9.6875)"
-                 id="g1808">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1806" />
-              </g>
-              <rect
-                 width="2"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(25, 1.6875)"
-                 rx="2"
-                 id="rect1810" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1820">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1818">
-                  <rect
-                     width="72.6796875"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1812" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1816"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1814">HEADER</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g
-           transform="translate(0, 63.75)"
-           id="g1832">
-          <path
-             d="M 0,7 L 259.3984375 7"
-             fill="none"
-             stroke="#FD6A02"
-             stroke-dasharray="none"
-             stroke-width="1"
-             id="path1828" />
-          <rect
-             width="10"
-             height="10"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1830" />
-        </g>
-        <g
-           transform="translate(0, 73.75)"
-           id="g1954">
-          <g
-             transform="translate(0, 0)"
-             id="g1856">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1834" />
-            <g
-               transform="translate(0, 0)"
-               id="g1854">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1836" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1840">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1838" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1842" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1852">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1850">
-                  <rect
-                     width="84.234375"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1844" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1848"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1846">print(array)</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 23.375)"
-             id="g1880">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1858" />
-            <g
-               transform="translate(0, 0)"
-               id="g1878">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1860" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1864">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1862" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1866" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1876">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1874">
-                  <rect
-                     width="95.84375"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1868" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1872"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1870">print_header</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 46.75)"
-             id="g1904">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1882" />
-            <g
-               transform="translate(0, 0)"
-               id="g1902">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1884" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1888">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1886" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1890" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1900">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1898">
-                  <rect
-                     width="132.2890625"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1892" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1896"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1894">print_transactions</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 70.125)"
-             id="g1928">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1906" />
-            <g
-               transform="translate(0, 0)"
-               id="g1926">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1908" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1912">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1910" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1914" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1924">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1922">
-                  <rect
-                     width="84.2890625"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1916" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1920"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1918">deep_copy</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-          <g
-             transform="translate(0, 93.5)"
-             id="g1952">
-            <rect
-               width="100"
-               height="23.375"
-               stroke="none"
-               fill="none"
-               stroke-width="1.3"
-               transform="translate(0, 0)"
-               rx="0"
-               id="rect1930" />
-            <g
-               transform="translate(0, 0)"
-               id="g1950">
-              <rect
-                 width="15"
-                 height="15"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(0, 4.1875)"
-                 rx="2"
-                 id="rect1932" />
-              <g
-                 transform="translate(15, 7.6875)"
-                 id="g1936">
-                <path
-                   transform="rotate(0,0, 0) scale(1)"
-                   d="M4 5H11M7.5 1V9"
-                   stroke="#FD6A02"
-                   stroke-dasharray="none"
-                   stroke-width="1.3"
-                   fill="none"
-                   id="path1934" />
-              </g>
-              <rect
-                 width="5"
-                 height="20"
-                 stroke="none"
-                 fill="none"
-                 stroke-width="1.3"
-                 transform="translate(22, 1.6875)"
-                 rx="2"
-                 id="rect1938" />
-              <g
-                 transform="translate(27, 0)"
-                 id="g1948">
-                <g
-                   transform="translate(0, 0)"
-                   id="g1946">
-                  <rect
-                     width="86.0234375"
-                     height="23.375"
-                     stroke="none"
-                     fill="none"
-                     stroke-width="0"
-                     transform="translate(0, 0)"
-                     rx="0"
-                     id="rect1940" />
-                  <text
-                     fill="#FD6A02"
-                     font-size="16"
-                     font-weight="normal"
-                     transform="translate(3, 3)"
-                     alignment-baseline="middle"
-                     font-family="Arial"
-                     id="text1944"><tspan
-                       x="0"
-                       dy="16"
-                       font-family="Arial"
-                       font-size="16"
-                       font-weight="normal"
-                       id="tspan1942">format_row</tspan></text>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g
-           transform="translate(0, 190.625)"
-           id="g1958">
-          <rect
-             width="8"
-             height="8"
-             stroke="none"
-             fill="none"
-             stroke-width="1.3"
-             transform="translate(0, 0)"
-             rx="2"
-             id="rect1956" />
-        </g>
-      </g>
-    </g>
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text930"
+       x="356.86328"
+       y="33.875"><tspan
+         x="356.86328"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan928">balance</tspan></text>
+    <rect
+       width="237.76562"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect940"
+       x="326.86328"
+       y="54.25" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect942"
+       x="326.86328"
+       y="58.4375" />
+    <path
+       d="m 345.86328,68.9375 h 7"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path944" />
+    <rect
+       width="2"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect948"
+       x="351.86328"
+       y="55.9375" />
+    <rect
+       width="42.453125"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect950"
+       x="353.86328"
+       y="54.25" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text954"
+       x="356.86328"
+       y="57.25"><tspan
+         x="356.86328"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan952">array</tspan></text>
+    <path
+       d="M 326.86328,84.625 H 564.6289"
+       fill="none"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1"
+       id="path966" />
+    <rect
+       width="10"
+       height="10"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect968"
+       x="326.86328"
+       y="77.625" />
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect972"
+       x="326.86328"
+       y="87.625" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect974"
+       x="326.86328"
+       y="91.8125" />
+    <path
+       d="m 345.86328,100.3125 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path976" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect980"
+       x="348.86328"
+       y="89.3125" />
+    <rect
+       width="113.60938"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect982"
+       x="353.86328"
+       y="87.625" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text986"
+       x="356.86328"
+       y="90.625"><tspan
+         x="356.86328"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan984">add(date, sum)</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect996"
+       x="326.86328"
+       y="111" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect998"
+       x="326.86328"
+       y="115.1875" />
+    <path
+       d="m 345.86328,123.6875 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1000" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1004"
+       x="348.86328"
+       y="112.6875" />
+    <rect
+       width="160.76562"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1006"
+       x="353.86328"
+       y="111" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1010"
+       x="356.86328"
+       y="114"><tspan
+         x="356.86328"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1008">update_balance(sum)</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1020"
+       x="326.86328"
+       y="134.375" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1022"
+       x="326.86328"
+       y="138.5625" />
+    <path
+       d="m 345.86328,147.0625 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1024" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1028"
+       x="348.86328"
+       y="136.0625" />
+    <rect
+       width="127.85938"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1030"
+       x="353.86328"
+       y="134.375" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1034"
+       x="356.86328"
+       y="137.375"><tspan
+         x="356.86328"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1032">parse_date(date)</tspan></text>
+    <rect
+       width="8"
+       height="8"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1046"
+       x="326.86328"
+       y="157.75" />
+    <rect
+       width="227.04688"
+       height="175.25"
+       stroke="#fd6a02"
+       fill="#none"
+       stroke-width="1"
+       rx="0"
+       id="rect1056"
+       x="-9.5"
+       y="-9.5"
+       style="fill:none" />
+    <rect
+       width="227.04688"
+       height="37.375"
+       stroke="#fd6a02"
+       fill="#none"
+       stroke-width="1"
+       rx="0"
+       id="rect1058"
+       x="-9.5"
+       y="-9.5"
+       style="fill:none" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="bold"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1062"
+       x="75.117188"
+       y="0.5"><tspan
+         x="75.117188"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="bold"
+         id="tspan1060">Account</tspan></text>
+    <rect
+       width="2"
+       height="3"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1066"
+       x="-9.5"
+       y="27.875" />
+    <rect
+       width="227.04688"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1070"
+       x="-9.5"
+       y="30.875" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1072"
+       x="-9.5"
+       y="35.0625" />
+    <path
+       d="m 9.5,45.5625 h 7"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1074" />
+    <rect
+       width="2"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1078"
+       x="15.5"
+       y="32.5625" />
+    <rect
+       width="92.265625"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1080"
+       x="17.5"
+       y="30.875" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1084"
+       x="20.5"
+       y="33.875"><tspan
+         x="20.5"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1082">transactions</tspan></text>
+    <rect
+       width="227.04688"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1094"
+       x="-9.5"
+       y="54.25" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1096"
+       x="-9.5"
+       y="58.4375" />
+    <path
+       d="m 9.5,68.9375 h 7"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1098" />
+    <rect
+       width="2"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1102"
+       x="15.5"
+       y="55.9375" />
+    <rect
+       width="51.351562"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1104"
+       x="17.5"
+       y="54.25" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1108"
+       x="20.5"
+       y="57.25"><tspan
+         x="20.5"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1106">printer</tspan></text>
+    <path
+       d="M -9.5,84.625 H 217.54687"
+       fill="none"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1"
+       id="path1120" />
+    <rect
+       width="10"
+       height="10"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1122"
+       x="-9.5"
+       y="77.625" />
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1126"
+       x="-9.5"
+       y="87.625" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1128"
+       x="-9.5"
+       y="91.8125" />
+    <path
+       d="m 9.5,100.3125 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1130" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1134"
+       x="12.5"
+       y="89.3125" />
+    <rect
+       width="138.50781"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1136"
+       x="17.5"
+       y="87.625" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1140"
+       x="20.5"
+       y="90.625"><tspan
+         x="20.5"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1138">deposit(sum, date)</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1150"
+       x="-9.5"
+       y="111" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1152"
+       x="-9.5"
+       y="115.1875" />
+    <path
+       d="m 9.5,123.6875 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1154" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1158"
+       x="12.5"
+       y="112.6875" />
+    <rect
+       width="150.04688"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1160"
+       x="17.5"
+       y="111" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1164"
+       x="20.5"
+       y="114"><tspan
+         x="20.5"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1162">withdraw(sum, date)</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1174"
+       x="-9.5"
+       y="134.375" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1176"
+       x="-9.5"
+       y="138.5625" />
+    <path
+       d="m 9.5,147.0625 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1178" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1182"
+       x="12.5"
+       y="136.0625" />
+    <rect
+       width="116.28125"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1184"
+       x="17.5"
+       y="134.375" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1188"
+       x="20.5"
+       y="137.375"><tspan
+         x="20.5"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1186">print_statement</tspan></text>
+    <rect
+       width="8"
+       height="8"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1200"
+       x="-9.5"
+       y="157.75" />
+    <rect
+       width="256.39844"
+       height="198.625"
+       stroke="#fd6a02"
+       fill="#none"
+       stroke-width="1"
+       rx="0"
+       id="rect1210"
+       x="317.54688"
+       y="265.75"
+       style="fill:none" />
+    <rect
+       width="256.39844"
+       height="37.375"
+       stroke="#fd6a02"
+       fill="#none"
+       stroke-width="1"
+       rx="0"
+       id="rect1212"
+       x="317.54688"
+       y="265.75"
+       style="fill:none" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="bold"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1216"
+       x="422.18359"
+       y="275.75"><tspan
+         x="422.18359"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="bold"
+         id="tspan1214">Printer</tspan></text>
+    <rect
+       width="2"
+       height="3"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1220"
+       x="317.54688"
+       y="303.125" />
+    <rect
+       width="256.39844"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1224"
+       x="317.54688"
+       y="306.125" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1226"
+       x="317.54688"
+       y="310.3125" />
+    <path
+       d="m 336.54687,320.8125 h 7"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1228" />
+    <rect
+       width="2"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1232"
+       x="342.54688"
+       y="307.8125" />
+    <rect
+       width="72.679688"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1234"
+       x="344.54688"
+       y="306.125" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1238"
+       x="347.54688"
+       y="309.125"><tspan
+         x="347.54688"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1236">HEADER</tspan></text>
+    <path
+       d="M 317.54687,336.5 H 573.94531"
+       fill="none"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1"
+       id="path1250" />
+    <rect
+       width="10"
+       height="10"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1252"
+       x="317.54688"
+       y="329.5" />
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1256"
+       x="317.54688"
+       y="339.5" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1258"
+       x="317.54688"
+       y="343.6875" />
+    <path
+       d="m 336.54687,352.1875 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1260" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1264"
+       x="339.54688"
+       y="341.1875" />
+    <rect
+       width="84.234375"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1266"
+       x="344.54688"
+       y="339.5" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1270"
+       x="347.54688"
+       y="342.5"><tspan
+         x="347.54688"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1268">print(array)</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1280"
+       x="317.54688"
+       y="362.875" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1282"
+       x="317.54688"
+       y="367.0625" />
+    <path
+       d="m 336.54687,375.5625 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1284" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1288"
+       x="339.54688"
+       y="364.5625" />
+    <rect
+       width="95.84375"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1290"
+       x="344.54688"
+       y="362.875" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1294"
+       x="347.54688"
+       y="365.875"><tspan
+         x="347.54688"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1292">print_header</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1304"
+       x="317.54688"
+       y="386.25" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1306"
+       x="317.54688"
+       y="390.4375" />
+    <path
+       d="m 336.54687,398.9375 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1308" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1312"
+       x="339.54688"
+       y="387.9375" />
+    <rect
+       width="179.39844"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1314"
+       x="344.54688"
+       y="386.25" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1318"
+       x="347.54688"
+       y="389.25"><tspan
+         x="347.54688"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1316">print_transactions(array)</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1328"
+       x="317.54688"
+       y="409.625" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1330"
+       x="317.54688"
+       y="413.8125" />
+    <path
+       d="m 336.54687,422.3125 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1332" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1336"
+       x="339.54688"
+       y="411.3125" />
+    <rect
+       width="131.39844"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1338"
+       x="344.54688"
+       y="409.625" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1342"
+       x="347.54688"
+       y="412.625"><tspan
+         x="347.54688"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1340">deep_copy(array)</tspan></text>
+    <rect
+       width="100"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="0"
+       id="rect1352"
+       x="317.54688"
+       y="433" />
+    <rect
+       width="15"
+       height="15"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1354"
+       x="317.54688"
+       y="437.1875" />
+    <path
+       d="m 336.54687,445.6875 h 7 m -3.5,-4 v 8"
+       stroke="#fd6a02"
+       stroke-dasharray="none"
+       stroke-width="1.3"
+       fill="none"
+       id="path1356" />
+    <rect
+       width="5"
+       height="20"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1360"
+       x="339.54688"
+       y="434.6875" />
+    <rect
+       width="122.46094"
+       height="23.375"
+       stroke="none"
+       fill="none"
+       stroke-width="0"
+       rx="0"
+       id="rect1362"
+       x="344.54688"
+       y="433" />
+    <text
+       fill="#fd6a02"
+       font-size="16px"
+       font-weight="normal"
+       alignment-baseline="middle"
+       font-family="Arial"
+       id="text1366"
+       x="347.54688"
+       y="436"><tspan
+         x="347.54688"
+         dy="16"
+         font-family="Arial"
+         font-size="16px"
+         font-weight="normal"
+         id="tspan1364">format_row(row)</tspan></text>
+    <rect
+       width="8"
+       height="8"
+       stroke="none"
+       fill="none"
+       stroke-width="1.3"
+       rx="2"
+       id="rect1378"
+       x="317.54688"
+       y="456.375" />
   </g>
 </svg>
