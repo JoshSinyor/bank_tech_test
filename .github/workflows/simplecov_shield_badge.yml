@@ -3,7 +3,7 @@ name: SimpleCov_Shield_Badge
 on: [push]
 
 jobs:
-  RSpec Tests:
+  RSpec_Tests:
     runs-on: macos-latest
 
     env:
