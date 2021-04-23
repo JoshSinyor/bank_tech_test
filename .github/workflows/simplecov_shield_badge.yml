@@ -3,10 +3,11 @@ name: SimpleCov_Shield_Badge
 on: [push]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  RSpec Tests:
+    runs-on: macos-latest
 
     env:
+      RUBY_VERSION: 3.0.0
       GITHUB_USER: "JoshSinyor"
       GITHUB_MAIL: ${{ secrets.MAIL }}
       GITHUB_ORG: "JoshSinyor"
@@ -14,13 +15,9 @@ jobs:
       GITHUB_ACCESS_TOKEN: ${{ secrets.TOKEN }}
 
     steps:
-    - uses: actions/checkout@v2
-
+    - uses: actions/checkout@v1
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.0.0
-
-    - name: Run bundle install
-      run: bundle install
-
-    - run: bundle exec rspec
+    - run: bundle install
+    - run: rspec
