@@ -3,11 +3,10 @@ name: SimpleCov_Shield_Badge
 on: [push]
 
 jobs:
-  RSpec_Tests:
+  SimpleCov_Tests:
     runs-on: macos-latest
 
     env:
-      RUBY_VERSION: 3.0.0
       GITHUB_USER: "JoshSinyor"
       GITHUB_MAIL: ${{ secrets.MAIL }}
       GITHUB_ORG: "JoshSinyor"
