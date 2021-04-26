@@ -2,7 +2,7 @@
 /**/.DS_Store
 
 # Ignore SimpleCov coverage
-/coverage
+# /coverage
 
 # Ignore local cache of Rubocop remote config
 .rubocop-*

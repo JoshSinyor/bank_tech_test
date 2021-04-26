@@ -2,14 +2,16 @@
 
 require 'test_helpers'
 
-require 'shields_badge'
 require 'simplecov'
 require 'simplecov-console'
+require 'simplecov-shield'
 
-SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
-                                                                 SimpleCov::Formatter::Console,
-                                                                 SimpleCov::Formatter::ShieldsBadge
-                                                               ])
+# SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
+#                                                                  SimpleCov::Formatter::Console,
+#                                                                  SimpleCov::Formatter::ShieldsBadge
+#                                                                ])
+
+SimpleCov.formatter = SimpleCov::Formatter::ShieldFormatter
 
 SimpleCov.start
 
