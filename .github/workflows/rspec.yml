@@ -12,8 +12,11 @@ jobs:
       with:
         ruby-version: 3.0.0
 
-    - run: bundle install
+    - run: touch "test_file.rb"
 
-    - run: bundle info simplecov-shield
-
-    - run: rspec
+    - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
