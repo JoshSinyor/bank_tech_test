@@ -15,9 +15,7 @@ jobs:
     - run: bundle install
     - run: bundle exec rspec
 
-    - name: Commit
+    - name: commit
     - run: |
-      git config user.name 'JoshSinyor'
-      git config user.email ${{ secrets.USER_EMAIL }}
-      git commit -am "GitHub push workflow"
+      git commit -am "Automated workflow commit."
       git push
