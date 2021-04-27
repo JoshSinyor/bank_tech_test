@@ -17,5 +17,7 @@ jobs:
 
     - name: commit
     - run: |
-      git commit -am "Automated workflow commit."
+      git config user.name "GitHub Actions"
+      git config user.email "<>"
+      git commit -am "Automated GitHub Actions commit."
       git push
