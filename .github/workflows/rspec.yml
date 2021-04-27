@@ -18,6 +18,6 @@ jobs:
     - name: Commit
     - run: |
       git config user.name 'JoshSinyor'
-      git config user.email ${{ secrets.MAIL }}
+      git config user.email ${{ secrets.USER_EMAIL }}
       git commit -am "GitHub push workflow"
       git push
