@@ -13,11 +13,3 @@ jobs:
         ruby-version: 3.0.0
 
     - run: bundle install
-
-    - name: commit
-    - run: |
-      git config user.name "github-actions"
-      git config user.email "github-actions@github.com"
-      git add .
-      git commit -m "GitHub Action commit."
-      git push
