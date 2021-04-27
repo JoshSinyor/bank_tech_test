@@ -3,6 +3,7 @@
 
 # Ignore SimpleCov coverage
 coverage/*
+!coverage/coverage.svg
 
 # Ignore local cache of Rubocop remote config
 .rubocop-*
