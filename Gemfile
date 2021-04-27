@@ -12,5 +12,5 @@ group :test do
   gem 'rubocop-rspec', '2.2.0', require: false
   gem 'simplecov', '0.8.2', require: false
   gem 'simplecov-console', '0.9.1', require: false
-  gem 'simplecov-shield', path: '.'
+  gem 'simplecov-shield', github: "JoshSinyor/simplecov-shield", branch: "test-master", require: false
 end
