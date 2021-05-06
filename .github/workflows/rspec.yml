@@ -14,7 +14,9 @@ jobs:
 
     - run: bundle install
 
-    - run: rspec
+    - run: bundle update
+
+    # - run: rspec
 
     - run: |
           git config user.name github-actions
