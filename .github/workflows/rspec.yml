@@ -18,7 +18,9 @@ jobs:
           bundle install
           bundle update
 
-    - run: rspec
+    - run: bundle info simplecov-shield
+
+    # - run: rspec
 
     # - name: Commit and push commit
     #   run: |
