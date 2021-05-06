@@ -4,11 +4,11 @@ require 'test_helpers'
 
 require 'simplecov'
 require 'simplecov-console'
-require 'simplecov-shield'
+# require 'simplecov-shield'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
                                                                  SimpleCov::Formatter::Console,
-                                                                 SimpleCov::Formatter::ShieldFormatter
+                                                                 # SimpleCov::Formatter::ShieldFormatter
                                                                ])
 
 SimpleCov.start
