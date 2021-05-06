@@ -12,9 +12,9 @@ jobs:
       with:
         ruby-version: 3.0.0
 
-    - run: bundle install(1)
-
-    - run: bundle update
+    - run: |
+          bundle install
+          bundle update
 
     # - run: rspec
 
