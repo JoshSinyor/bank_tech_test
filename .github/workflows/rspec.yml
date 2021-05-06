@@ -16,7 +16,7 @@ jobs:
           bundle install
           bundle update
 
-    # - run: rspec
+    - run: rspec
 
     - run: |
           git config user.name github-actions
