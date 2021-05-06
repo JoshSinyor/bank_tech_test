@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/JoshSinyor/bank_tech_test)
 ![Code Size](https://img.shields.io/github/languages/code-size/JoshSinyor/bank_tech_test)
 ![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen?&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnMvPjxwYXRoIGQ9Ik0yNyAxNHYtMWEyIDIgMCAwMC0yLTJIN2EyIDIgMCAwMC0yIDJ2MWEyIDIgMCAwMC0xIDF2MmExIDEgMCAwMDEgMnYxYTIgMiAwIDAwMiAxaDE4YTIgMiAwIDAwMi0xdi0xYTIgMiAwIDAwMS0ydi0yYTIgMiAwIDAwLTEtMXpNMTYgMmExMCAxMCAwIDAwLTEwIDloMjBhMTAgMTAgMCAwMC0xMC05ek0xMyAyNGg2djFsMS0xLTEtMWgtN3YybDEtMXoiLz48cGF0aCBmaWxsPSIjZWMxYzI0IiBkPSJNMjQgMThIOGExIDEgMCAxMTAtM2gxNmExIDEgMCAwMTEgMSAxIDEgMCAwMS0xIDJ6Ii8+PHBhdGggZD0iTTIzIDIydjRhMiAyIDAgMDEtMiAyaC0xYTEgMSAwIDAxMC0xbC0yLTFhMSAxIDAgMDAwLTFoLTRhMSAxIDAgMDAwIDFsLTIgMWExIDEgMCAwMTAgMWgtMWEyIDIgMCAwMS0yLTJ2LTRIN3Y0YTQgNCAwIDAwNCA0aDEwYTQgNCAwIDAwNC00di00eiIvPjwvc3ZnPg==)
-<!-- ![Coverage](https://JoshSinyor.github.io/bank_tech_test/badge.svg) -->
+<!-- ![Coverage](coverage/coverage.svg) -->
 
 # Bank Tech Test
 
@@ -34,6 +34,7 @@ This repository reflects Makers Academy Week 10 project [Bank Tech Test](https:/
   * [Test-Driven Design](#test-driven-design)
   * [Behaviour-Driven Design](#behaviour-driven-design)
   * [Continuous Development](#continuous-development)
+    + [GitHub Actions workflow](#github-actions-workflow)
   * [Refactoring](#refactoring)
 - [Project Conclusions](#project-conclusions)
   * [Final Appearance](#final-appearance)
@@ -189,7 +190,11 @@ BDD was used to structure Feature Tests. After unit tests were created to test m
 
 ### Continuous Development
 
-The code was continuously tested throughout development to ensure development was proceeding as expected, and that changes during development did not impact previously tested units and features.
+The code was continuously tested throughout development to ensure development was proceeding as expected, and that changes during development did not impact previously tested units and features. This was overseen in part by a CI/CD workflow built on GitHub Actions.
+
+#### GitHub Actions workflow
+
+The code is tested using RSpec, with coverage checked using SimpleCov. The addition of a GitHub Actions Workflow (as specified in [`rspec.yml`](.github/workflows/rspec.yml)) assisted with determining that checks are passed. Every time a commit is pushed to GitHub, the workflow runs creates an environment, installs the relevant gems, and runs the suite of RSpec tests.
 
 ### Refactoring
 
