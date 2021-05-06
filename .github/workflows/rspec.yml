@@ -17,9 +17,7 @@ jobs:
           bundle install
           bundle update
 
-
-
-    # - run: rspec
+    - run: rspec
 
     # - name: Commit and push commit
     #   run: |
