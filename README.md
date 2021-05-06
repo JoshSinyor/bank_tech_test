@@ -243,7 +243,6 @@ This program's dependencies are minimal and relate solely to testing. They were 
 - [Rubocop](https://rubocop.org/) and [Rubocop-RSpec](https://github.com/rubocop/rubocop-rspec), both courtesy of [Bozhidar Batsov](https://github.com/bbatsov).
 - [SimpleCov](https://github.com/simplecov-ruby/simplecov), courtesy of [Christoph Olszowka](https://github.com/colszowka).
 - [SimpleCov-Console](https://github.com/chetan/simplecov-console), courtesy of [Chetan Sarva](https://github.com/chetan).
-- [SimpleCov-Shields-Badge](https://github.com/niltonvasques/simplecov-shields-badge), courtesy of [Nilton Vasques](https://github.com/niltonvasques).
 
 ---
 
