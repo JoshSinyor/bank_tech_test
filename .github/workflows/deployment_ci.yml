@@ -27,9 +27,3 @@ jobs:
       run: |
         rubocop
         rspec
-    #
-    # - name: Commit Changes
-    #   run:
-    #
-    # - name: Push Commit
-    #   run:
