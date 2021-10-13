@@ -2,6 +2,8 @@ require: rubocop-rspec
 
 AllCops:
   NewCops: enable
+  Exclude:
+      - 'spec/features/acceptance_criteria_spec.rb'
 
 Metrics/BlockLength:
   IgnoredMethods: ['describe']

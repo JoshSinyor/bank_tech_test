@@ -3,7 +3,7 @@ name: Test & Commit
 on:
   push:
     branches:
-      - main
+      - actions-test
 
 jobs:
   test_commit:
@@ -27,9 +27,9 @@ jobs:
       run: |
         rubocop
         rspec
-
-    - name: Commit Changes
-      run:
-
-    - name: Push Commit
-      run:
+    #
+    # - name: Commit Changes
+    #   run:
+    #
+    # - name: Push Commit
+    #   run:
