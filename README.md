@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/JoshSinyor/bank_tech_test)
 ![Code Size](https://img.shields.io/github/languages/code-size/JoshSinyor/bank_tech_test)
 ![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen?&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnMvPjxwYXRoIGQ9Ik0yNyAxNHYtMWEyIDIgMCAwMC0yLTJIN2EyIDIgMCAwMC0yIDJ2MWEyIDIgMCAwMC0xIDF2MmExIDEgMCAwMDEgMnYxYTIgMiAwIDAwMiAxaDE4YTIgMiAwIDAwMi0xdi0xYTIgMiAwIDAwMS0ydi0yYTIgMiAwIDAwLTEtMXpNMTYgMmExMCAxMCAwIDAwLTEwIDloMjBhMTAgMTAgMCAwMC0xMC05ek0xMyAyNGg2djFsMS0xLTEtMWgtN3YybDEtMXoiLz48cGF0aCBmaWxsPSIjZWMxYzI0IiBkPSJNMjQgMThIOGExIDEgMCAxMTAtM2gxNmExIDEgMCAwMTEgMSAxIDEgMCAwMS0xIDJ6Ii8+PHBhdGggZD0iTTIzIDIydjRhMiAyIDAgMDEtMiAyaC0xYTEgMSAwIDAxMC0xbC0yLTFhMSAxIDAgMDAwLTFoLTRhMSAxIDAgMDAwIDFsLTIgMWExIDEgMCAwMTAgMWgtMWEyIDIgMCAwMS0yLTJ2LTRIN3Y0YTQgNCAwIDAwNCA0aDEwYTQgNCAwIDAwNC00di00eiIvPjwvc3ZnPg==)
-<!-- ![Coverage](coverage/coverage.svg) -->
+![Deployment CI Badge](https://github.com/JoshSinyor/bank_tech_test/actions/workflows/deployment_ci.yml/badge.svg?branch=actions-test)
 
 # Bank Tech Test
 
@@ -12,6 +12,7 @@ This repository reflects Makers Academy Week 10 project [Bank Tech Test](https:/
 
 ## Table of Contents
 
+- [Features of Note](#features-of-note)
 - [Specification](#specification)
   * [Requirements](#requirements)
   * [Acceptance Criteria](#acceptance-criteria)
@@ -38,12 +39,21 @@ This repository reflects Makers Academy Week 10 project [Bank Tech Test](https:/
   * [Refactoring](#refactoring)
 - [Project Conclusions](#project-conclusions)
   * [Final Appearance](#final-appearance)
-  * [Specific Characteristics of Note](#specific-characteristics-of-note)
   * [Additional Development](#additional-development)
 - [Built With](#built-with)
 - [Author(s)](#author-s-)
 - [License(s)](#license-s-)
 - [Acknowledgements](#acknowledgements)
+
+---
+
+## Features of Note
+
+1.  **Full-blown [feature test](spec/features/acceptance_criteria_spec.rb), using Ruby's poorly documented `PTY` package.** The feature test (integrated in RSpec) opens the program from scratch in a pseudoterminal and executes the acceptance criteria tests specified in exactly the same way a user would.
+2.  **Automatic test runs using [GitHub Actions](#github-actions-workflow).** No third-party (Marketplace) code is used to achieve this.
+3.  **True deep copy** (using `Marshal.load(Marshal.dump(array))`) **to create a clone of the `@transactions` array.** This is required because the array's elements individual transactions have `DateTime` objects. Ruby's `dup`, `deep_dup` and `clone` methods are all shallow copies.
+4.  The date of transactions is stored as a `DateTime` object, rather than as a string. It seems best practice to store dates in an appropriate object, especially because this compartmentalisation allows easy reformatting (using `strftime`) and greater precision (e.g. hours and minutes) should that be desirable in the future.
+5.  Transactions are stored as hashes, rather than strings. This makes it easier to reference the characteristics (`:date`, and `:sum`) of each transaction.
 
 ---
 
@@ -194,7 +204,7 @@ The code was continuously tested throughout development to ensure development wa
 
 #### GitHub Actions workflow
 
-The code is tested using RSpec, with coverage checked using SimpleCov. The addition of a GitHub Actions Workflow (as specified in [`rspec.yml`](.github/workflows/rspec.yml)) assisted with determining that checks are passed. Every time a commit is pushed to GitHub, the workflow runs creates an environment, installs the relevant gems, and runs the suite of RSpec tests.
+The code is tested using RSpec, with coverage checked using SimpleCov. The addition of a GitHub Actions Workflow (as specified in [`deployment_ci.yml`](.github/workflows/deployment_ci.yml)) assists with determining that checks are passed. Every time a commit is pushed to GitHub, the workflow runs creates an environment, installs the relevant gems, and runs the full suite of Rubocop and RSpec tests.
 
 ### Refactoring
 
@@ -209,17 +219,6 @@ Refactoring was performed after the completion of any individual unit, and perio
 As per the instructions, this program runs exclusively in a REPL. It is pictured below executing the instructions in the Acceptance Criteria.
 
 ![basic_classes_diagram](docs/acceptance_criteria_screenshot.png)
-
-### Specific Characteristics of Note
-
-The presented development state shows some aspects of note:
-
-1. The date of transactions is stored as a `DateTime` object, rather than as a string. It seems best practice to store dates in an appropriate object, especially because this compartmentalisation allows easy reformatting (using `strftime`) and greater precision (e.g. hours and minutes) should that be desirable in the future.
-2. Transactions are stored as hashes, rather than strings. This makes it easier to reference the characteristics (`:date`, and `:sum`) of each transaction.
-3. A true deep copy (using `Marshal.load(Marshal.dump(array))`) is used to create a clone of the `@transactions` array. This is required because the array's elements individual transactions have `DateTime` objects. Ruby's `dup`, `deep_dup` and `clone` methods are all shallow copies.
-4. The presence of a full-blown feature test, using Ruby's poorly documented `PTY` package. The feature test (integrated in RSpec) opens the program from scratch in a pseudoterminal and executes the acceptance criteria tests specified.
-5. 100% test coverage (according to SimpleCov) was achieved.
-6. Rubocop reports only 2 errors, a DescribeClass and an unavoidable ExampleLength, both relating to the feature test. The latter could be easily corrected, but would make the RSpec output less clear.
 
 ### Additional Development
 
