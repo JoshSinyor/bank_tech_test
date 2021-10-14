@@ -9,6 +9,9 @@ jobs:
   test_commit:
     runs-on: macos-latest
 
+    env:
+      DIFF_BOOLEAN: false
+
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -27,8 +30,14 @@ jobs:
     #     rubocop
     #     rspec
 
+    - name: Check For Changes
+      run: |
+        if git diff --exit-code; then
+          echo "::set-env name=DIFF_BOOLEAN::true"
+        fi
+
     - name: Commit If Changes
-      if: git diff -q
+      if: {{ env.DIFF_BOOLEAN }}
       run: echo "Commit required."
         # git config user.name "GitHub Action"
         # git config user.email "github-actions@github.com"
