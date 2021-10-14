@@ -37,7 +37,7 @@ jobs:
         fi
 
     - name: Commit If Changes
-      if: {{ env.DIFF_BOOLEAN }}
+      if: {{ env.DIFF_BOOLEAN == 'true' }}
       run: echo "Commit required."
         # git config user.name "GitHub Action"
         # git config user.email "github-actions@github.com"
