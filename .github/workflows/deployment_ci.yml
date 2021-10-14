@@ -40,7 +40,7 @@ jobs:
         fi
 
     - name: Commit If Changes
-      if: {{ env.DIFF_BOOLEAN == 'true' }}
+      if: env.DIFF_BOOLEAN == 'true'
       run: |
         git config user.name "GitHub Action"
         git config user.email "github-actions@github.com"
