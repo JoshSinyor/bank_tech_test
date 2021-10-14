@@ -33,7 +33,7 @@ jobs:
     - name: Check For Changes
       run: |
         if git diff --exit-code; then
-          echo "::set-env name=DIFF_BOOLEAN::true"
+          echo "{DIFF_BOOLEAN}={true}" >> $GITHUB_ENV
         fi
 
     # - name: Commit If Changes
