@@ -30,25 +30,20 @@ jobs:
     #     rubocop
     #     rspec
 
-    - name: Test Variable Reset
-      run: echo "DIFF_BOOLEAN=true" >> $GITHUB_ENV
+    - name: Test File Creation
+      run: touch test.txt
 
-    - name: Echo Variable Value
-      run: echo $DIFF_BOOLEAN
+    - name: Check For Changes
+      run: |
+        if git diff --exit-code; then
+          echo "DIFF_BOOLEAN=true" >> $GITHUB_ENV
+        fi
 
-    # - name: Test File Creation
-    #   run: touch test.txt
-    #
-    # - name: Check For Changes
-    #   run: |
-    #     if git diff --exit-code; then
-    #       echo "{DIFF_BOOLEAN}={true}" >> $GITHUB_ENV
-    #     fi
-
-    # - name: Commit If Changes
-    #   if: env.DIFF_BOOLEAN == 'true'
-    #   run: |
-    #     git config user.name "GitHub Action"
-    #     git config user.email "github-actions@github.com"
-    #     git add .
-    #     git commit -m "Automated commit. Reflects $(git rev-parse --abbrev-ref ${{ github.ref }}) branch commit $(git rev-parse --short ${{ github.sha }})."
+    - name: Commit If Changes
+      if: env.DIFF_BOOLEAN == 'true'
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "github-actions@github.com"
+        git add .
+        git commit -m "Automated commit. Reflects $(git rev-parse --abbrev-ref ${{ github.ref }}) branch commit $(git rev-parse --short ${{ github.sha }})."
+        git push
