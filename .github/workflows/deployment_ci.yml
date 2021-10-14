@@ -28,7 +28,7 @@ jobs:
     #     rspec
 
     - name: Commit If Changes
-      if: ${{ git diff -q }}
+      if: git diff -q
       run: echo "Commit required."
         # git config user.name "GitHub Action"
         # git config user.email "github-actions@github.com"
