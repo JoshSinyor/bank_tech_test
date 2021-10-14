@@ -31,7 +31,7 @@ jobs:
     #     rspec
 
     - name: Test Variable Reset
-      run: echo "{DIFF_BOOLEAN}={true}" >> $GITHUB_ENV
+      run: echo "DIFF_BOOLEAN=true" >> $GITHUB_ENV
 
     - name: Echo Variable Value
       run: echo $DIFF_BOOLEAN
