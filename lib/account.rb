@@ -1,7 +1,12 @@
 # frozen_string_literal: true
 
-require_relative 'transactions'
+require 'irb'
 require_relative 'printer'
+require_relative 'transactions'
+
+# Suppress IRB output.
+
+IRB.conf[:ECHO] = false
 
 # Instances of this class are accounts.
 class Account

@@ -29,7 +29,7 @@ describe Account do
   end
 
   describe '#withdraw' do
-    it 'to the #transactions.array' do
+    it 'from the #transactions.array' do
       account.withdraw(RANDOM_SUM, RANDOM_DATE)
       expect(account.transactions.array).not_to be_empty
     end

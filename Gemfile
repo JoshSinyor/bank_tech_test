@@ -8,8 +8,11 @@ ruby '3.0.0'
 
 group :test do
   gem 'rspec', '>= 3.10.0', require: false
-  gem 'rubocop', '>= 1.22.1', require: false
-  gem 'rubocop-rspec', '>= 2.5.0', require: false
   gem 'simplecov', '>= 0.21.2', require: false
   gem 'simplecov-console', '>= 0.9.1', require: false
+end
+
+group :linters do
+  gem 'rubocop', '>= 1.22.1', require: false
+  gem 'rubocop-rspec', '>= 2.5.0', require: false
 end

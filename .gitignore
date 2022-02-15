@@ -6,3 +6,6 @@
 
 # Ignore local cache of Rubocop remote config
 .rubocop-*
+
+# Ignore local cache of Bundler
+/.bundle
