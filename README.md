@@ -242,7 +242,6 @@ This program's dependencies are minimal and relate solely to testing. They were 
 - [Rubocop](https://rubocop.org/) and [Rubocop-RSpec](https://github.com/rubocop/rubocop-rspec), both courtesy of [Bozhidar Batsov](https://github.com/bbatsov).
 - [SimpleCov](https://github.com/simplecov-ruby/simplecov), courtesy of [Christoph Olszowka](https://github.com/colszowka).
 - [SimpleCov-Console](https://github.com/chetan/simplecov-console), courtesy of [Chetan Sarva](https://github.com/chetan).
-- [SimpleCov-Shields-Badge](https://github.com/niltonvasques/simplecov-shields-badge), courtesy of [Nilton Vasques](https://github.com/niltonvasques).
 
 ---
 
@@ -262,3 +261,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Diagram(s) generated with [Diagram.codes Studio](https://studio.diagram.codes/).
 - Table of contents generated with [markdown-toc](http://ecotrust-canada.github.io/markdown-toc/).
+- Shield badges generated with [Shields.io](https://shields.io/).
