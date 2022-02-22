@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/JoshSinyor/bank_tech_test)
 ![Code Size](https://img.shields.io/github/languages/code-size/JoshSinyor/bank_tech_test)
 ![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen?&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnMvPjxwYXRoIGQ9Ik0yNyAxNHYtMWEyIDIgMCAwMC0yLTJIN2EyIDIgMCAwMC0yIDJ2MWEyIDIgMCAwMC0xIDF2MmExIDEgMCAwMDEgMnYxYTIgMiAwIDAwMiAxaDE4YTIgMiAwIDAwMi0xdi0xYTIgMiAwIDAwMS0ydi0yYTIgMiAwIDAwLTEtMXpNMTYgMmExMCAxMCAwIDAwLTEwIDloMjBhMTAgMTAgMCAwMC0xMC05ek0xMyAyNGg2djFsMS0xLTEtMWgtN3YybDEtMXoiLz48cGF0aCBmaWxsPSIjZWMxYzI0IiBkPSJNMjQgMThIOGExIDEgMCAxMTAtM2gxNmExIDEgMCAwMTEgMSAxIDEgMCAwMS0xIDJ6Ii8+PHBhdGggZD0iTTIzIDIydjRhMiAyIDAgMDEtMiAyaC0xYTEgMSAwIDAxMC0xbC0yLTFhMSAxIDAgMDAwLTFoLTRhMSAxIDAgMDAwIDFsLTIgMWExIDEgMCAwMTAgMWgtMWEyIDIgMCAwMS0yLTJ2LTRIN3Y0YTQgNCAwIDAwNCA0aDEwYTQgNCAwIDAwNC00di00eiIvPjwvc3ZnPg==)
-![Deployment CI Badge](https://github.com/JoshSinyor/bank_tech_test/actions/workflows/test_and_deploy.yml/badge.svg?branch=improved)
+![Deployment CI Badge](https://github.com/JoshSinyor/bank_tech_test/actions/workflows/test_and_deploy.yml/badge.svg?branch=justified-statements)
 
 # Bank Tech Test
 
@@ -42,6 +42,7 @@ The specification of the improved tech test is as follows:
 
 1. [x] All REPL output should be suppressed unless commanded by the execution of `account.print_statement`.
 2. [x] All transactions should be sorted by date upon execution of the command `account.print_statement`.
+3. [ ] All columns in a printed statement should be justified to the width of the longest entry.
 
 ### Acceptance Criteria
 
@@ -52,10 +53,10 @@ The specification of the improved tech test is as follows:
 > Then she would see:
 
 ```
-date || credit || debit || balance
-14/01/2012 || || 500.00 || 2500.00
-13/01/2012 || 2000.00 || || 3000.00
-10/01/2012 || 1000.00 || || 1000.00
+date       || credit  || debit  || balance
+14/01/2012 ||         || 500.00 || 2500.00
+13/01/2012 || 2000.00 ||        || 3000.00
+10/01/2012 || 1000.00 ||        || 1000.00
 ```
 ---
 
