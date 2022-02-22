@@ -41,12 +41,13 @@ The specification of the improved tech test is as follows:
 ### Requirements
 
 1. [x] All REPL output should be suppressed unless commanded by the execution of `account.print_statement`.
+2. [x] All transactions should be sorted by date upon execution of the command `account.print_statement`.
 
 ### Acceptance Criteria
 
 > Given a client makes a deposit of 1000 on 10-01-2012, and\
-> A deposit of 2000 on 13-01-2012, and\
-> A withdrawal of 500 on 14-01-2012;\
+> A withdrawal of 500 on 14-01-2012, and\
+> A deposit of 2000 on 13-01-2012;\
 > When she prints her bank statement,\
 > Then she would see:
 
@@ -85,6 +86,6 @@ Print an account statement to console by executing `account.print_statement`. Ac
 
 ### Final Appearance
 
-As per the instructions, this program runs exclusively in a REPL. It is pictured below executing the instructions in the original Acceptance Criteria.
+As per the instructions, this program runs exclusively in a REPL. It is pictured below executing the instructions in the updated form of the original Acceptance Criteria.
 
 ![final_appearance_screenshot](docs/final_appearance_screenshot.png)

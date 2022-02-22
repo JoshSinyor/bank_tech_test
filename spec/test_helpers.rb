@@ -10,10 +10,17 @@ RANDOM_DATE_OBJECT = DateTime.new(RANDOM_DATE.split('-')[2].to_i,
 
 RANDOM_DATE_OUTPUT = RANDOM_DATE_OBJECT.strftime('%d/%m/%Y')
 
-TEST_ARRAY = [{ date: RANDOM_DATE_OBJECT, sum: RANDOM_SUM, balance: RANDOM_SUM }].freeze
+TEST_ARRAY = [{ date: DateTime.jd(2455937), sum: 1000 },
+              { date: DateTime.jd(2455941), sum: -500 },
+              { date: DateTime.jd(2455940), sum: 2000 }].freeze
 
-TEST_ARRAY_OUTPUT = "#{RANDOM_DATE_OUTPUT} || #{format('%.02f ',
-                                                       RANDOM_SUM)}|| || #{format('%.02f', RANDOM_SUM)}".freeze
+TEST_ARRAY_OUTPUT =
+  <<~HEREDOC
+    date || credit || debit || balance
+    14/01/2012 || || 500.00 || 2500.00
+    13/01/2012 || 2000.00 || || 3000.00
+    10/01/2012 || 1000.00 || || 1000.00
+  HEREDOC
 
 ###
 

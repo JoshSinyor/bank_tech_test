@@ -5,14 +5,9 @@ require 'transactions'
 describe Transactions do
   subject(:transactions) { described_class.new }
 
-  it { is_expected.to respond_to :balance }
   it { is_expected.to respond_to :array }
 
   describe '#initialize' do
-    it 'with a #balance of 0' do
-      expect(transactions.balance).to eq 0
-    end
-
     it 'with an empty #transactions_array' do
       expect(transactions.array).to be_empty
     end

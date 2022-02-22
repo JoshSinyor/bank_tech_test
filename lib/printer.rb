@@ -4,7 +4,9 @@
 class Printer
   def print(array)
     print_header
-    print_transactions(deep_copy(array)) unless array.empty?
+    array = deep_copy(array)
+    process_array(array) unless array.empty?
+    print_array(array) unless array.empty?
   end
 
   private
@@ -19,10 +21,23 @@ class Printer
     Marshal.load(Marshal.dump(array))
   end
 
-  def print_transactions(array)
+  def process_array(array)
+    array.sort_by! { |x| x[:date] }
+    add_balance(array, 0)
+    array.sort_by! { |x| x[:date] }.reverse!
+  end
+
+  def add_balance(array, balance)
+    array.map do |row|
+      balance += row[:sum]
+      row[:balance] = balance
+    end
+  end
+
+  def print_array(array)
     array.map do |row|
       format_row(row)
-      puts "#{row[:date]} || #{row[:credit]}|| #{row[:debit]}|| #{row[:balance]}"
+      print_row(row)
     end
   end
 
@@ -30,5 +45,9 @@ class Printer
     row[:date] = row[:date].strftime('%d/%m/%Y')
     row[:sum].positive? ? row[:credit] = format('%.02f ', row[:sum]) : row[:debit] = format('%.02f ', -row[:sum])
     row[:balance] = format('%.02f', row[:balance])
+  end
+
+  def print_row(row)
+    puts "#{row[:date]} || #{row[:credit]}|| #{row[:debit]}|| #{row[:balance]}"
   end
 end
