@@ -5,8 +5,6 @@ require 'account'
 describe Account do
   subject(:account) { described_class.new }
 
-  it { is_expected.to respond_to :transactions }
-  it { is_expected.to respond_to :printer }
   it { is_expected.to respond_to :deposit }
   it { is_expected.to respond_to :withdraw }
   it { is_expected.to respond_to :print_statement }
