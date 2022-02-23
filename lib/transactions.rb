@@ -4,26 +4,18 @@ require 'date'
 
 # Instances of this class are the account's transaction array.
 class Transactions
-  attr_reader :balance, :array
+  attr_reader :array
 
   def initialize
-    @balance = 0
     @array = []
   end
 
   def add(date, sum)
     date = parse_date(date)
-    update_balance(sum)
-    @array.unshift({ date: date,
-                     sum: sum,
-                     balance: @balance })
+    @array << { date: date, sum: sum }
   end
 
   private
-
-  def update_balance(sum)
-    @balance += sum
-  end
 
   def parse_date(date)
     date = date.split('-')

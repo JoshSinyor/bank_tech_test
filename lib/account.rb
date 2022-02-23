@@ -5,7 +5,6 @@ require_relative 'printer'
 require_relative 'transactions'
 
 # Suppress IRB output.
-
 IRB.conf[:ECHO] = false
 
 # Instances of this class are accounts.

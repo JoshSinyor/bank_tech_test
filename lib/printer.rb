@@ -3,8 +3,8 @@
 # Instances of this class are STDOUT to console.
 class Printer
   def print(array)
-    print_header
     array = deep_copy(array)
+    print_header
     process_array(array) unless array.empty?
     print_array(array) unless array.empty?
   end
